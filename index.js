@@ -8,7 +8,7 @@ Our index route, a simple hello world.
 */
 router.get("/", () => {
   console.log("testing logs");
-  return new Response("10X Your Day!...")
+  return new Response("10X Your Day!")
 })
 
 /*
