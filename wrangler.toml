@@ -1,4 +1,4 @@
-name = "workers"
+name = "worker"
 type = "webpack"
 
 workers_dev = true
