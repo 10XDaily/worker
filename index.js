@@ -7,8 +7,16 @@ const router = Router()
 Our index route, a simple hello world.
 */
 router.get("/", () => {
-  console.log("testing logs");
-  return new Response("10X Your Day!")
+  console.log("index logs");
+  return new Response("10X Your Day!");
+})
+
+/*
+The newletter route is for creating and sending the 10X Daily email newsletter via GetResponse
+*/
+router.get("/newsletter", () => {
+  console.log("newsletter logs");
+  return new Response("10X Newsletter");
 })
 
 /*
