@@ -30,7 +30,7 @@ const content = {
 }
 
 // Redirect to landingpage URL... for now everything will redirect here.
-const redirect_to = 'https://10x.day'
+const redirect_to = 'https://www.10x.day'
 
 /*
 Extract the short Content ID from URL then redirect to a landing page
