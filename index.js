@@ -29,7 +29,7 @@ const content = {
   }
 }
 
-// Redirect to landingpage URL
+// Redirect to landingpage URL... for now everything will redirect here.
 const redirect_to = 'https://10x.day'
 
 /*
