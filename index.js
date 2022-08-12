@@ -65,6 +65,7 @@ router.get("/:slug", ({ params, query }) => {
     let referral_query_string = `ref_id=${referral}&`;
         
     let link = `${redirect_to}?${referral_query_string}traffic_ref=${traffic_ref}&utm_content=${content_id}`;
+    console.log(link);
     
     return new Response(null, {
       headers: { Location: link },
