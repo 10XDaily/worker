@@ -22,7 +22,7 @@ router.get("/newsletter", async request => {
   // temporarily trying this weather app example
   // https://developers.cloudflare.com/workers/examples/geolocation-app-weather/
   let endpoint = 'https://api.waqi.info/feed/geo:';
-  const token = '3a27aceb859b4fc0554b47699f61b78e1331e799'; //Use a token from https://aqicn.org/api/
+  const token = `${WEATHER_API_TOKEN}`; // ENV variable via Github Secrets. Use a token from https://aqicn.org/api/
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
   let html_content = '<h1>Weather 🌦</h1>';
 
@@ -40,7 +40,7 @@ router.get("/newsletter", async request => {
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`;
   html_content += `You are located at: ${latitude},${longitude}.</p>`;
-  html_content += `<p>Based off sensor data from <a href="${content.data.url}">${content.data.city.name}</a>:</p>`;
+  html_content += `<p>Based off sensor data from ${content.data.city.name}.</p>`;
   html_content += `<p>The AQI level is: ${content.data.aqi}.</p>`;
 
   let html = `
