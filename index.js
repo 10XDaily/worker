@@ -28,7 +28,7 @@ router.get("/newsletter", async request => {
 
   let latitude = request.cf.latitude;
   let longitude = request.cf.longitude;
-  let endpoint += `${latitude};${longitude}/?token=${token}`;
+  endpoint += `${latitude};${longitude}/?token=${token}`;
   const init = {
     headers: {
       'content-type': 'application/json;charset=UTF-8',
