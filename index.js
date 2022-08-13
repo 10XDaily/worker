@@ -40,7 +40,7 @@ router.get("/newsletter", async request => {
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`;
   html_content += `You are located at: ${latitude},${longitude}.</p>`;
-  html_content += `<p>Based off sensor data from <a href="${content.data..url}">${content.data.city.name}</a>:</p>`;
+  html_content += `<p>Based off sensor data from <a href="${content.data.url}">${content.data.city.name}</a>:</p>`;
   html_content += `<p>The AQI level is: ${content.data.aqi}.</p>`;
 
   let html = `
