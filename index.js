@@ -16,7 +16,7 @@ The newletter route is for creating and sending the 10X Daily email newsletter v
 */
 // const GR_API = 'https://api.getresponse.com/v3/';
 // const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com/#operation/createNewsletter
-router.get("/newsletter", () => {
+router.get("/newsletter", async request => {
   console.log("newsletter logs");
   
   // temporarily trying this weather app example
