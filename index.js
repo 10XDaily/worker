@@ -29,54 +29,45 @@ router.get("/newsletter", async request => {
       "plain": "test 12 Some test"
     },
     "flags": [
-      "openrate"
+      "openrate",
+      "clicktrack"
+      // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
     ],
-    "name": "New message",
+    "name": "2022-07-25 10X DAILY", // TODO make date dynamic
     "type": "broadcast",
     "editor": "custom",
-    "subject": "Annual report",
+    "subject": "10X DAILY ⚡ 25th July 2022", // TODO "10X CHRIS ..."
     "fromField": {
-      "fromFieldId": "V"
+      "fromFieldId": "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
     },
     "replyTo": {
-      "fromFieldId": "V"
+      "fromFieldId": "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
     },
     "campaign": {
-      "campaignId": "C"
+      "campaignId": "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
     },
-    "sendOn": "2022-08-13T05:39:55+10:00",
-    "attachments": [
-      {
-        "fileName": "some_file.jpg",
-        "content": "sdfadsfetsdjfdskafdsaf==",
-        "mimeType": "image/jpeg"
-      }
-    ],
+//    "sendOn": "2022-08-13T05:39:55+10:00", // omitted to send message immediately i.e. the manual trigger or 5am CRON trigger will send the message
+//     "attachments": [
+//       {
+//         "fileName": "some_file.jpg",
+//         "content": "sdfadsfetsdjfdskafdsaf==",
+//         "mimeType": "image/jpeg"
+//       }
+//     ], // No attachements needed. 400kb max combined size if needed in the future.
     "sendSettings": {
-      "selectedCampaigns": [
-        "V"
-      ],
-      "selectedSegments": [
-        "S"
-      ],
-      "selectedSuppressions": [
-        "Se"
-      ],
-      "excludedCampaigns": [
-        "O"
-      ],
-      "excludedSegments": [
-        "R"
-      ],
-      "selectedContacts": [
-        "Qs"
-      ],
-      "timeTravel": "true",
-      "perfectTiming": "false",
-      "externalLexpad": {
-        "dataSourceUrl": "https://example.com/external_lexpad",
-        "dataSourceToken": "cf4dfca78434bf927a7655c0c4d95a2a45c33b71"
-      }
+      "selectedCampaigns": [],
+      "selectedSegments": [], // TODO add Custom Field "UTC Offset Timezone" with 25 values "UTC -12"... "UTC 0" ... "UTC +12". Use for 5am email delivery.
+      "selectedSuppressions": [],
+      "excludedCampaigns": [],
+      "excludedSegments": [],
+      "selectedContacts": ["test+5@10x.day"], // TODO try string containing email address e.g ""test+5@10x.day"", if that fails then try Contact ID e.g "BVq7Dxe"
+      "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
+      "perfectTiming": "false"   
+//, // TODO add external lexpad querying Xano
+//       "externalLexpad": {
+//          "dataSourceUrl": "https://example.com/external_lexpad",
+//          "dataSourceToken": "cf4dfca78434bf927a7655c0c4d95a2a45c33b71"
+//       }
     }
   }
   
