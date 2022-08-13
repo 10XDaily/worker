@@ -60,7 +60,7 @@ router.get("/newsletter", async request => {
       "selectedSuppressions": [],
       "excludedCampaigns": [],
       "excludedSegments": [],
-      "selectedContacts": ["test+5@10x.day"], // TODO try string containing email address e.g ""test+5@10x.day"", if that fails then try Contact ID e.g "BVq7Dxe"
+      "selectedContacts": ["BVq7Dxe"], // Contact ID for email subscriber "test+5@10x.day" e.g. https://app.getresponse.com/contacts/BVq7Dxe/
       "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
       "perfectTiming": "false"   
 //, // TODO add external lexpad querying Xano
