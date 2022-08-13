@@ -83,7 +83,7 @@ router.get("/newsletter", async request => {
   const init = {
     headers: {
       'content-type': 'application/json;charset=UTF-8',
-      'X-Auth-Token': GR_API_KEY
+      'X-Auth-Token': 'api-key ' + GR_API_KEY
     },
     body: JSON.stringify(email_json),
     method: 'POST'
