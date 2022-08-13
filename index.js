@@ -22,7 +22,7 @@ router.get("/newsletter", async request => {
   // temporarily trying this weather app example
   // https://developers.cloudflare.com/workers/examples/geolocation-app-weather/
   let endpoint = 'https://api.waqi.info/feed/geo:';
-  const token = `${WEATHER_API_TOKEN}`; // ENV variable via Github Secrets. Use a token from https://aqicn.org/api/
+  const token = `${WEATHER_API_TOKEN}`; // Secret ENV variable via Cloudflare settings https://dash.cloudflare.com/3f3a7e7d6b29f0389b841af63623becd/workers/services/view/worker/production/settings/bindings. Use a token from https://aqicn.org/api/
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
   let html_content = '<h1>Weather 🌦</h1>';
 
