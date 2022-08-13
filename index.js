@@ -14,39 +14,95 @@ router.get("/", () => {
 /*
 The newletter route is for creating and sending the 10X Daily email newsletter via GetResponse
 */
-// const GR_API = 'https://api.getresponse.com/v3/';
-// const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com/#operation/createNewsletter
+const GR_API_KEY = GETRESPONSE_API_KEY; // Cloudflare Secret Variable
+const GR_API = 'https://api.getresponse.com/v3/';
+const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com/#operation/createNewsletter
 router.get("/newsletter", async request => {
   console.log("newsletter logs");
   
-  // temporarily trying this weather app example
-  // https://developers.cloudflare.com/workers/examples/geolocation-app-weather/
-  let endpoint = 'https://api.waqi.info/feed/geo:';
-  const token = `${WEATHER_API_TOKEN}`; // Secret ENV variable via Cloudflare settings https://dash.cloudflare.com/3f3a7e7d6b29f0389b841af63623becd/workers/services/view/worker/production/settings/bindings. Use a token from https://aqicn.org/api/
+  let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
-  let html_content = '<h1>Weather 🌦</h1>';
-
-  let latitude = request.cf.latitude;
-  let longitude = request.cf.longitude;
-  endpoint += `${latitude};${longitude}/?token=${token}`;
+  let html_content = '<h1>Send Newsletter</h1>';
+  let email_json = {
+    "content": {
+      "html": "<h1>test 12</h1><p>Some test <a href=\"http://example.com\">http://example.com</a></p>",
+      "plain": "test 12 Some test"
+    },
+    "flags": [
+      "openrate"
+    ],
+    "name": "New message",
+    "type": "broadcast",
+    "editor": "custom",
+    "subject": "Annual report",
+    "fromField": {
+      "fromFieldId": "V"
+    },
+    "replyTo": {
+      "fromFieldId": "V"
+    },
+    "campaign": {
+      "campaignId": "C"
+    },
+    "sendOn": "2022-08-13T05:39:55+10:00",
+    "attachments": [
+      {
+        "fileName": "some_file.jpg",
+        "content": "sdfadsfetsdjfdskafdsaf==",
+        "mimeType": "image/jpeg"
+      }
+    ],
+    "sendSettings": {
+      "selectedCampaigns": [
+        "V"
+      ],
+      "selectedSegments": [
+        "S"
+      ],
+      "selectedSuppressions": [
+        "Se"
+      ],
+      "excludedCampaigns": [
+        "O"
+      ],
+      "excludedSegments": [
+        "R"
+      ],
+      "selectedContacts": [
+        "Qs"
+      ],
+      "timeTravel": "true",
+      "perfectTiming": "false",
+      "externalLexpad": {
+        "dataSourceUrl": "https://example.com/external_lexpad",
+        "dataSourceToken": "cf4dfca78434bf927a7655c0c4d95a2a45c33b71"
+      }
+    }
+  }
+  
   const init = {
     headers: {
       'content-type': 'application/json;charset=UTF-8',
+      'X-Auth-Token': GR_API_KEY
     },
+    body: JSON.stringify(email_json),
+    method: 'POST'
   };
 
   const response = await fetch(endpoint, init);
   const content = await response.json();
+  
+  console.log(content);
 
-  html_content += `<p>This is a demo using Workers geolocation data. </p>`;
-  html_content += `You are located at: ${latitude},${longitude}.</p>`;
-  html_content += `<p>Based off sensor data from ${content.data.city.name}.</p>`;
-  html_content += `<p>The AQI level is: ${content.data.aqi}.</p>`;
+//   html_content += `<p>This is a demo using Workers geolocation data. </p>`;
+//   html_content += `You are located at: ${latitude},${longitude}.</p>`;
+//   html_content += `<p>Based off sensor data from ${content.data.city.name}.</p>`;
+//   html_content += `<p>The AQI level is: ${content.data.aqi}.</p>`;
 
   let html = `
 <!DOCTYPE html>
 <head>
-  <title>Geolocation: Weather</title>
+  <title>Newsletter: Send</title>
 </head>
 <body>
   <style>${html_style}</style>
