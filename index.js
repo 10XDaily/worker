@@ -26,9 +26,9 @@ router.get("/newsletter", async request => {
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
   let html_content = '<h1>Weather 🌦</h1>';
 
-  latitude = request.cf.latitude;
-  longitude = request.cf.longitude;
-  endpoint += `${latitude};${longitude}/?token=${token}`;
+  let latitude = request.cf.latitude;
+  let longitude = request.cf.longitude;
+  let endpoint += `${latitude};${longitude}/?token=${token}`;
   const init = {
     headers: {
       'content-type': 'application/json;charset=UTF-8',
