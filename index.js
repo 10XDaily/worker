@@ -25,8 +25,8 @@ router.get("/newsletter", async request => {
   let html_content = '<h1>Send Newsletter</h1>';
   let email_json = {
     "content": {
-      "html": "<h1>test 12</h1><p>Some test <a href=\"http://example.com\">http://example.com</a></p>",
-      "plain": "test 12 Some test"
+      "html": "<h1>test 13</h1><p>Some test <a href=\"http://example.com\">http://example.com</a></p>",
+      "plain": "test 13 Some test"
     },
     "flags": [
       "openrate",
@@ -36,7 +36,7 @@ router.get("/newsletter", async request => {
     "name": "2022-07-25 10X DAILY", // TODO make date dynamic
     "type": "broadcast",
     "editor": "custom",
-    "subject": "10X DAILY ⚡ 25th July 2022", // TODO "10X CHRIS ..."
+    "subject": "10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}",
     "fromField": {
       "fromFieldId": "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
     },
@@ -74,6 +74,7 @@ router.get("/newsletter", async request => {
   const init = {
     headers: {
       'content-type': 'application/json;charset=UTF-8',
+      'X-Time-Zone': 'Australia/Sydney', // the default timezone in response data is UTC (if I remove this header)
       'X-Auth-Token': 'api-key ' + GR_API_KEY
     },
     body: JSON.stringify(email_json),
