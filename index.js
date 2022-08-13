@@ -55,12 +55,12 @@ router.get("/newsletter", async request => {
 //       }
 //     ], // No attachements needed. 400kb max combined size if needed in the future.
     "sendSettings": {
-      "selectedCampaigns": [],
+      "selectedCampaigns": ["Q1Oz0"], // "10X Daily" subscriber list
       "selectedSegments": [], // TODO add Custom Field "UTC Offset Timezone" with 25 values "UTC -12"... "UTC 0" ... "UTC +12". Use for 5am email delivery.
       "selectedSuppressions": [],
       "excludedCampaigns": [],
       "excludedSegments": [],
-      "selectedContacts": ["BVq7Dxe"], // Contact ID for email subscriber "test+5@10x.day" e.g. https://app.getresponse.com/contacts/BVq7Dxe/
+      "selectedContacts": ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
       "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
       "perfectTiming": "false"   
 //, // TODO add external lexpad querying Xano
