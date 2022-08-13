@@ -36,7 +36,7 @@ router.get("/newsletter", async request => {
     "name": "2022-07-25 10X DAILY", // TODO make date dynamic
     "type": "broadcast",
     "editor": "custom",
-    "subject": "10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}",
+    "subject": "10X [[firstname mode="uc"]] ⚡ \{\{DATE "DAY_ORDINATED MONTH_NAME YEAR"\}\}",
     "fromField": {
       "fromFieldId": "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
     },
