@@ -57,6 +57,7 @@ Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
 Campaign ID: {{CONTACT \`campaign_id\`}}
 Message ID: {{CONTACT \`message_id\`}}
 Subscriber ID: {{CONTACT \`subscriber_id\`}}
+
 `// TODO - dynamic plaintext version of the HTML email? (strip HTML)
     },
     "flags": [
