@@ -22,7 +22,24 @@ router.get("/newsletter", async request => {
   
   let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
-  let html_content = '<h1>Send Newsletter</h1>';
+  let html_content = `
+<p>
+“Knowledge is Power ⚡ Money is Freedom”
+<br>— 10X Daily
+</p>
+<p>
+                                   •   •   •   •   • 
+</p>
+<p>
+{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} , this email is sent daily.
+<br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
+<br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
+<br>Campaign ID: {{CONTACT \`campaign_id\`}}
+<br>Message ID: {{CONTACT \`message_id\`}}
+<br>Subscriber ID: {{CONTACT \`subscriber_id\`}}
+</p>
+`;
+  
   let email_json = {
     "content": {
       "html": "<h1>test 13</h1><p>Some test <a href=\"http://example.com\">http://example.com</a></p>",
@@ -33,8 +50,8 @@ router.get("/newsletter", async request => {
       "clicktrack"
       // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
     ],
-    "name": "2022-07-25 10X DAILY", // TODO make date dynamic
-    "type": "broadcast",
+    "name": '{{DATE "DAY_ORDINATED MONTH_NAME YEAR"}} 10X DAILY', // TODO make date dynamic
+    "type": "broadcast", // draft or broadcast
     "editor": "custom",
     "subject": '10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
     "fromField": {
