@@ -65,7 +65,7 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
       "clicktrack"
       // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
     ],
-    "name": today.toISOString() + ' 10X DAILY', // Note that .toISOString() always returns a timestamp in UTC
+    "name": today.toISOString() + ' 10X DAILY', // TODO make timezone aware (e.g. Australia/Sydney). Note that .toISOString() always returns a timestamp in UTC
     "type": "broadcast", // draft or broadcast
     "editor": "custom",
     "subject": '10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
@@ -118,10 +118,7 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
   
   console.log(content);
 
-//   html_content += `<p>This is a demo using Workers geolocation data. </p>`;
-//   html_content += `You are located at: ${latitude},${longitude}.</p>`;
-//   html_content += `<p>Based off sensor data from ${content.data.city.name}.</p>`;
-//   html_content += `<p>The AQI level is: ${content.data.aqi}.</p>`;
+//   html_content += `<p>... add more HTML to confirm the email sent successfully</p>`; // TODO
 
   let html = `
 <!DOCTYPE html>
