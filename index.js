@@ -17,12 +17,18 @@ The newletter route is for creating and sending the 10X Daily email newsletter v
 const GR_API_KEY = GETRESPONSE_API_KEY; // Cloudflare Secret Variable
 const GR_API = 'https://api.getresponse.com/v3/';
 const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com/#operation/createNewsletter
+const today = Date.now(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+
 router.get("/newsletter", async request => {
   console.log("newsletter logs");
   
   let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
-  let html_content = `
+  let html_content = '<h1>Success</h1>';
+  
+  let email_json = {
+    "content": {
+      "html": `
 <p>
 “Knowledge is Power ⚡ Money is Freedom”
 <br>— 10X Daily
@@ -38,19 +44,27 @@ router.get("/newsletter", async request => {
 <br>Message ID: {{CONTACT \`message_id\`}}
 <br>Subscriber ID: {{CONTACT \`subscriber_id\`}}
 </p>
-`;
-  
-  let email_json = {
-    "content": {
-      "html": "<h1>test 13</h1><p>Some test <a href=\"http://example.com\">http://example.com</a></p>",
-      "plain": "test 13 Some test"
+`,
+      "plain": `
+“Knowledge is Power ⚡ Money is Freedom”
+— 10X Daily
+
+                                   •   •   •   •   • 
+
+{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} , this email is sent daily.
+Date: {{DATE \`YEAR-MONTH-DAY\`}}
+Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
+Campaign ID: {{CONTACT \`campaign_id\`}}
+Message ID: {{CONTACT \`message_id\`}}
+Subscriber ID: {{CONTACT \`subscriber_id\`}}
+`// TODO - dynamic plaintext version of the HTML email? (strip HTML)
     },
     "flags": [
       "openrate",
       "clicktrack"
       // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
     ],
-    "name": '{{DATE "DAY_ORDINATED MONTH_NAME YEAR"}} 10X DAILY', // TODO make date dynamic
+    "name": today.toISOString() + ' 10X DAILY',
     "type": "broadcast", // draft or broadcast
     "editor": "custom",
     "subject": '10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
