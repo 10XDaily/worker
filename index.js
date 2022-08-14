@@ -17,11 +17,11 @@ The newletter route is for creating and sending the 10X Daily email newsletter v
 const GR_API_KEY = GETRESPONSE_API_KEY; // Cloudflare Secret Variable
 const GR_API = 'https://api.getresponse.com/v3/';
 const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com/#operation/createNewsletter
-const today = Date.now(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
 
 router.get("/newsletter", async request => {
   console.log("newsletter logs");
   
+  let today = Date.now(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
   let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
   let html_content = '<h1>Success</h1>';
