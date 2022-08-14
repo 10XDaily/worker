@@ -21,7 +21,7 @@ const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com
 router.get("/newsletter", async request => {
   console.log("newsletter logs");
   
-  let today = Date.now(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+  let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
   let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
   let html_content = '<h1>Success</h1>';
@@ -65,7 +65,7 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
       "clicktrack"
       // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
     ],
-    "name": today.toISOString() + ' 10X DAILY',
+    "name": today.toISOString() + ' 10X DAILY', // Note that .toISOString() always returns a timestamp in UTC
     "type": "broadcast", // draft or broadcast
     "editor": "custom",
     "subject": '10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
