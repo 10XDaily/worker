@@ -37,7 +37,7 @@ router.get("/newsletter", async request => {
                                    •   •   •   •   • 
 </p>
 <p>
-{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} , this email is sent daily.
+{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
 <br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
 <br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
 <br>Campaign ID: {{CONTACT \`campaign_id\`}}
@@ -51,7 +51,7 @@ router.get("/newsletter", async request => {
 
                                    •   •   •   •   • 
 
-{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} , this email is sent daily.
+{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} [[firstname]], this email is sent daily.
 Date: {{DATE \`YEAR-MONTH-DAY\`}}
 Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
 Campaign ID: {{CONTACT \`campaign_id\`}}
