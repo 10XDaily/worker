@@ -37,6 +37,15 @@ router.get("/newsletter", async request => {
                                    •   •   •   •   • 
 </p>
 <p>
+📈 Daily Stats
+<br>Status: Active
+{{TOPIC "active"}} 
+{{TOPIC "name"}}
+</p>
+<p>
+                                   •   •   •   •   • 
+</p>
+<p>
 {{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
 <br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
 <br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
@@ -94,12 +103,11 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
       "excludedSegments": [],
       "selectedContacts": ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
       "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
-      "perfectTiming": "false"   
-//, // TODO add external lexpad querying Xano
-//       "externalLexpad": {
-//          "dataSourceUrl": "https://example.com/external_lexpad",
-//          "dataSourceToken": "cf4dfca78434bf927a7655c0c4d95a2a45c33b71"
-//       }
+      "perfectTiming": "false",
+      "externalLexpad": {
+         "dataSourceUrl": "https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/lexpad",
+         "dataSourceToken": GR_API_KEY
+      }
     }
   }
   
