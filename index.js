@@ -38,7 +38,10 @@ router.get("/newsletter", async request => {
 </p>
 <p>
 📈 Daily Stats
-<br>Status: {{IF (active IS_DEFINED)}}Active{{ELSE}}Inactive{{ENDIF}}
+<br>Status: {{IF "(active IS_DEFINED)"}}Active{{ELSE}}Inactive{{ENDIF}}
+<br>Status2: {{IF "(active)"}}Active{{ELSE}}Inactive{{ENDIF}}
+<br>Status3: {{IF "(active STRING_EQI 'true')"}}Active{{ELSE}}Inactive{{ENDIF}}
+<br>Status4: {{IF "(active NUMBER_GT '0')"}}Active{{ELSE}}Inactive{{ENDIF}}
 <br>{{TOPIC "name"}}
 </p>
 <p>
