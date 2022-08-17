@@ -24,7 +24,7 @@ router.get("/newsletter", async request => {
   let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
   let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
-  let html_content = '<h1>Success</h1>';
+  let html_content = '<h1>Success!!!</h1>';
   
   let email_json = {
     "content": {
