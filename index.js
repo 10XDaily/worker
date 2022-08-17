@@ -100,7 +100,7 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
       "selectedSuppressions": [],
       "excludedCampaigns": [],
       "excludedSegments": [],
-      "selectedContacts": ["V5p8EtA"] // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+      "selectedContacts": ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
       "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
       "perfectTiming": "false",
       "externalLexpad": {
