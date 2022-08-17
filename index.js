@@ -14,9 +14,15 @@ router.get("/", () => {
 /*
 The newletter route is for creating and sending the 10X Daily email newsletter via GetResponse
 */
-const GR_API_KEY = GETRESPONSE_API_KEY; // Cloudflare Secret Variable
+// Cloudflare Secret Environment Variables (https://dash.cloudflare.com/3f3a7e7d6b29f0389b841af63623becd/workers/services/view/worker/production/settings/bindings)
+const X_API_KEY = XANO_API_KEY; // Key for accessing Xano endpoints - Generated in GetResponse settings (https://app.getresponse.com/api)
+const GR_API_KEY = GETRESPONSE_API_KEY; // Key for accessing GetResponse api - Generated in GetResponse settings (https://app.getresponse.com/api
+
 const GR_API = 'https://api.getresponse.com/v3/';
 const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com/#operation/createNewsletter
+
+const X_API = 'https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/';
+const X_API_LEXPAD = "lexpad" // https://x8ki-letl-twmt.n7.xano.io/apidoc:xhF9IGoC/#/lexpad
 
 router.get("/newsletter", async request => {
   console.log("newsletter logs");
@@ -104,8 +110,8 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
       "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
       "perfectTiming": "false",
       "externalLexpad": {
-         "dataSourceUrl": "https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/lexpad",
-         "dataSourceToken": GR_API_KEY
+         "dataSourceUrl": X_API + X_API_LEXPAD,
+         "dataSourceToken": X_API_KEY
       }
     }
   }
