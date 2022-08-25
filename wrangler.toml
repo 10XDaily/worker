@@ -3,3 +3,12 @@ type = "webpack"
 
 workers_dev = true
 route = "worker.10x.day/*"
+
+# Lets you call Workers periodically, much like a cron job.
+# More details: https://developers.cloudflare.com/workers/platform/cron-triggers
+# @default `{crons:[]}`
+# * * * * * = Every minute
+# */30 * * * * = Every 30 minutes
+# 0 5 * * * = 5:00AM every day
+[triggers]
+crons = ["* * * * *"]
