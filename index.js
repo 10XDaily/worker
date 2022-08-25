@@ -357,3 +357,13 @@ addEventListener('fetch', (e) => {
     })
   )
 })
+
+// https://developers.cloudflare.com/workers/examples/cron-trigger/
+// https://developers.cloudflare.com/workers/platform/cron-triggers/
+addEventListener('scheduled', event => {
+  event.waitUntil(triggerEvent(event.scheduledTime));
+});
+
+async function triggerEvent(scheduledTime) {
+  console.log('cron logs');
+}
