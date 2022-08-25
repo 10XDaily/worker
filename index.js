@@ -226,6 +226,7 @@ function BadRequestException(reason) {
 * Triggered via /newsletter URL, or via Cloudflare Worker CRON (5am daily)
 **/
 async function sendNewsletter() {
+  console.log('sendNewsletter start');
   let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
   let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
   let email_json = {
@@ -372,6 +373,7 @@ addEventListener('scheduled', event => {
 });
 
 async function triggerEvent(scheduledTime) {
-  console.log('cron logs');
+  console.log('cron logs start');
   sendNewsletter();
+  console.log('cron logs end'); 
 }
