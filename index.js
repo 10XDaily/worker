@@ -64,6 +64,12 @@ router.get("/newsletter", async request => {
 — 10X Daily
 
                                    •   •   •   •   • 
+                                   
+📈 Daily Stats
+Status: {{IF "(active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
+{{TOPIC "name"}}
+
+                                   •   •   •   •   • 
 
 {{RANDOM \`Hi\` \`Hello\` \`Hey\`}} [[firstname]], this email is sent daily.
 Date: {{DATE \`YEAR-MONTH-DAY\`}}
