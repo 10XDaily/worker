@@ -225,7 +225,7 @@ function BadRequestException(reason) {
 * Newsletter sent via GetResponse API. 
 * Triggered via /newsletter URL, or via Cloudflare Worker CRON (5am daily)
 **/
-function sendNewsletter() {
+async function sendNewsletter() {
   let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
   let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
   let email_json = {
