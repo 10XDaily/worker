@@ -4,8 +4,9 @@ import { Router } from 'itty-router'
 const router = Router()
 
 // Basic Auth protection of private pages https://developers.cloudflare.com/workers/examples/basic-auth/
-const BASIC_USER = 'admin';
-const BASIC_PASS = 'pass';
+// Cloudflare Secret Environment Variables (https://dash.cloudflare.com/3f3a7e7d6b29f0389b841af63623becd/workers/services/view/worker/production/settings/bindings)
+const BASIC_USER = BASIC_USER_SECRET;
+const BASIC_PASS = BASIC_PASS_SECRET;
 
 router.get("/logout", () => {
   console.log("logout logs");
