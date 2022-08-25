@@ -11,4 +11,4 @@ route = "worker.10x.day/*"
 # */30 * * * * = Every 30 minutes
 # 0 5 * * * = 5:00AM every day
 [triggers]
-crons = ["* * * * *"]
+crons = ["0 5 * * *"]
