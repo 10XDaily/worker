@@ -355,6 +355,8 @@ console.log("Test AFTER email_json");
     body: JSON.stringify(email_json),
     method: 'POST'
   };
+console.log("Test AFTER init");
+console.log(init);
 
   const response = await fetch(endpoint, init);
 console.log("Test AFTER fetch");
