@@ -251,6 +251,9 @@ async function sendNewsletter() {
 <br>— 10X Daily
 </p>
 <p>
+WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW
+</p>
+<p>
                                  •   •   •   •   • 
 </p>
 <p>
