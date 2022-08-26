@@ -347,7 +347,7 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
     }
   }
   
-//console.log("Test AFTER email_json");
+console.log("Test AFTER email_json");
 
   const init = {
     headers: {
@@ -358,8 +358,8 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
     body: JSON.stringify(email_json),
     method: 'POST'
   };
-//console.log("Test AFTER init");
-//console.log(init);
+console.log("Test AFTER init");
+console.log(init);
 
   const response = await fetch(endpoint, init);
 //console.log("Test AFTER fetch");
