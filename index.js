@@ -238,15 +238,15 @@ async function sendNewsletter() {
         "html": `
 <!--[if lt IE 8]>
 <style>
-.container600{
-  width: 600px;
+.container320{
+  width: 320px;
 }
 </style>
 <![endif]-->
 
 <div>
-  <!--[if gte mso 9]><table width="600" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
-  <table class="container600" width="100%" style="max-width:600px;margin: 0;" cellpadding="0" cellspacing="0" border="0">
+  <!--[if gte mso 9]><table width="320" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+  <table class="container320" width="100%" style="max-width:320px;margin: 0;" cellpadding="0" cellspacing="0" border="0">
     <tr>
       <td width="100%" style="text-align:left;">
       
