@@ -232,6 +232,20 @@ async function sendNewsletter() {
   let email_json = {
     "content": {
       "html": `
+<!--[if lt IE 8]>
+<style>
+.container600{
+  width: 600px;
+}
+</style>
+<![endif]-->
+
+<center>
+  <!--[if gte mso 9]><table width="600" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+  <table class="container600" width="100%" style="max-width:600px;margin: 0 auto;" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td width="100%" style="text-align:left;">
+      
 <p>
 “Knowledge is Power ⚡ Money is Freedom”
 <br>— 10X Daily
@@ -255,6 +269,12 @@ async function sendNewsletter() {
 <br>Message ID: {{CONTACT \`message_id\`}}
 <br>Subscriber ID: {{CONTACT \`subscriber_id\`}}
 </p>
+
+      </td>
+    </tr>
+  </table>
+  <!--[if gte mso 9]></td></tr></table><![endif]-->
+</center>
 `,
       "plain": `
 “Knowledge is Power ⚡ Money is Freedom”
