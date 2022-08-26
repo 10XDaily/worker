@@ -56,6 +56,8 @@ router.get("/newsletter", async request => {
     // Only returns this response when no exception is thrown.
   
     sendNewsletter();
+    
+console.log("Test AFTER sendNewsetter");
 
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
     let html_content = '<h1>Success!!!</h1>';
@@ -341,6 +343,8 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
       }
     }
   }
+  
+console.log("Test AFTER email_json");
 
   const init = {
     headers: {
@@ -353,8 +357,10 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
   };
 
   const response = await fetch(endpoint, init);
+console.log("Test AFTER fetch");
   const content = await response.json();
-
+console.log("Test AFTER response");
+  
   console.log(content); 
 }
 
