@@ -57,7 +57,7 @@ router.get("/newsletter", async request => {
   
     sendNewsletter();
     
-console.log("Test AFTER sendNewsetter");
+//console.log("Test AFTER sendNewsetter");
 
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
     let html_content = '<h1>Success!!!</h1>';
@@ -256,6 +256,9 @@ async function sendNewsletter() {
 WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW
 </p>
 <p>
+W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W
+</p>
+<p>
                                  •   •   •   •   • 
 </p>
 <p>
@@ -344,7 +347,7 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
     }
   }
   
-console.log("Test AFTER email_json");
+//console.log("Test AFTER email_json");
 
   const init = {
     headers: {
@@ -355,13 +358,13 @@ console.log("Test AFTER email_json");
     body: JSON.stringify(email_json),
     method: 'POST'
   };
-console.log("Test AFTER init");
-console.log(init);
+//console.log("Test AFTER init");
+//console.log(init);
 
   const response = await fetch(endpoint, init);
-console.log("Test AFTER fetch");
+//console.log("Test AFTER fetch");
   const content = await response.json();
-console.log("Test AFTER response");
+//console.log("Test AFTER response");
   
   console.log(content); 
 }
