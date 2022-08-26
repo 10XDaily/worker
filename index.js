@@ -230,7 +230,7 @@ function BadRequestException(reason) {
 **/
 async function sendNewsletter() {
   console.log('sendNewsletter start');
-  return new Promise(resolve => {
+  return new Promise(async function (resolve) {
     let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
     let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
     let email_json = {
