@@ -55,9 +55,10 @@ router.get("/newsletter", async request => {
 
     // Only returns this response when no exception is thrown.
   
-    sendNewsletter();
+    const html_email = await sendNewsletter();
+    console.log(html_email);
     
-//console.log("Test AFTER sendNewsetter");
+console.log("Test AFTER sendNewsetter");
 
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
     let html_content = '<h1>Success!!!</h1>';
@@ -229,11 +230,12 @@ function BadRequestException(reason) {
 **/
 async function sendNewsletter() {
   console.log('sendNewsletter start');
-  let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
-  let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
-  let email_json = {
-    "content": {
-      "html": `
+  return new Promise(resolve => {
+    let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+    let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
+    let email_json = {
+      "content": {
+        "html": `
 <!--[if lt IE 8]>
 <style>
 .container600{
@@ -284,7 +286,7 @@ W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
   <!--[if gte mso 9]></td></tr></table><![endif]-->
 </center>
 `,
-      "plain": `
+       "plain": `
 “Knowledge is Power ⚡ Money is Freedom”
 — 10X Daily
 
@@ -304,69 +306,70 @@ Message ID: {{CONTACT \`message_id\`}}
 Subscriber ID: {{CONTACT \`subscriber_id\`}}
 
 `// TODO - dynamic plaintext version of the HTML email? (strip HTML)
-    },
-    "flags": [
-      "openrate",
-      "clicktrack"
-      // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
-    ],
-    "name": today.toISOString() + ' 10X DAILY', // TODO make timezone aware (e.g. Australia/Sydney). Note that .toISOString() always returns a timestamp in UTC
-    "type": "broadcast", // draft or broadcast
-    "editor": "custom",
-    "subject": '10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
-    "fromField": {
-      "fromFieldId": "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
-    },
-    "replyTo": {
-      "fromFieldId": "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
-    },
-    "campaign": {
-      "campaignId": "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
-    },
-//    "sendOn": "2022-08-13T05:39:55+10:00", // omitted to send message immediately i.e. the manual trigger or 5am CRON trigger will send the message
-//     "attachments": [
-//       {
-//         "fileName": "some_file.jpg",
-//         "content": "sdfadsfetsdjfdskafdsaf==",
-//         "mimeType": "image/jpeg"
-//       }
-//     ], // No attachements needed. 400kb max combined size if needed in the future.
-    "sendSettings": {
-      "selectedCampaigns": ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
-      "selectedSegments": [], // TODO add Custom Field "UTC Offset Timezone" with 25 values "UTC -12"... "UTC 0" ... "UTC +12". Use for 5am email delivery.
-      "selectedSuppressions": [],
-      "excludedCampaigns": [],
-      "excludedSegments": [],
-      "selectedContacts": ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
-      "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
-      "perfectTiming": "false",
-      "externalLexpad": {
-         "dataSourceUrl": X_API + X_API_LEXPAD,
-         "dataSourceToken": X_API_KEY
+      },
+      "flags": [
+        "openrate",
+        "clicktrack"
+        // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
+      ],
+      "name": today.toISOString() + ' 10X DAILY', // TODO make timezone aware (e.g. Australia/Sydney). Note that .toISOString() always returns a timestamp in UTC
+      "type": "broadcast", // draft or broadcast
+      "editor": "custom",
+      "subject": '10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
+      "fromField": {
+        "fromFieldId": "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+      },
+      "replyTo": {
+        "fromFieldId": "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+      },
+      "campaign": {
+        "campaignId": "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
+      },
+  //    "sendOn": "2022-08-13T05:39:55+10:00", // omitted to send message immediately i.e. the manual trigger or 5am CRON trigger will send the message
+  //     "attachments": [
+  //       {
+  //         "fileName": "some_file.jpg",
+  //         "content": "sdfadsfetsdjfdskafdsaf==",
+  //         "mimeType": "image/jpeg"
+  //       }
+  //     ], // No attachements needed. 400kb max combined size if needed in the future.
+      "sendSettings": {
+        "selectedCampaigns": ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
+        "selectedSegments": [], // TODO add Custom Field "UTC Offset Timezone" with 25 values "UTC -12"... "UTC 0" ... "UTC +12". Use for 5am email delivery.
+        "selectedSuppressions": [],
+        "excludedCampaigns": [],
+        "excludedSegments": [],
+        "selectedContacts": ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
+        "perfectTiming": "false",
+        "externalLexpad": {
+           "dataSourceUrl": X_API + X_API_LEXPAD,
+           "dataSourceToken": X_API_KEY
+        }
       }
     }
-  }
-  
+
 console.log("Test AFTER email_json");
 
-  const init = {
-    headers: {
-      'content-type': 'application/json;charset=UTF-8',
-      'X-Time-Zone': 'Australia/Sydney', // the default timezone in response data is UTC (if I remove this header)
-      'X-Auth-Token': 'api-key ' + GR_API_KEY
-    },
-    body: JSON.stringify(email_json),
-    method: 'POST'
-  };
+    const init = {
+      headers: {
+        'content-type': 'application/json;charset=UTF-8',
+        'X-Time-Zone': 'Australia/Sydney', // the default timezone in response data is UTC (if I remove this header)
+        'X-Auth-Token': 'api-key ' + GR_API_KEY
+      },
+      body: JSON.stringify(email_json),
+      method: 'POST'
+    };
 console.log("Test AFTER init");
 console.log(init);
 
-  const response = await fetch(endpoint, init);
-//console.log("Test AFTER fetch");
-  const content = await response.json();
-//console.log("Test AFTER response");
-  
-  console.log(content); 
+    const response = await fetch(endpoint, init);
+console.log("Test AFTER fetch");
+    const content = await response.json();
+console.log("Test AFTER response");
+    
+    resolve(content);
+  });
 }
 
 /*
@@ -408,6 +411,7 @@ addEventListener('scheduled', event => {
 
 async function triggerEvent(scheduledTime) {
   console.log('cron logs start');
-  sendNewsletter();
+  const cron_email = await sendNewsletter();
+  console.log(cron_email);
   console.log('cron logs end'); 
 }
