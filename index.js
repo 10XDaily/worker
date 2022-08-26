@@ -240,6 +240,7 @@ async function sendNewsletter() {
 <style>
 .container375{
   width: 375px;
+  font-size:16px;
 }
 </style>
 <![endif]-->
