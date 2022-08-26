@@ -238,20 +238,20 @@ async function sendNewsletter() {
         "html": `
 <!--[if lt IE 8]>
 <style>
-.container320{
-  width: 320px;
+.container375{
+  width: 375px;
 }
 </style>
 <![endif]-->
 
 <div>
-  <!--[if gte mso 9]><table width="320" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
-  <table class="container320" width="100%" style="max-width:320px;margin: 0;" cellpadding="0" cellspacing="0" border="0">
+  <!--[if gte mso 9]><table width="375" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+  <table class="container375" width="100%" style="max-width:375px;margin: 0;" cellpadding="0" cellspacing="0" border="0">
     <tr>
       <td width="100%" style="text-align:left;">
       
 <p>
-“Knowledge is Power ⚡ Money is Freedom”
+<b>“Knowledge is Power ⚡ Money is Freedom”</b>
 <br>— 10X Daily
 </p>
 <p>
