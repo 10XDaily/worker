@@ -244,9 +244,9 @@ async function sendNewsletter() {
 </style>
 <![endif]-->
 
-<center>
+<div>
   <!--[if gte mso 9]><table width="600" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
-  <table class="container600" width="100%" style="max-width:600px;margin: 0 auto;" cellpadding="0" cellspacing="0" border="0">
+  <table class="container600" width="100%" style="max-width:600px;margin: 0;" cellpadding="0" cellspacing="0" border="0">
     <tr>
       <td width="100%" style="text-align:left;">
       
@@ -284,7 +284,7 @@ W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
     </tr>
   </table>
   <!--[if gte mso 9]></td></tr></table><![endif]-->
-</center>
+</div>
 `,
        "plain": `
 “Knowledge is Power ⚡ Money is Freedom”
