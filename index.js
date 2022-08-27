@@ -271,6 +271,15 @@ W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
 </p>
 <p>
                                  •   •   •   •   • 
+</p>                                     
+<p>
+🔥 Daily News
+<br>
+<br><b>CRYPTO</b>
+
+</p>
+<p>
+                                 •   •   •   •   • 
 </p>
 <p>
 {{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
@@ -296,6 +305,13 @@ W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
 📈 Daily Stats
 Status: {{IF "(active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
 {{TOPIC "name"}}
+
+                                 •   •   •   •   • 
+
+🔥 Daily News
+
+CRYPTO
+
 
                                  •   •   •   •   • 
 
