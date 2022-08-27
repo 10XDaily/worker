@@ -256,12 +256,6 @@ async function sendNewsletter() {
 <br>— 10X Daily
 </p>
 <p>
-WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW WWWWWWWWWW
-</p>
-<p>
-W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W
-</p>
-<p>
                                  •   •   •   •   • 
 </p>
 <p>
@@ -284,7 +278,7 @@ W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
 🔥 Daily News
 <br>
 {{LOOP "feedly" "topic_name" "articles"}}
-  <br><b>{{TOPIC "uc(topic_name)"}}</b>
+  <br><b>{{TOPIC "topic_name"}}</b>
   {{LOOP "articles" "article" "article_value"}}
     <br><a href="{{LINK "article" "canonicalUrl"}}">
         {{TOPIC "article" "title"}}
