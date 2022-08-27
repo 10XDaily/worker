@@ -265,9 +265,17 @@ W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
                                  •   •   •   •   • 
 </p>
 <p>
-📈 Daily Stats
-<br>Status: {{IF "(active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
-<br>{{TOPIC "name"}}
+📈 Daily Stats        
+<br>Status:
+{{LOOP "user" "user_attribute_name" "user_attribute_value"}}
+  {{IF "((user_attribute_name STRING_EQ 'active') LOGIC_AND (user_attribute_value NUMBER_EQ '1'))"}}
+    Active
+  {{ENDIF}}
+  {{IF "((user_attribute_name STRING_EQ 'active') LOGIC_AND (user_attribute_value NUMBER_EQ '0'))"}}
+    Inactive
+  {{ENDIF}}
+{{ENDLOOP}}
+<br>{{TOPIC "user" "name"}}
 </p>
 <p>
                                  •   •   •   •   • 
@@ -303,8 +311,7 @@ W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
                                  •   •   •   •   • 
 
 📈 Daily Stats
-Status: {{IF "(active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
-{{TOPIC "name"}}
+Status: 
 
                                  •   •   •   •   • 
 
