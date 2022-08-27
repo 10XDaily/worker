@@ -283,8 +283,16 @@ W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
 <p>
 🔥 Daily News
 <br>
-<br><b>CRYPTO</b>
-
+{{LOOP "feedly" "topic_name" "articles"}}
+  <br><b>{{TOPIC "uc(topic_name)"}}</b>
+  {{LOOP "articles" "article" "article_value"}}
+    <br><a href="{{LINK "article" "canonicalUrl"}}">
+        {{TOPIC "article" "title"}}
+      </a>
+    <br>
+  {{ENDLOOP}}
+  <br>
+{{ENDLOOP}}
 </p>
 <p>
                                  •   •   •   •   • 
