@@ -279,7 +279,7 @@ async function sendNewsletter() {
 <br>
 {{LOOP "feedly" "topic_name" "articles"}}
   <br><b>{{TOPIC "topic_name"}}</b>
-  {{LOOP "articles" "article" "article_value"}}
+  {{LOOP "articles" "article"}}
     <br><a href="{{LINK "article" "canonicalUrl"}}">
         {{TOPIC "article" "title"}}
       </a>
