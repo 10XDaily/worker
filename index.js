@@ -259,8 +259,8 @@ async function sendNewsletter() {
                                  •   •   •   •   • 
 </p>
 <p>
-📈 Daily Stats        
-<br>Status:
+📈 <b>Daily Stats</b>        
+<br><b>Status:</b>
 {{LOOP "user" "user_attribute_name" "user_attribute_value"}}
   {{IF "((user_attribute_name STRING_EQ 'active') LOGIC_AND (user_attribute_value NUMBER_EQ '1'))"}}
     Active
@@ -269,23 +269,21 @@ async function sendNewsletter() {
     Inactive
   {{ENDIF}}
 {{ENDLOOP}}
-<br>{{TOPIC "user" "name"}}
 </p>
 <p>
                                  •   •   •   •   • 
 </p>                                     
 <p>
-🔥 Daily News
+🔥 <b>Daily News</b>
 <br>
 {{LOOP "feedly" "topic_name" "articles"}}
   <br><b>{{TOPIC "topic_name"}}</b>
   {{LOOP "articles" "article"}}
-    <br><a href="{{LINK "article" "canonicalUrl"}}">
+    <br><b><a href="{{LINK "article" "canonicalUrl"}}">
         {{TOPIC "article" "title"}}
-      </a>
+      </a></b>
     <br>
   {{ENDLOOP}}
-  <br>
 {{ENDLOOP}}
 </p>
 <p>
