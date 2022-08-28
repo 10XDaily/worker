@@ -251,14 +251,15 @@ async function sendNewsletter() {
     <tr>
       <td width="100%" style="text-align:left;">
       
-<p>
+
 <b>“Knowledge is Power ⚡ Money is Freedom”</b>
 <br>— 10X Daily
-</p>
-<p>
-                                 •   •   •   •   • 
-</p>
-<p>
+
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;• 
+<br>
+<br>
+
 📈 <b>Daily Stats</b>        
 <br><b>Status:</b>
 {{LOOP "user" "user_attribute_name" "user_attribute_value"}}
@@ -269,11 +270,12 @@ async function sendNewsletter() {
     Inactive
   {{ENDIF}}
 {{ENDLOOP}}
-</p>
-<p>
-                                 •   •   •   •   • 
-</p>                                     
-<p>
+
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;• 
+<br>
+<br>
+
 🔥 <b>Daily News</b>
 <br>
 {{LOOP "feedly" "topic_name" "articles"}}
@@ -284,19 +286,25 @@ async function sendNewsletter() {
       </a></b>
     <br>
   {{ENDLOOP}}
+  
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;• 
+<br>
+<br>
+
 {{ENDLOOP}}
-</p>
-<p>
-                                 •   •   •   •   • 
-</p>
-<p>
+
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;• 
+<br>
+<br>
+
 {{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
 <br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
 <br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
 <br>Campaign ID: {{CONTACT \`campaign_id\`}}
 <br>Message ID: {{CONTACT \`message_id\`}}
 <br>Subscriber ID: {{CONTACT \`subscriber_id\`}}
-</p>
 
       </td>
     </tr>
