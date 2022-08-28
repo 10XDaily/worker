@@ -261,6 +261,7 @@ async function sendNewsletter() {
 <br>
 
 📈 <b>Daily Stats</b>        
+<br>
 <br><b>Status:</b>
 {{LOOP "user" "user_attribute_name" "user_attribute_value"}}
   {{IF "((user_attribute_name STRING_EQ 'active') LOGIC_AND (user_attribute_value NUMBER_EQ '1'))"}}
