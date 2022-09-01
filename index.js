@@ -24,9 +24,6 @@ router.get("/", () => {
   return new Response("10X Your Day!");
 })
 
-/*
-The newletter route is for creating and sending the 10X Daily email newsletter via GetResponse
-*/
 // Cloudflare Secret Environment Variables (https://dash.cloudflare.com/3f3a7e7d6b29f0389b841af63623becd/workers/services/view/worker/production/settings/bindings)
 const X_API_KEY = XANO_API_KEY; // Key for accessing Xano endpoints - Generated in GetResponse settings (https://app.getresponse.com/api)
 const GR_API_KEY = GETRESPONSE_API_KEY; // Key for accessing GetResponse api - Generated in GetResponse settings (https://app.getresponse.com/api
@@ -36,7 +33,11 @@ const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com
 
 const X_API = 'https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/';
 const X_API_LEXPAD = "lexpad" // https://x8ki-letl-twmt.n7.xano.io/apidoc:xhF9IGoC/#/lexpad
+const X_API_FEEDLY = "feedly" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/feedly
 
+/*
+The newletter route is for creating and sending the 10X Daily email newsletter via GetResponse
+*/
 router.get("/newsletter", async request => {
   console.log("newsletter logs");
   
@@ -68,6 +69,66 @@ console.log("Test AFTER sendNewsetter");
   <!DOCTYPE html>
   <head>
     <title>Newsletter: Send</title>
+  </head>
+  <body>
+    <style>${html_style}</style>
+    <div id="container">
+    ${html_content}
+    </div>
+  </body>`;
+
+    return new Response(html, {
+      headers: {
+        'content-type': 'text/html;charset=UTF-8',
+        'Cache-Control': 'no-store',
+      },
+    });
+  }
+  
+  // Not authenticated.
+  return new Response('You need to login.', {
+    status: 401,
+    headers: {
+      // Prompts the user for credentials.
+      'WWW-Authenticate': 'Basic realm="my scope", charset="UTF-8"',
+    },
+  });
+})
+
+/*
+The /feedly route is for caching feedly topic data before sending the 10X Daily email newsletter via the /newsletter route
+*/
+router.get("/feedly", async request => {
+  console.log("feedly logs");
+  
+  const { protocol, pathname } = new URL(request.url);
+
+  // In the case of a Basic authentication, the exchange MUST happen over an HTTPS (TLS) connection to be secure.
+  if ('https:' !== protocol || 'https' !== request.headers.get('x-forwarded-proto')) {
+    throw new BadRequestException('Please use a HTTPS connection.');
+  }
+  
+  // The "Authorization" header is sent when authenticated.
+  if (request.headers.has('Authorization')) {
+    // Throws exception when authorization fails.
+    const { user, pass } = basicAuthentication(request);
+    verifyCredentials(user, pass);
+
+    // Only returns this response when no exception is thrown.
+  
+    const feedly_cache = await cacheFeedly();
+    console.log(feedly_cache);
+    
+console.log("Test AFTER cacheFeedly");
+
+    let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
+    let html_content = '<h1>Feedly cached!!!</h1>';
+    // html_content += `<p>... add more HTML to confirm the email sent successfully</p>`; // TODO
+
+    let html = `
+  <!DOCTYPE html>
+  <head>
+    <title>Feedly: Cached</title>
   </head>
   <body>
     <style>${html_style}</style>
@@ -222,6 +283,38 @@ function BadRequestException(reason) {
   this.status = 400;
   this.statusText = 'Bad Request';
   this.reason = reason;
+}
+
+/**
+* Feedly topics cached in Xano
+* Triggered via /feedly URL, or via Cloudflare Worker CRON (4:30am daily)
+**/
+async function cacheFeedly() {
+  console.log('cacheFeedly start');
+  return new Promise(async function (resolve) {
+    let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+    let endpoint = X_API + X_API_FEEDLY;
+    let json_body = {};
+    
+    const init = {
+      headers: {
+        'content-type': 'application/json;charset=UTF-8',
+        'X-Time-Zone': 'Australia/Sydney', // the default timezone in response data is UTC (if I remove this header)
+        'X-Auth-Token': X_API_KEY
+      },
+      body: JSON.stringify(json_body),
+      method: 'POST'
+    };
+console.log("Test AFTER init");
+console.log(init);
+
+    const response = await fetch(endpoint, init);
+console.log("Test AFTER fetch");
+    const content = await response.json();
+console.log("Test AFTER response");
+    
+    resolve(content);
+  });
 }
 
 /**
