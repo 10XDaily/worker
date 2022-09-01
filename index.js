@@ -382,7 +382,6 @@ async function sendNewsletter() {
   {{ENDLOOP}}
   
 <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-<br>
 
 {{ENDLOOP}}
 
