@@ -530,6 +530,8 @@ addEventListener('scheduled', event => {
 
 async function triggerEvent(scheduledTime) {
   console.log('cron logs start');
+  const cron_feedly = await cacheFeedly();
+  console.log(cron_feedly);
   const cron_email = await sendNewsletter();
   console.log(cron_email);
   console.log('cron logs end'); 
