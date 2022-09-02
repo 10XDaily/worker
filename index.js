@@ -375,14 +375,18 @@ async function sendNewsletter() {
 {{LOOP "feedly" "topic_name" "articles"}}
   <br><b>{{TOPIC "topic_name"}}</b>
   {{LOOP "articles" "article"}}
-    <br><b><a href="{{LINK "article" "canonicalUrl"}}">
-        {{TOPIC "article" "title"}}
-      </a></b>
+    <br><b><a href="{{LINK "article" "canonicalUrl"}}" target="_blank">{{TOPIC "article" "title"}}</a></b>
+    <br>{{TOPIC "article" "summaryContent"}}
+    <br>
+    {{LOOP "article" "article_attribute_name" "article_attribute_value"}}
+      {{IF "((article_attribute_name STRING_EQ 'featuredMemeHtmlUrl') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
+          <a href="{{LINK "article" "featuredMemeHtmlUrl"}}" target="_blank">#{{TOPIC "article" "featuredMemeLabel"}}</a> • 
+      {{ENDIF}}
+    {{ENDLOOP}}
+    <a href="{{LINK "article" "originHtmlUrl"}}" target="_blank">{{TOPIC "article" "originTitle"}}</a>
     <br>
   {{ENDLOOP}}
-  
 <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-
 {{ENDLOOP}}
 
 <br>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
