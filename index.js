@@ -379,7 +379,7 @@ async function sendNewsletter() {
       {{IF "((article_attribute_name STRING_EQ 'featured') LOGIC_AND (article_attribute_value STRING_EQI 'TRUE'))"}}
         {{LOOP "article" "article_attribute_name" "article_attribute_value"}}
           {{IF "((article_attribute_name STRING_EQ 'visualUrl') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
-            <img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width: 375px; height: auto; max-height:200px;" />
+            <img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
           {{ENDIF}}
         {{ENDLOOP}}
       {{ENDIF}}
@@ -392,7 +392,9 @@ async function sendNewsletter() {
           <a href="{{LINK "article" "featuredMemeHtmlUrl"}}" target="_blank">#{{TOPIC "article" "featuredMemeLabel"}}</a> • 
       {{ENDIF}}
     {{ENDLOOP}}
-    <a href="{{LINK "article" "originHtmlUrl"}}" target="_blank">{{TOPIC "article" "originTitle"}}</a>
+    <a href="{{LINK "article" "originHtmlUrl"}}" target="_blank">{{TOPIC "article" "originTitle"}}</a> • 
+    {{TOPIC "article" "engagement"}} • 
+    {{TOPIC "article" "published"}}
     <br>
   {{ENDLOOP}}
 <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
