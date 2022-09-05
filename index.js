@@ -376,12 +376,8 @@ async function sendNewsletter() {
   <br><b>{{TOPIC "topic_name"}}</b>
   {{LOOP "articles" "article"}}
     {{LOOP "article" "article_attribute_name" "article_attribute_value"}}
-      {{IF "((article_attribute_name STRING_EQ 'featured') LOGIC_AND (article_attribute_value STRING_EQI 'TRUE'))"}}
-        {{LOOP "article" "article_attribute_name" "article_attribute_value"}}
-          {{IF "((article_attribute_name STRING_EQ 'visualUrl') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
-            <img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
-          {{ENDIF}}
-        {{ENDLOOP}}
+      {{IF "((article_attribute_name STRING_EQ 'visualUrl') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
+        <img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
       {{ENDIF}}
     {{ENDLOOP}}
     <br><b><a href="{{LINK "article" "canonicalUrl"}}" target="_blank">{{TOPIC "article" "title"}}</a></b>
