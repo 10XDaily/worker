@@ -325,6 +325,8 @@ async function sendNewsletter() {
   console.log('sendNewsletter start');
   return new Promise(async function (resolve) {
     let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+    let emojis = ["😀","😃","😄","😁","😆","😅","😂","🤣","😊","😇","🙂","🙃","😉","😌","😍","🥰","😘","😗","😙","😚","😋","😛","😝","😜","🤪","🤨","🧐","🤓","😎","🤩","🥳","😏","😒","😞","😔","😟","😕","🙁","☹️","😣","😖","😫","😩","🥺","😢","😭","😤","😠","😡","🤬","🤯","😳","🥵","🥶","😱","😨","😰","😥","😓","🤗","🤔","🤭","🤫","🤥","😶","😐","😑","😬","🙄","😯","😦","😧","😮","😲","🥱","😴","🤤","😪","😵","🤐","🥴","🤢","🤮","🤧","😷","🤒","🤕","🤑","🤠","😈","👿","👹","👺","🤡","💩","👻","👽","👾","🤖","🎃"];
+    let emoji = emojis[Math.floor(Math.random()*emojis.length)];
     let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
     let email_json = {
       "content": {
@@ -440,7 +442,7 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
       "name": today.toISOString() + ' 10X DAILY', // TODO make timezone aware (e.g. Australia/Sydney). Note that .toISOString() always returns a timestamp in UTC
       "type": "broadcast", // draft or broadcast
       "editor": "custom",
-      "subject": '10X [[firstname mode="uc"]] ⚡ {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
+      "subject": '10X [[firstname mode="uc"]] ' + emoji + ' {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
       "fromField": {
         "fromFieldId": "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
       },
