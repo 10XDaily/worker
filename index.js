@@ -375,7 +375,7 @@ async function sendNewsletter() {
 {{LOOP "feedly" "topic_name" "articles"}}
   <br><b>{{TOPIC "topic_name"}}</b>
   {{LOOP "articles" "article"}}
-    <img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
+    <br><img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
     <br><b><a href="{{LINK "article" "canonicalUrl"}}" target="_blank">{{TOPIC "article" "title"}}</a></b>
     <br>{{TOPIC "article" "summaryContent"}}
     <br>
