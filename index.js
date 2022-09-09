@@ -387,8 +387,8 @@ async function sendNewsletter() {
       {{ENDIF}}
     {{ENDLOOP}}
     <a href="{{LINK "article" "originHtmlUrl"}}" target="_blank">{{TOPIC "article" "originTitle"}}</a> • 
-    {{TOPIC "article" "engagement"}} • 
-    {{TOPIC "article" "published"}}
+    {{TOPIC "article" "engagementShort"}} • 
+    {{TOPIC "article" "publishedShort"}}
     <br>
   {{ENDLOOP}}
 <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
