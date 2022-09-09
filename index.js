@@ -374,24 +374,22 @@ async function sendNewsletter() {
 
 🔥 <b>Daily News</b>
 <br>
-{{LOOP "feedly" "topic_name" "articles"}}
-  <br><b>{{TOPIC "topic_name"}}</b>
-  {{LOOP "articles" "article"}}
-    <br><img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
-    <br><b><a href="{{LINK "article" "canonicalUrl"}}" target="_blank">{{TOPIC "article" "title"}}</a></b>
-    <br>{{TOPIC "article" "summaryContent"}}
-    <br>
-    {{LOOP "article" "article_attribute_name" "article_attribute_value"}}
-      {{IF "((article_attribute_name STRING_EQ 'featuredMemeHtmlUrl') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
-          <a href="{{LINK "article" "featuredMemeHtmlUrl"}}" target="_blank">#{{TOPIC "article" "featuredMemeLabel"}}</a> • 
-      {{ENDIF}}
-    {{ENDLOOP}}
-    <a href="{{LINK "article" "originHtmlUrl"}}" target="_blank">{{TOPIC "article" "originTitle"}}</a> • 
-    {{TOPIC "article" "engagementShort"}} • 
-    {{TOPIC "article" "publishedShort"}}
-    <br>
+{{LOOP "feedly" "article"}}
+  <br><b>{{TOPIC "article" "topic"}}</b>
+  <br><img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
+  <br><b><a href="{{LINK "article" "canonicalUrl"}}" target="_blank">{{TOPIC "article" "title"}}</a></b>
+  <br>{{TOPIC "article" "summaryContent"}}
+  <br>
+  {{LOOP "article" "article_attribute_name" "article_attribute_value"}}
+    {{IF "((article_attribute_name STRING_EQ 'featuredMemeHtmlUrl') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
+        <a href="{{LINK "article" "featuredMemeHtmlUrl"}}" target="_blank">#{{TOPIC "article" "featuredMemeLabel"}}</a> • 
+    {{ENDIF}}
   {{ENDLOOP}}
-<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+  <a href="{{LINK "article" "originHtmlUrl"}}" target="_blank">{{TOPIC "article" "originTitle"}}</a> • 
+  {{TOPIC "article" "engagementShort"}} • 
+  {{TOPIC "article" "publishedShort"}}
+  <br>
+  <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
 {{ENDLOOP}}
 
 <br>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
