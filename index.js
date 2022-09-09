@@ -390,6 +390,12 @@ async function sendNewsletter() {
   <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
 {{ENDLOOP}}
 
+{{IF "(feedly_count NUMBER_LT 10)"}}
+  <br>Less than 10 links today due to duplicate news being removed.
+  <br>
+  <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+{{ENDIF}}
+
 <br>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
 <br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
 <br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
