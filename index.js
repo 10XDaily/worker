@@ -358,14 +358,12 @@ async function sendNewsletter() {
 📈 <b>Daily Stats</b>        
 <br>
 <br><b>Status:</b>
-{{LOOP "user" "user_attribute_name" "user_attribute_value"}}
-  {{IF "((user_attribute_name STRING_EQ 'active') LOGIC_AND (user_attribute_value NUMBER_EQ '1'))"}}
-    Active
-  {{ENDIF}}
-  {{IF "((user_attribute_name STRING_EQ 'active') LOGIC_AND (user_attribute_value NUMBER_EQ '0'))"}}
-    Inactive
-  {{ENDIF}}
-{{ENDLOOP}}
+{{IF "(user_active NUMBER_EQ '1')"}}
+  Active
+{{ENDIF}}
+{{IF "(user_active NUMBER_EQ '0'))"}}
+  Inactive
+{{ENDIF}}
 
 <br>
 <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
