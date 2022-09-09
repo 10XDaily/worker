@@ -287,7 +287,7 @@ function BadRequestException(reason) {
 
 /**
 * Feedly topics cached in Xano
-* Triggered via /feedly URL, or via Cloudflare Worker CRON (4:30am daily)
+* Triggered via /feedly URL, or via Cloudflare Worker CRON
 **/
 async function cacheFeedly() {
   console.log('cacheFeedly start');
@@ -319,7 +319,7 @@ console.log("Test AFTER response");
 
 /**
 * Newsletter sent via GetResponse API. 
-* Triggered via /newsletter URL, or via Cloudflare Worker CRON (5am daily)
+* Triggered via /newsletter URL, or via Cloudflare Worker CRON
 **/
 async function sendNewsletter() {
   console.log('sendNewsletter start');
@@ -464,7 +464,7 @@ Subscriber ID: {{CONTACT \`subscriber_id\`}}
   //     ], // No attachements needed. 400kb max combined size if needed in the future.
       "sendSettings": {
         "selectedCampaigns": ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
-        "selectedSegments": [], // TODO add Custom Field "UTC Offset Timezone" with 25 values "UTC -12"... "UTC 0" ... "UTC +12". Use for 5am email delivery.
+        "selectedSegments": [],
         "selectedSuppressions": [],
         "excludedCampaigns": [],
         "excludedSegments": [],
