@@ -361,7 +361,7 @@ async function sendNewsletter() {
 {{IF "(user_active NUMBER_EQ '1')"}}
   Active
 {{ENDIF}}
-{{IF "(user_active NUMBER_EQ '0'))"}}
+{{IF "(user_active NUMBER_EQ '0')"}}
   Inactive
 {{ENDIF}}
 
