@@ -379,7 +379,7 @@ async function sendNewsletter() {
   <br>{{TOPIC "article" "summaryContent"}}
   <br>
   {{LOOP "article" "article_attribute_name" "article_attribute_value"}}
-    {{IF "((article_attribute_name STRING_EQ 'featuredMemeHtmlUrl') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
+    {{IF "((article_attribute_name STRING_EQ 'featuredMemeLabel') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
         <a href="{{LINK "article" "featuredMemeHtmlUrl"}}" target="_blank">#{{TOPIC "article" "featuredMemeLabel"}}</a> • 
     {{ENDIF}}
   {{ENDLOOP}}
