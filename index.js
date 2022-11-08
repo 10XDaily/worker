@@ -471,25 +471,25 @@ async function sendNewsletter() {
 
 🔥 <b>Daily News</b>
 <br>
-{{LOOP "feedly" "article"}}
-  <br><b>{{TOPIC "article" "topic"}}</b>
-  <br><img src="{{TOPIC "article" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
-  <br><b><a href="{{LINK "article" "canonicalUrl"}}" target="_blank">{{TOPIC "article" "title"}}</a></b>
-  <br>{{TOPIC "article" "summaryContent"}}
+{{LOOP "news" "item"}}
+  <br><b>{{TOPIC "item" "topic"}}</b>
+  <br><img src="{{TOPIC "item" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
+  <br><b><a href="{{LINK "item" "canonicalUrl"}}" target="_blank">{{TOPIC "item" "title"}}</a></b>
+  <br>{{TOPIC "item" "summaryContent"}}
   <br>
-  {{LOOP "article" "article_attribute_name" "article_attribute_value"}}
-    {{IF "((article_attribute_name STRING_EQ 'featuredMemeLabel') LOGIC_AND (article_attribute_value STRING_NEQ ''))"}}
-        <a href="{{LINK "article" "featuredMemeHtmlUrl"}}" target="_blank">#{{TOPIC "article" "featuredMemeLabel"}}</a> • 
+  {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
+    {{IF "((item_attribute_name STRING_EQ 'featuredMemeLabel') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
+        <a href="{{LINK "item" "featuredMemeHtmlUrl"}}" target="_blank">#{{TOPIC "item" "featuredMemeLabel"}}</a> • 
     {{ENDIF}}
   {{ENDLOOP}}
-  <a href="{{LINK "article" "originHtmlUrl"}}" target="_blank">{{TOPIC "article" "originTitle"}}</a> • 
-  {{TOPIC "article" "engagementShort"}} • 
-  {{TOPIC "article" "publishedShort"}}
+  <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank">{{TOPIC "item" "originTitle"}}</a> • 
+  {{TOPIC "item" "engagementShort"}} • 
+  {{TOPIC "item" "publishedShort"}}
   <br>
   <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
 {{ENDLOOP}}
 
-{{IF "(feedly_count NUMBER_LT '10')"}}
+{{IF "(news_count NUMBER_LT '10')"}}
   <br>Less than 10 links today due to duplicate news being removed.
   <br>
   <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
