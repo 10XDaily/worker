@@ -159,6 +159,68 @@ console.log("Test AFTER cacheEntries");
 })
 
 /*
+Before calling /news, first call /entries to populate the Xano database with the daily feedly stream data...
+Then call /news route to filter down to the Top 10 per topic...
+Then send the 10X Daily email newsletter via the /newsletter route
+*/
+router.get("/news", async request => {
+  console.log("news logs");
+  
+  const { protocol, pathname } = new URL(request.url);
+
+  // In the case of a Basic authentication, the exchange MUST happen over an HTTPS (TLS) connection to be secure.
+  if ('https:' !== protocol || 'https' !== request.headers.get('x-forwarded-proto')) {
+    throw new BadRequestException('Please use a HTTPS connection.');
+  }
+  
+  // The "Authorization" header is sent when authenticated.
+  if (request.headers.has('Authorization')) {
+    // Throws exception when authorization fails.
+    const { user, pass } = basicAuthentication(request);
+    verifyCredentials(user, pass);
+
+    // Only returns this response when no exception is thrown.
+  
+    const news_cache = await cacheNews();
+    console.log(news_cache);
+    
+console.log("Test AFTER cacheNews");
+
+    let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
+    let html_content = '<h1>News cached!!!</h1>';
+    // html_content += `<p>... add more HTML to confirm the email sent successfully</p>`; // TODO
+
+    let html = `
+  <!DOCTYPE html>
+  <head>
+    <title>News: Cached</title>
+  </head>
+  <body>
+    <style>${html_style}</style>
+    <div id="container">
+    ${html_content}
+    </div>
+  </body>`;
+
+    return new Response(html, {
+      headers: {
+        'content-type': 'text/html;charset=UTF-8',
+        'Cache-Control': 'no-store',
+      },
+    });
+  }
+  
+  // Not authenticated.
+  return new Response('You need to login.', {
+    status: 401,
+    headers: {
+      // Prompts the user for credentials.
+      'WWW-Authenticate': 'Basic realm="my scope", charset="UTF-8"',
+    },
+  });
+})
+
+/*
 Experimenting with Content shortlinks and Referral IDs
 Default Referral = 10X Daily
 Content Referral = Content Creator (e.g. blog post publishers)
