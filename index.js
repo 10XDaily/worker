@@ -33,7 +33,8 @@ const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com
 
 const X_API = 'https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/';
 const X_API_LEXPAD = "lexpad" // https://x8ki-letl-twmt.n7.xano.io/apidoc:xhF9IGoC/#/lexpad
-const X_API_FEEDLY = "feedly" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/feedly
+const X_API_ENTRIES = "entries" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/entries
+const X_API_NEWS = "news" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/entries
 
 /*
 The newletter route is for creating and sending the 10X Daily email newsletter via GetResponse
@@ -96,10 +97,12 @@ console.log("Test AFTER sendNewsetter");
 })
 
 /*
-The /feedly route is for caching feedly topic data before sending the 10X Daily email newsletter via the /newsletter route
+The /entries route is for caching daily feedly stream data...
+Then call /news route to filter down to the Top 10 per topic...
+Then send the 10X Daily email newsletter via the /newsletter route
 */
-router.get("/feedly", async request => {
-  console.log("feedly logs");
+router.get("/entries", async request => {
+  console.log("entries logs");
   
   const { protocol, pathname } = new URL(request.url);
 
@@ -116,19 +119,19 @@ router.get("/feedly", async request => {
 
     // Only returns this response when no exception is thrown.
   
-    const feedly_cache = await cacheFeedly();
-    console.log(feedly_cache);
+    const entries_cache = await cacheEntries();
+    console.log(entries_cache);
     
-console.log("Test AFTER cacheFeedly");
+console.log("Test AFTER cacheEntries");
 
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
-    let html_content = '<h1>Feedly cached!!!</h1>';
+    let html_content = '<h1>Entries cached!!!</h1>';
     // html_content += `<p>... add more HTML to confirm the email sent successfully</p>`; // TODO
 
     let html = `
   <!DOCTYPE html>
   <head>
-    <title>Feedly: Cached</title>
+    <title>Entries: Cached</title>
   </head>
   <body>
     <style>${html_style}</style>
@@ -286,14 +289,48 @@ function BadRequestException(reason) {
 }
 
 /**
-* Feedly topics cached in Xano
-* Triggered via /feedly URL, or via Cloudflare Worker CRON
+* Streams feedly entries into Xano
+* Triggered via /entries URL, or via Cloudflare Worker CRON
 **/
-async function cacheFeedly() {
-  console.log('cacheFeedly start');
+async function cacheEntries() {
+  console.log('cacheEntries start');
   return new Promise(async function (resolve) {
     let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
-    let endpoint = X_API + X_API_FEEDLY;
+    let endpoint = X_API + X_API_ENTRIES;
+    let json_body = {};
+    
+    const init = {
+      headers: {
+        'content-type': 'application/json;charset=UTF-8',
+        'X-Time-Zone': 'Australia/Sydney', // the default timezone in response data is UTC (if I remove this header)
+        'X-Auth-Token': X_API_KEY
+      },
+      body: JSON.stringify(json_body),
+      method: 'POST'
+    };
+console.log("Test AFTER init");
+console.log(init);
+
+    const response = await fetch(endpoint, init);
+console.log("Test AFTER fetch");
+    const content = await response.json();
+console.log("Test AFTER response");
+    
+    resolve(content);
+  });
+}
+
+/**
+* Extracts the daily Top 10 (per topic) entries in Xano, and copies them to the News table.
+* Triggered via /news URL, or via Cloudflare Worker CRON
+* NOTE: You must trigger /entries FIRST (to populate the Entries table), and wait for it to finish before triggering /news
+* REMEMBER: The /news endpoint also clears all record in the Entries table after it finishes
+**/
+async function cacheNews() {
+  console.log('cacheNews start');
+  return new Promise(async function (resolve) {
+    let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+    let endpoint = X_API + X_API_NEWS;
     let json_body = {};
     
     const init = {
@@ -540,8 +577,10 @@ addEventListener('scheduled', event => {
 
 async function triggerEvent(scheduledTime) {
   console.log('cron logs start');
-  const cron_feedly = await cacheFeedly();
-  console.log(cron_feedly);
+  const cron_entries = await cacheEntries();
+  console.log(cron_entries);
+  const cron_news = await cacheNews();
+  console.log(cron_news);
   const cron_email = await sendNewsletter();
   console.log(cron_email);
   console.log('cron logs end'); 
