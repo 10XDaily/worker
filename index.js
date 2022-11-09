@@ -438,7 +438,7 @@ async function sendNewsletter() {
           <tr style="background-color:#f5f7fb">
             <td>
 	      <p style="margin:0;color:#29303e;font-weight:900;font-size:1.5rem;font-family:sans-serif;line-height:1.5;">
-                “Knowledge is Power ⚡ Money is Freedom” <span style="color:#677489;">— 10X Daily</span>
+                “Knowledge is Power ⚡ Money is Freedom” <span style="color:#677489;">—&nbsp;10X&nbsp;Daily</span>
               </p>
 	      
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">
@@ -448,7 +448,7 @@ async function sendNewsletter() {
 	        <b>Status:</b> {{IF "(user_active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(user_active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
               </p>
 
-	      <h1 style="margin:8% 0 -3% 0;color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">
+	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1;">
 	        🔥 Daily News
               </h1>
 		
