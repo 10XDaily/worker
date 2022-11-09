@@ -445,7 +445,7 @@ async function sendNewsletter() {
 	        📈 Daily Stats
               </h1>
 	      <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	        <b>Status:</b>{{IF "(user_active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(user_active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
+	        <b>Status:</b> {{IF "(user_active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(user_active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
               </p>
 
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">
