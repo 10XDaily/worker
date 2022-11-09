@@ -481,7 +481,7 @@ async function sendNewsletter() {
                           {{TOPIC "item" "publishedShort"}}
                         </p>
                         <p style="margin:0;color:#677489;font-weight:700;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:4%;">
-                          <a href="{{LINK "item" "share_url"}}" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                          <a href="{{LINK "item" "shareUrl"}}" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
                         </p>
                       </td>
                     </tr>
