@@ -438,7 +438,7 @@ async function sendNewsletter() {
           <tr style="background-color:#f5f7fb">
             <td>
 	    
-	      <h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+	      <h1 style="margin:4% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
 	        🤘 Daily Quote
               </h1>
               <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -446,14 +446,11 @@ async function sendNewsletter() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Coming Soon... example:
-			</p>
 			<p style="margin:3% 0 0 0;color:#29303e;font-weight:900;font-size:1.5rem;font-family:sans-serif;line-height:1.5;">
                           “Knowledge is Power ⚡ Money is Freedom” <span style="color:#677489;">—&nbsp;10X&nbsp;Daily</span>
                         </p>
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                          <a href="https://twitter.com/intent/tweet?text=%E2%80%9CKnowledge%20is%20Power%20%E2%9A%A1%20Money%20is%20Freedom%E2%80%9D%20%E2%80%94%2010X%20Daily&url=https%3A%2F%2F10x.day&hashtags=10X&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
                         </p>
                       </td>
                     </tr>
@@ -469,11 +466,9 @@ async function sendNewsletter() {
                 <table style="padding:0px 0px;width:100%">
                   <tbody>
                     <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
 	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Coming Soon... example:
-			  <br>
-	                  <br><b>Status:</b> {{IF "(user_active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(user_active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
+	                  <b>Status:</b> {{IF "(user_active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(user_active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
                           <br><b>Referrals:</b> Direct: 1 • Network: 3
                           <br><b>Commissions:</b> Direct: $47.99 • Network: $9.97
                           <br><b>Traffic:</b> Clicks: 0 • Leads: 0 • Revenue: $0.00
@@ -497,14 +492,12 @@ async function sendNewsletter() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Coming Soon... example:
-			  <br>
-			  <br><b>ARE YOU READY To Launch Your First Funnel?</b>
-			  <br><br>"If You Say Maybe I Will Give You Over <b>$8,745 Worth Of Step-By-Step</b> Funnel Building Secrets For FREE... So You Can Finally <b>Build & Launch</b> Your First Funnel!"
+                        <p style="margin:3% 0 0 0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">ARE YOU READY To Launch Your First Funnel?</span></p>
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  If You Say Maybe I Will Give You Over <b>$8,745 Worth Of Step-By-Step</b> Funnel Building Secrets For FREE... So You Can Finally <b>Build & Launch</b> Your First Funnel!
 			</p>
                         <p style="margin:4% 0 0 0;color:#2bb14c;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;">👀 YES! I’m Ready To Build My First Funnel Now!</a>
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.3;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;">👉 <b>YES!</b> I’m Ready To Build My First Funnel Now!</a>
                         </p>
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                           <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
@@ -522,12 +515,10 @@ async function sendNewsletter() {
                 <table style="padding:0px 0px;width:100%">
                   <tbody>
                     <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Coming Soon... example:
-			  <br>
-                          <br><b>Poll: Do you have a business? (+3pts)</b>
-                          <br>⚪ <a href="https://10x.day" target="_blank">Nope</a>
+                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+			<p style="margin:3% 0 0 0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">Poll: Do you have a business? (+3pts)</span></p>
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          ⚪ <a href="https://10x.day" target="_blank">Nope</a>
                           <br>⚪ <a href="https://10x.day" target="_blank">Thinking up ideas</a>
                           <br>⚪ <a href="https://10x.day" target="_blank">In development (pre-launch)</a>
                           <br>⚪ <a href="https://10x.day" target="_blank">Launched (pre-revenue)</a>
@@ -551,9 +542,7 @@ async function sendNewsletter() {
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
 	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Coming Soon... example:
-			  <br>
-			  <br><img alt="" src="https://media.tenor.com/2roX3uxz_68AAAAC/cat-space.gif" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
+                          <img alt="" src="https://media.tenor.com/2roX3uxz_68AAAAC/cat-space.gif" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
                         </p>
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                           <a href="https://twitter.com/intent/tweet?text=Nyan%20Cat&url=https%3A%2F%2Ftenor.com%2Fview%2Fcat-space-nyan-cat-gif-22656380&hashtags=MEME&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
