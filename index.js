@@ -472,12 +472,12 @@ async function sendNewsletter() {
 🔥 <b>Daily News</b>
 <br>
 {{LOOP "news" "item"}}
-  <br><img src="{{TOPIC "item" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
-  <br><b><a href="{{LINK "item" "canonicalUrl"}}" target="_blank">{{TOPIC "item" "title"}}</a></b>
-  <br><b>{{TOPIC "item" "topic"}}</b> • 
+  <br><a href="{{LINK "item" "canonicalUrl"}}" target="_blank"><img src="{{TOPIC "item" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" /></a>
+  <br><b>#{{TOPIC "item" "topic"}}</b> <b><a href="{{LINK "item" "canonicalUrl"}}" target="_blank">{{TOPIC "item" "title"}}</a></b>
+  <br>
   {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
     {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
-        <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank">{{TOPIC "item" "originTitle"}}</a> • 
+        <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" style="color:#333;">{{TOPIC "item" "originTitle"}}</a> • 
     {{ENDIF}}
   {{ENDLOOP}}
   {{TOPIC "item" "engagementShort"}} • 
