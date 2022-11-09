@@ -448,12 +448,12 @@ async function sendNewsletter() {
 	        <b>Status:</b> {{IF "(user_active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(user_active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
               </p>
 
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">
+	      <h1 style="margin:8% 0 -3% 0;color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">
 	        🔥 Daily News
               </h1>
 		
 {{LOOP "news" "item"}}
-              <div style="margin:8% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
                 <table style="padding:0px 0px;width:100%">
                   <tbody>
                     <tr>
