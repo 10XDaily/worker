@@ -430,47 +430,6 @@ async function sendNewsletter() {
     let email_json = {
       "content": {
         "html": `
-<!--[if lt IE 8]>
-<style>
-.container375{
-  width: 375px;
-  font-size:16px;
-}
-</style>
-<![endif]-->
-
-<div>
-  <!--[if gte mso 9]><table width="375" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
-  <table class="container375" width="100%" style="max-width:375px;margin: 0;" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-      <td width="100%" style="text-align:left;">
-      
-
-<b>“Knowledge is Power ⚡ Money is Freedom”</b>
-<br>— 10X Daily
-
-<br>
-<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-<br>
-<br>
-
-📈 <b>Daily Stats</b>        
-<br>
-<br><b>Status:</b>
-{{IF "(user_active NUMBER_EQ '1')"}}
-  Active
-{{ENDIF}}
-{{IF "(user_active NUMBER_EQ '0')"}}
-  Inactive
-{{ENDIF}}
-
-<br>
-<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-<br>
-<br>
-
-🔥 <b>Daily News</b>
-<br>
 <table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb" width="100%"><tbody><tr><td align="center">
 	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:650px" width="100%"><tbody><tr><td>
 		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
@@ -478,7 +437,33 @@ async function sendNewsletter() {
 				<tbody>
 					<tr style="background-color:#f5f7fb">
 						<td>
-            
+
+							<b>“Knowledge is Power ⚡ Money is Freedom”</b>
+							<br>— 10X Daily
+
+							<br>
+							<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+							<br>
+							<br>
+
+							📈 <b>Daily Stats</b>        
+							<br>
+							<br><b>Status:</b>
+							{{IF "(user_active NUMBER_EQ '1')"}}
+								Active
+							{{ENDIF}}
+							{{IF "(user_active NUMBER_EQ '0')"}}
+								Inactive
+							{{ENDIF}}
+
+							<br>
+							<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+							<br>
+							<br>
+
+							🔥 <b>Daily News</b>
+							<br>
+							
 {{LOOP "news" "item"}}
 							<div style="margin-bottom:2%;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
 								<table style="padding:0px 0px;width:100%">
@@ -504,6 +489,19 @@ async function sendNewsletter() {
 							</div>
 {{ENDLOOP}}
               
+							{{IF "(news_count NUMBER_LT '10')"}}
+								<br>Less than 10 links today due to duplicate news being removed.
+								<br>
+								<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+							{{ENDIF}}
+
+							<br>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
+							<br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
+							<br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
+							<br>Campaign ID: {{CONTACT \`campaign_id\`}}
+							<br>Message ID: {{CONTACT \`message_id\`}}
+							<br>Subscriber ID: {{CONTACT \`subscriber_id\`}}
+
 						</td>
 					</tr>
 				</tbody>
@@ -511,25 +509,6 @@ async function sendNewsletter() {
 		</td></tr></tbody></table>
 	</td></tr></tbody></table>
 </td></tr></tbody></table>
-
-{{IF "(news_count NUMBER_LT '10')"}}
-  <br>Less than 10 links today due to duplicate news being removed.
-  <br>
-  <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-{{ENDIF}}
-
-<br>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
-<br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
-<br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
-<br>Campaign ID: {{CONTACT \`campaign_id\`}}
-<br>Message ID: {{CONTACT \`message_id\`}}
-<br>Subscriber ID: {{CONTACT \`subscriber_id\`}}
-
-      </td>
-    </tr>
-  </table>
-  <!--[if gte mso 9]></td></tr></table><![endif]-->
-</div>
 `,
        "plain": `
 “Knowledge is Power ⚡ Money is Freedom”
