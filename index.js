@@ -431,19 +431,17 @@ async function sendNewsletter() {
       "content": {
         "html": `
 <table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb" width="100%"><tbody><tr><td align="center">
-	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:650px" width="100%"><tbody><tr><td>
+	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
 		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation">
 				<tbody>
 					<tr style="background-color:#f5f7fb">
 						<td>
-
-							<b>“Knowledge is Power ⚡ Money is Freedom”</b>
+							<br><b>“Knowledge is Power ⚡ Money is Freedom”</b>
 							<br>— 10X Daily
 
 							<br>
 							<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-							<br>
 							<br>
 
 							📈 <b>Daily Stats</b>        
@@ -456,12 +454,12 @@ async function sendNewsletter() {
 								Inactive
 							{{ENDIF}}
 
-							<br>
 							<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
 							<br>
 							<br>
 
 							🔥 <b>Daily News</b>
+							<br>
 							<br>
 							
 {{LOOP "news" "item"}}
@@ -469,10 +467,10 @@ async function sendNewsletter() {
 								<table style="padding:0px 0px;width:100%">
 									<tbody>
 										<tr>
-											<td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;">
-												<a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:650px;max-height:650px;object-fit:cover;width:100%"></a>
-												<p style="margin:0"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.5rem;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;line-height:1">{{TOPIC "item" "title"}}</span></a></p>
-												<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%">
+											<td style="padding:0;color:#64748b;font-weight:500;line-height:1.2;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+												<a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%"></a>
+												<p style="margin:0"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;line-height:1.2;margin-top:3%;">{{TOPIC "item" "title"}}</span></a></p>
+												<p style="margin:0;color:#677489;font-weight:400;line-height:1.2;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%;">
                           <b>{{TOPIC "item" "topic"}}</b> •
                           {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
                             {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
