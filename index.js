@@ -438,8 +438,7 @@ async function sendNewsletter() {
           <tr style="background-color:#f5f7fb">
             <td>
 	      <p style="margin:0;color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">
-                <b>“Knowledge is Power ⚡ Money is Freedom”</b>
-                <br>— 10X Daily
+                “Knowledge is Power ⚡ Money is Freedom” — <i>10X Daily</i>
               </p>
 	      
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">
@@ -454,7 +453,7 @@ async function sendNewsletter() {
               </h1>
 		
 {{LOOP "news" "item"}}
-              <div style="margin:3% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+              <div style="margin:8% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
                 <table style="padding:0px 0px;width:100%">
                   <tbody>
                     <tr>
@@ -485,7 +484,7 @@ async function sendNewsletter() {
 	        🤓 Meta
               </h1>
 	      <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                <br><b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
+                <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
                 <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
                 <br><b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}
                 <br><b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}
