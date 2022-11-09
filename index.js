@@ -471,20 +471,46 @@ async function sendNewsletter() {
 
 🔥 <b>Daily News</b>
 <br>
+<table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb" width="100%"><tbody><tr><td align="center">
+	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:650px" width="100%"><tbody><tr><td>
+		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
+			<table align="center" cellpadding="0" cellspacing="0" role="presentation">
+				<tbody>
+					<tr style="background-color:#f5f7fb">
+						<td>
+            
 {{LOOP "news" "item"}}
-  <br><a href="{{LINK "item" "canonicalUrl"}}" target="_blank"><img src="{{TOPIC "item" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px; border-radius: 10px;" /></a>
-  <br><b><a href="{{LINK "item" "canonicalUrl"}}" target="_blank">{{TOPIC "item" "title"}}</a></b>
-  <br>#{{TOPIC "item" "topic"}} •
-  {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
-    {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
-        <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" style="color:#222; text-decoration:none;">{{TOPIC "item" "originTitle"}}</a> • 
-    {{ENDIF}}
-  {{ENDLOOP}}
-  {{TOPIC "item" "engagementShort"}} • 
-  {{TOPIC "item" "publishedShort"}}
-  <br>
-  <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+							<div style="margin-bottom:2%;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+								<table style="padding:0px 0px;width:100%">
+									<tbody>
+										<tr>
+											<td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;">
+												<a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:650px;max-height:650px;object-fit:cover;width:100%"></a>
+												<p style="margin:0"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.5rem;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;line-height:1">{{TOPIC "item" "title"}}</span></a></p>
+												<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%">
+                          <b>{{TOPIC "item" "topic"}}</b> •
+                          {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
+                            {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
+                                <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" text-decoration:none;">{{TOPIC "item" "originTitle"}}</a> • 
+                            {{ENDIF}}
+                          {{ENDLOOP}}
+                          {{TOPIC "item" "engagementShort"}} • 
+                          {{TOPIC "item" "publishedShort"}}
+                        </p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 {{ENDLOOP}}
+              
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td></tr></tbody></table>
+	</td></tr></tbody></table>
+</td></tr></tbody></table>
 
 {{IF "(news_count NUMBER_LT '10')"}}
   <br>Less than 10 links today due to duplicate news being removed.
