@@ -431,46 +431,46 @@ async function sendNewsletter() {
       "content": {
         "html": `
 <table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
-	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
-		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
-			<table align="center" cellpadding="0" cellspacing="0" role="presentation">
-				<tbody>
-					<tr style="background-color:#f5f7fb">
-						<td>
-							<br><b>“Knowledge is Power ⚡ Money is Freedom”</b>
-							<br>— 10X Daily
+  <table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
+    <table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
+      <table align="center" cellpadding="0" cellspacing="0" role="presentation">
+        <tbody>
+          <tr style="background-color:#f5f7fb">
+            <td>
+              <br><b>“Knowledge is Power ⚡ Money is Freedom”</b>
+              <br>— 10X Daily
+	      
+              <br>
+              <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+              <br>
 
-							<br>
-							<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-							<br>
-
-							📈 <b>Daily Stats</b>        
-							<br>
-							<br><b>Status:</b>
-							{{IF "(user_active NUMBER_EQ '1')"}}
-								Active
-							{{ENDIF}}
-							{{IF "(user_active NUMBER_EQ '0')"}}
-								Inactive
-							{{ENDIF}}
-
-							<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-							<br>
-							<br>
-
-							🔥 <b>Daily News</b>
-							<br>
-							<br>
+              📈 <b>Daily Stats</b>        
+              <br>
+              <br><b>Status:</b>
+              {{IF "(user_active NUMBER_EQ '1')"}}
+                Active
+              {{ENDIF}}
+              {{IF "(user_active NUMBER_EQ '0')"}}
+                Inactive
+              {{ENDIF}}
+	      
+              <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+              <br>
+              <br>
+	      
+              🔥 <b>Daily News</b>
+              <br>
+              <br>
 							
 {{LOOP "news" "item"}}
-							<div style="margin-bottom:4%;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-								<table style="padding:0px 0px;width:100%">
-									<tbody>
-										<tr>
-											<td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-												<a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%"></a>
-												<p style="margin:0;margin-top:3%;"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;line-height:1.3;">{{TOPIC "item" "title"}}</span></a></p>
-												<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%;">
+              <div style="margin-bottom:5%;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+                <table style="padding:0px 0px;width:100%">
+                  <tbody>
+                    <tr>
+                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                        <a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%"></a>
+                        <p style="margin:0;margin-top:3%;"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;line-height:1.3;">{{TOPIC "item" "title"}}</span></a></p>
+                        <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%;">
                           <b>{{TOPIC "item" "topic"}}</b> •
                           {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
                             {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
@@ -480,35 +480,35 @@ async function sendNewsletter() {
                           {{TOPIC "item" "engagementShort"}} • 
                           {{TOPIC "item" "publishedShort"}}
                         </p>
-												<p style="margin:0;color:#677489;font-weight:700;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%;">
-                          <a href="https://google.com" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        <p style="margin:0;color:#677489;font-weight:700;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:4%;">
+                          <a href="{{LINK "item" "share_url"}}" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
                         </p>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 {{ENDLOOP}}
               
-							{{IF "(news_count NUMBER_LT '10')"}}
-								<br>Less than 10 links today due to duplicate news being removed.
-								<br>
-								<br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
-							{{ENDIF}}
+              {{IF "(news_count NUMBER_LT '10')"}}
+                <br>Less than 10 links today due to duplicate news being removed.
+                <br>
+                <br><center style="text-align:center;">•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;•</center>
+              {{ENDIF}}
 
-							<br>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
-							<br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
-							<br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
-							<br>Campaign ID: {{CONTACT \`campaign_id\`}}
-							<br>Message ID: {{CONTACT \`message_id\`}}
-							<br>Subscriber ID: {{CONTACT \`subscriber_id\`}}
+              <br>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}} <b>[[firstname]]</b>, this email is sent daily.
+              <br>Date: {{DATE \`YEAR-MONTH-DAY\`}}
+              <br>Time: {{DATE \`HOUR:MINUTE:SECOND\`}}
+              <br>Campaign ID: {{CONTACT \`campaign_id\`}}
+              <br>Message ID: {{CONTACT \`message_id\`}}
+              <br>Subscriber ID: {{CONTACT \`subscriber_id\`}}
 
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</td></tr></tbody></table>
-	</td></tr></tbody></table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </td></tr></tbody></table>
+  </td></tr></tbody></table>
 </td></tr></tbody></table>
 `,
        "plain": `
