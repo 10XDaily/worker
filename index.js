@@ -472,17 +472,14 @@ async function sendNewsletter() {
 🔥 <b>Daily News</b>
 <br>
 {{LOOP "news" "item"}}
-  <br><b>{{TOPIC "item" "topic"}}</b>
   <br><img src="{{TOPIC "item" "visualUrl"}}" width="375" height="auto" style="object-fit:cover; width:375px; height:auto; max-height:200px;" />
   <br><b><a href="{{LINK "item" "canonicalUrl"}}" target="_blank">{{TOPIC "item" "title"}}</a></b>
-  <br>{{TOPIC "item" "summaryContent"}}
-  <br>
+  <br><b>{{TOPIC "item" "topic"}}</b> • 
   {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
-    {{IF "((item_attribute_name STRING_EQ 'featuredMemeLabel') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
-        <a href="{{LINK "item" "featuredMemeHtmlUrl"}}" target="_blank">#{{TOPIC "item" "featuredMemeLabel"}}</a> • 
+    {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
+        <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank">{{TOPIC "item" "originTitle"}}</a> • 
     {{ENDIF}}
   {{ENDLOOP}}
-  <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank">{{TOPIC "item" "originTitle"}}</a> • 
   {{TOPIC "item" "engagementShort"}} • 
   {{TOPIC "item" "publishedShort"}}
   <br>
