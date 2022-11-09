@@ -471,13 +471,15 @@ async function sendNewsletter() {
                         <a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%"></a>
                         <p style="margin:0;margin-top:3%;"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;line-height:1.3;">{{TOPIC "item" "title"}}</span></a></p>
                         <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%;">
-                          <b>{{TOPIC "item" "topic"}}</b> •
+                          <b>{{TOPIC "item" "topic"}}</b>
+			  <span style="background-color:#677489;margin:0px 4px;color:#677489;display:inline-block;width:4px;height:4px;border-radius:50%;margin-bottom:2px"></span>
                           {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
                             {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
                                 <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" style="color:#677489;text-decoration:none;">{{TOPIC "item" "originTitle"}}</a> • 
                             {{ENDIF}}
                           {{ENDLOOP}}
-                          {{TOPIC "item" "engagementShort"}} • 
+                          {{TOPIC "item" "engagementShort"}}
+			  <span style="background-color:#677489;margin:0px 4px;color:#677489;display:inline-block;width:4px;height:4px;border-radius:50%;margin-bottom:2px"></span>
                           {{TOPIC "item" "publishedShort"}}
                         </p>
                         <p style="margin:0;color:#677489;font-weight:700;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:4%;">
