@@ -467,18 +467,21 @@ async function sendNewsletter() {
 								<table style="padding:0px 0px;width:100%">
 									<tbody>
 										<tr>
-											<td style="padding:0;color:#64748b;font-weight:500;line-height:1.2;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+											<td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
 												<a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%"></a>
-												<p style="margin:0"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;line-height:1.2;margin-top:3%;">{{TOPIC "item" "title"}}</span></a></p>
-												<p style="margin:0;color:#677489;font-weight:400;line-height:1.2;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%;">
+												<p style="margin:0;margin-top:3%;"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;line-height:1.3;">{{TOPIC "item" "title"}}</span></a></p>
+												<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%;">
                           <b>{{TOPIC "item" "topic"}}</b> •
                           {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
                             {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
-                                <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" text-decoration:none;">{{TOPIC "item" "originTitle"}}</a> • 
+                                <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" style="color:#677489;text-decoration:none;">{{TOPIC "item" "originTitle"}}</a> • 
                             {{ENDIF}}
                           {{ENDLOOP}}
                           {{TOPIC "item" "engagementShort"}} • 
                           {{TOPIC "item" "publishedShort"}}
+                        </p>
+												<p style="margin:0;color:#677489;font-weight:700;line-height:1.3;font-family:Arial,Roboto,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;margin-top:3%;">
+                          <a href="{{LINK "https://twitter.com/intent/tweet?text={{TOPIC "item" "topic"}}&url={{LINK "item" "canonicalUrl"}}&hashtags={{TOPIC "item" "topic"}}&via=10xdaily"}}" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
                         </p>
 											</td>
 										</tr>
