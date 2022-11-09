@@ -430,7 +430,7 @@ async function sendNewsletter() {
     let email_json = {
       "content": {
         "html": `
-<table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb" width="100%"><tbody><tr><td align="center">
+<table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
 	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
 		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation">
@@ -463,7 +463,7 @@ async function sendNewsletter() {
 							<br>
 							
 {{LOOP "news" "item"}}
-							<div style="margin-bottom:2%;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+							<div style="margin-bottom:4%;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
 								<table style="padding:0px 0px;width:100%">
 									<tbody>
 										<tr>
