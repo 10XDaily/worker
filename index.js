@@ -438,7 +438,7 @@ async function sendNewsletter() {
           <tr style="background-color:#f5f7fb">
             <td>
 	    
-	      <h1 style="margin:4% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+	      <h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
 	        🤘 Daily Quote
               </h1>
               <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -491,7 +491,7 @@ async function sendNewsletter() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-			<p style="margin:3% 0 0 0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">Poll: Do you have a business?</span></p>
+			<p style="margin:0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">Poll: Do you have a business?</span></p>
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                           <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
                             Nope
@@ -582,30 +582,30 @@ async function sendNewsletter() {
               </h1>
 		
 {{LOOP "news" "item"}}
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-                        <a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%"></a>
-                        <p style="margin:3% 0 0 0;"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">{{TOPIC "item" "title"}}</span></a></p>
-                        <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <b>{{TOPIC "item" "topic"}}</b> • 
-                          {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
-                            {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
-                                <a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" style="color:#677489;text-decoration:none;">{{TOPIC "item" "originTitle"}}</a> • 
-                            {{ENDIF}}
-                          {{ENDLOOP}}
-                          {{TOPIC "item" "engagementShort"}}&nbsp;•&nbsp;{{TOPIC "item" "publishedShort"}}
-                        </p>
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="{{LINK "item" "shareUrl"}}" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+<tbody>
+<tr>
+<td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+<a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%"></a>
+<p style="margin:3% 0 0 0;"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">{{TOPIC "item" "title"}}</span></a></p>
+<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+<b>{{TOPIC "item" "topic"}}</b> • 
+{{LOOP "item" "item_attribute_name" "item_attribute_value"}}
+{{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
+<a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" style="color:#677489;text-decoration:none;">{{TOPIC "item" "originTitle"}}</a> • 
+{{ENDIF}}
+{{ENDLOOP}}
+{{TOPIC "item" "engagementShort"}}&nbsp;•&nbsp;{{TOPIC "item" "publishedShort"}}
+</p>
+<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+<a href="{{LINK "item" "shareUrl"}}" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 {{ENDLOOP}}
 
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
