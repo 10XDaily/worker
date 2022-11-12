@@ -493,35 +493,29 @@ async function sendNewsletter() {
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
 			<p style="margin:0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">Poll: Do you have a business?</span></p>
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
-                            Nope
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                            Nope, not interested
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
-                            Still thinking up ideas
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                            Thinking up ideas
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
-                            In development
-			    <br>(Pre-launch)
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                            In development (Pre-launch)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
-                            Launched
-			    <br>(Pre-revenue)
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                            Launched (Pre-revenue)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
-                            Finding Product-Market-Fit
-			    <br>(Revenue <$10K/mth)
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                            Finding Product-Market-Fit (<$10K/mth)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
-                            Startup Scaling
-			    <br>(Revenue >$10K/mth)
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                            Startup Scaling (>$10K/mth)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
-                            Business Scaling
-			    <br>(Revenue >$100K/mth)
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                            Business Scaling (>$100K/mth)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">
-                            Enterprise Scaling
-			    <br>(Revenue >$1M/mth)
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                            Enterprise Scaling (>$1M/mth)
                           </a>
                         </p>
                       </td>
