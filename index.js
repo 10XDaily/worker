@@ -979,175 +979,175 @@ async function sendStatsemail() {
                           Referral content here
 			</p>
 			
-                        <table style="padding:0px 0px;width:100%">
+                        <table style="margin:3% 0 0 0;padding:0px 0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:#dee3ea;color:#64748b;">
                           <tbody>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                            <tr style="background:#e3edff;color:#1b6dff;">
+                              <td style="padding:2%;">
                                 <b>10X Level</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 <b>Active Referrals</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;>
                                 <b>Next Level<br>(Referrals Needed)</b>
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;">
                                 3
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 6
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 3
                               </td>
                             </tr>
                           </tbody>
                         </table>
 			
-                        <table style="padding:0px 0px;width:100%">
+                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:#dee3ea;color:#64748b;">
                           <tbody>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#e3edff;color:#1b6dff;">
+                              <td style="padding:2%;">
                                 &nbsp;
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 <b>Your Referrals<br>(All Time)</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 <b>Top 10 Avg.<br>(All Time)</b>
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>DIRECT</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 1</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 2</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 3</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 4</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 5</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 6</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%text-align:left;">
                                 <b>LEVEL 7</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 8</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 9</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>LEVEL 10</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 1
                               </td>
                             </tr>
-                            <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                            <tr style="background:#fff;">
+                              <td style="padding:2%;text-align:left;">
                                 <b>TOTAL</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 <b>0</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td style="padding:2%;">
                                 <b>10</b>
                               </td>
                             </tr>
