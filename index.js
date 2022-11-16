@@ -982,145 +982,145 @@ async function sendStatsemail() {
                         <table style="padding:0px 0px;width:100%">
                           <tbody>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 &nbsp;
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-                                <b>Your Referrals (All Time)</b>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Your Referrals<br>(All Time)</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-                                <b>Top 10 Avg. (All Time)</b>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Top 10 Avg.<br>(All Time)</b>
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>DIRECT</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 1</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 2</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 3</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 4</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 4</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 6</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 6</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 8</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 9</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>LEVEL 10</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 1
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>TOTAL</b>
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
                               </td>
-                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 10
                               </td>
                             </tr>
@@ -1147,6 +1147,155 @@ async function sendStatsemail() {
 	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                           Commissions content here
 			</p>
+			
+                        <table style="padding:0px 0px;width:100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                &nbsp;
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>You<br>(This Week)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Top 10 Avg.<br>(This Week)</b>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>DIRECT</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 1</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 2</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 3</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 4</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 4</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 6</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 6</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 8</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 9</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>LEVEL 10</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>TOTAL</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $10.00
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+			
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
                           <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
                         </p>
