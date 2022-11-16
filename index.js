@@ -34,13 +34,13 @@ const GR_API_NEWSLETTERS = "newsletters" // https://apireference.getresponse.com
 const X_API = 'https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/';
 const X_API_LEXPAD = "lexpad" // https://x8ki-letl-twmt.n7.xano.io/apidoc:xhF9IGoC/#/lexpad
 const X_API_ENTRIES = "entries" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/entries
-const X_API_NEWS = "news" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/entries
+const X_API_NEWS = "news" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/news
 
 /*
-The newletter route is for creating and sending the 10X Daily email newsletter via GetResponse
+The newsemail route is for creating and sending the 10X News daily email newsletter via GetResponse
 */
-router.get("/newsletter", async request => {
-  console.log("newsletter logs");
+router.get("/newsemail", async request => {
+  console.log("newsemail logs");
   
   const { protocol, pathname } = new URL(request.url);
 
@@ -57,10 +57,10 @@ router.get("/newsletter", async request => {
 
     // Only returns this response when no exception is thrown.
   
-    const html_email = await sendNewsletter();
+    const html_email = await sendNewsemail();
     console.log(html_email);
     
-console.log("Test AFTER sendNewsetter");
+console.log("Test AFTER sendNewsemail");
 
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
     let html_content = '<h1>Success!!!</h1>';
@@ -69,7 +69,127 @@ console.log("Test AFTER sendNewsetter");
     let html = `
   <!DOCTYPE html>
   <head>
-    <title>Newsletter: Send</title>
+    <title>Newsemail: Send</title>
+  </head>
+  <body>
+    <style>${html_style}</style>
+    <div id="container">
+    ${html_content}
+    </div>
+  </body>`;
+
+    return new Response(html, {
+      headers: {
+        'content-type': 'text/html;charset=UTF-8',
+        'Cache-Control': 'no-store',
+      },
+    });
+  }
+  
+  // Not authenticated.
+  return new Response('You need to login.', {
+    status: 401,
+    headers: {
+      // Prompts the user for credentials.
+      'WWW-Authenticate': 'Basic realm="my scope", charset="UTF-8"',
+    },
+  });
+})
+
+/*
+The dealsemail route is for creating and sending the 10X Deals daily email newsletter via GetResponse
+*/
+router.get("/dealsemail", async request => {
+  console.log("dealsemail logs");
+  
+  const { protocol, pathname } = new URL(request.url);
+
+  // In the case of a Basic authentication, the exchange MUST happen over an HTTPS (TLS) connection to be secure.
+  if ('https:' !== protocol || 'https' !== request.headers.get('x-forwarded-proto')) {
+    throw new BadRequestException('Please use a HTTPS connection.');
+  }
+  
+  // The "Authorization" header is sent when authenticated.
+  if (request.headers.has('Authorization')) {
+    // Throws exception when authorization fails.
+    const { user, pass } = basicAuthentication(request);
+    verifyCredentials(user, pass);
+
+    // Only returns this response when no exception is thrown.
+  
+    const html_email = await sendDealsemail();
+    console.log(html_email);
+    
+console.log("Test AFTER sendDealsemail");
+
+    let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
+    let html_content = '<h1>Success!!!</h1>';
+    // html_content += `<p>... add more HTML to confirm the email sent successfully</p>`; // TODO
+
+    let html = `
+  <!DOCTYPE html>
+  <head>
+    <title>Dealsemail: Send</title>
+  </head>
+  <body>
+    <style>${html_style}</style>
+    <div id="container">
+    ${html_content}
+    </div>
+  </body>`;
+
+    return new Response(html, {
+      headers: {
+        'content-type': 'text/html;charset=UTF-8',
+        'Cache-Control': 'no-store',
+      },
+    });
+  }
+  
+  // Not authenticated.
+  return new Response('You need to login.', {
+    status: 401,
+    headers: {
+      // Prompts the user for credentials.
+      'WWW-Authenticate': 'Basic realm="my scope", charset="UTF-8"',
+    },
+  });
+})
+
+/*
+The statsemail route is for creating and sending the 10X Stats daily email newsletter via GetResponse
+*/
+router.get("/statsemail", async request => {
+  console.log("statsemail logs");
+  
+  const { protocol, pathname } = new URL(request.url);
+
+  // In the case of a Basic authentication, the exchange MUST happen over an HTTPS (TLS) connection to be secure.
+  if ('https:' !== protocol || 'https' !== request.headers.get('x-forwarded-proto')) {
+    throw new BadRequestException('Please use a HTTPS connection.');
+  }
+  
+  // The "Authorization" header is sent when authenticated.
+  if (request.headers.has('Authorization')) {
+    // Throws exception when authorization fails.
+    const { user, pass } = basicAuthentication(request);
+    verifyCredentials(user, pass);
+
+    // Only returns this response when no exception is thrown.
+  
+    const html_email = await sendStatsemail();
+    console.log(html_email);
+    
+console.log("Test AFTER sendStatsemail");
+
+    let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
+    let html_content = '<h1>Success!!!</h1>';
+    // html_content += `<p>... add more HTML to confirm the email sent successfully</p>`; // TODO
+
+    let html = `
+  <!DOCTYPE html>
+  <head>
+    <title>Statsemail: Send</title>
   </head>
   <body>
     <style>${html_style}</style>
@@ -417,11 +537,11 @@ console.log("Test AFTER response");
 }
 
 /**
-* Newsletter sent via GetResponse API. 
-* Triggered via /newsletter URL, or via Cloudflare Worker CRON
+* News sent via GetResponse API. 
+* Triggered via /newsemail URL, or via Cloudflare Worker CRON
 **/
-async function sendNewsletter() {
-  console.log('sendNewsletter start');
+async function sendNewsemail() {
+  console.log('sendNewsemail start');
   return new Promise(async function (resolve) {
     let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
     let emojis = ["😀","😃","😄","😁","😆","😅","😂","🤣","😊","😇","🙂","🙃","😉","😌","😍","🥰","😘","😗","😙","😚","😋","😛","😝","😜","🤪","🤨","🧐","🤓","😎","🤩","🥳","😏","😒","😞","😔","😟","😕","🙁","☹️","😣","😖","😫","😩","🥺","😢","😭","😤","😠","😡","🤬","🤯","😳","🥵","🥶","😱","😨","😰","😥","😓","🤗","🤔","🤭","🤫","🤥","😶","😐","😑","😬","🙄","😯","😦","😧","😮","😲","🥱","😴","🤤","😪","😵","🤐","🥴","🤢","🤮","🤧","😷","🤒","🤕","🤑","🤠","😈","👿","👹","👺","🤡","💩","👻","👽","👾","🤖","🎃"];
@@ -457,31 +577,6 @@ async function sendNewsletter() {
                   </tbody>
                 </table>
               </div>
-
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        📈 Daily Stats
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	                  <b>Status:</b> {{IF "(user_active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(user_active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
-                          <br><b>Referrals:</b> Direct: 1 • Network: 3
-                          <br><b>Commissions:</b> Direct: $47.99 • Network: $9.97
-                          <br><b>Traffic:</b> Clicks: 0 • Leads: 0 • Revenue: $0.00
-                          <br><b>Points:</b> This Week: 5pts • All Time: 246pts
-                          <br><b>Rewards:</b> This Week: $375 • This Month: $2,000
-			</p>
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
 	      
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
 	        ⚡ Daily Action
@@ -493,28 +588,28 @@ async function sendNewsletter() {
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
 			<p style="margin:0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">Poll: Do you have a business?</span></p>
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
                             Nope, not interested
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
                             Thinking up ideas
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
                             In development (Pre-launch)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
                             Launched (Pre-revenue)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
                             Finding Product-Market-Fit (<$10K/mth)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
                             Startup Scaling (>$10K/mth)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
                             Business Scaling (>$100K/mth)
                           </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:3px solid #15c;border-radius:4px;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
                             Enterprise Scaling (>$1M/mth)
                           </a>
                         </p>
@@ -525,45 +620,25 @@ async function sendNewsletter() {
               </div>
 	      
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🎁 Daily Deal
+	        ⭐ Daily Sponsor
               </h1>
               <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
                 <table style="padding:0px 0px;width:100%">
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-                        <p style="margin:0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;">Attention: Entrepreneurs, Small Business Owners, Online Marketers and Marketing Agencies...</span></p>
+                        <p style="margin:3% 0 0 0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;">What Would You Do With An Extra 10, 100, or 1,000 New Leads Per Day!?!</span></p>
 			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <img alt="" src="https://funnelhackingsecrets.com/hosted/images/e4/7a6d01fa7f4c35941a3e0e68ad6c7f/FHS-Affiliate-graphics-Ads-3a.jpg" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
+                          <img alt="" src="https://5dayleadchallenge.com/hosted/images/bf/1dcba62d6444f286b2d42c45c8103a/5DLC_Affiliate_1080x1080C.png" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
                         </p>
 			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.5;font-family:sans-serif;display:block;font-size:1rem;">
-			  Find Out Which Funnels Will Work The Best <u>For YOUR Specific Business!</u> (...plus a <b>MASSIVE 91% OFF</b> deal inside!)
+			  Join The "5 Day Lead Challenge" (FOR FREE) And Learn How To "Turn-On" An Endless Stream Of Hot Leads For Your Business!
 			</p>
                         <p style="margin:4% 0 0 0;color:#2bb14c;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://www.funnelhackingsecrets.com?cf_affiliate_id=831693&affiliate_id=831693" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;">👉 REGISTER FOR THE FREE WEBCLASS NOW!</a>
+                          <a href="https://www.5dayleadchallenge.com/?cf_affiliate_id=831693&affiliate_id=831693" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;">👉 JOIN THE "5 DAY LEAD CHALLENGE" FOR FREE!</a>
                         </p>
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://twitter.com/intent/tweet?text=%22The%20Weird%20%28Almost%20Backwards%29%20Funnel%20Secret%20That%20Is%20Currently%20Being%20Used%20By%20An%20Underground%20Group%20Of%20Entrepreneurs%20To%20Sell%20Almost%20Anything%20You%20Can%20Dream%20Of%21%22&url=https%3A%2F%2Fwww.funnelhackingsecrets.com%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,10X,DEALS&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        ❤️ Daily Meme
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <img alt="" src="https://media.tenor.com/2roX3uxz_68AAAAC/cat-space.gif" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
-                        </p>
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://twitter.com/intent/tweet?text=Nyan%20Cat&url=https%3A%2F%2Ftenor.com%2Fview%2Fcat-space-nyan-cat-gif-22656380&hashtags=MEME&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                          <a href="https://twitter.com/intent/tweet?text=Join%20The%20%225%20Day%20Lead%20Challenge%22%20%28FOR%20FREE%29%20And%20Learn%20How%20To%20%22Turn-On%22%20An%20Endless%20Stream%20Of%20Hot%20Leads%20For%20Your%20Business%21&url=https%3A%2F%2Fwww.5dayleadchallenge.com%2F%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,TRAFFIC,LEADS,10X&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
                         </p>
                       </td>
                     </tr>
@@ -603,25 +678,18 @@ async function sendNewsletter() {
 {{ENDLOOP}}
 
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        ⭐ Daily Sponsor
+	        ❤️ Daily Meme
               </h1>
               <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
                 <table style="padding:0px 0px;width:100%">
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-                        <p style="margin:3% 0 0 0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;">What Would You Do With An Extra 10, 100, or 1,000 New Leads Per Day!?!</span></p>
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <img alt="" src="https://5dayleadchallenge.com/hosted/images/bf/1dcba62d6444f286b2d42c45c8103a/5DLC_Affiliate_1080x1080C.png" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
-                        </p>
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.5;font-family:sans-serif;display:block;font-size:1rem;">
-			  Join The "5 Day Lead Challenge" (FOR FREE) And Learn How To "Turn-On" An Endless Stream Of Hot Leads For Your Business!
-			</p>
-                        <p style="margin:4% 0 0 0;color:#2bb14c;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://www.5dayleadchallenge.com/?cf_affiliate_id=831693&affiliate_id=831693" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;">👉 JOIN THE "5 DAY LEAD CHALLENGE" FOR FREE!</a>
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          <img alt="" src="https://media.tenor.com/2roX3uxz_68AAAAC/cat-space.gif" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
                         </p>
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://twitter.com/intent/tweet?text=Join%20The%20%225%20Day%20Lead%20Challenge%22%20%28FOR%20FREE%29%20And%20Learn%20How%20To%20%22Turn-On%22%20An%20Endless%20Stream%20Of%20Hot%20Leads%20For%20Your%20Business%21&url=https%3A%2F%2Fwww.5dayleadchallenge.com%2F%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,TRAFFIC,LEADS,10X&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                          <a href="https://twitter.com/intent/tweet?text=Nyan%20Cat&url=https%3A%2F%2Ftenor.com%2Fview%2Fcat-space-nyan-cat-gif-22656380&hashtags=MEME&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
                         </p>
                       </td>
                     </tr>
@@ -667,10 +735,10 @@ async function sendNewsletter() {
         "clicktrack"
         // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
       ],
-      "name": today.toISOString() + ' 10X DAILY', // TODO make timezone aware (e.g. Australia/Sydney). Note that .toISOString() always returns a timestamp in UTC
+      "name": today.toISOString() + ' 10X NEWS DAILY', // TODO make timezone aware (e.g. Australia/Sydney). Note that .toISOString() always returns a timestamp in UTC
       "type": "broadcast", // draft or broadcast
       "editor": "custom",
-      "subject": '10X [[firstname mode="uc"]] ' + emoji + ' {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
+      "subject": '10X NEWS ' + emoji + ' {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
       "fromField": {
         "fromFieldId": "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
       },
@@ -727,6 +795,303 @@ console.log("Test AFTER response");
   });
 }
 
+
+/**
+* Deals sent via GetResponse API. 
+* Triggered via /dealsemail URL, or via Cloudflare Worker CRON
+**/
+async function sendDealsemail() {
+  console.log('sendDealsemail start');
+  return new Promise(async function (resolve) {
+    let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+    let emojis = ["😀","😃","😄","😁","😆","😅","😂","🤣","😊","😇","🙂","🙃","😉","😌","😍","🥰","😘","😗","😙","😚","😋","😛","😝","😜","🤪","🤨","🧐","🤓","😎","🤩","🥳","😏","😒","😞","😔","😟","😕","🙁","☹️","😣","😖","😫","😩","🥺","😢","😭","😤","😠","😡","🤬","🤯","😳","🥵","🥶","😱","😨","😰","😥","😓","🤗","🤔","🤭","🤫","🤥","😶","😐","😑","😬","🙄","😯","😦","😧","😮","😲","🥱","😴","🤤","😪","😵","🤐","🥴","🤢","🤮","🤧","😷","🤒","🤕","🤑","🤠","😈","👿","👹","👺","🤡","💩","👻","👽","👾","🤖","🎃"];
+    let emoji = emojis[Math.floor(Math.random()*emojis.length)];
+    let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
+    let email_json = {
+      "content": {
+        "html": `
+<table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
+  <table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
+    <table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
+      <table align="center" cellpadding="0" cellspacing="0" role="presentation">
+        <tbody>
+          <tr style="background-color:#f5f7fb">
+            <td>
+	      
+	      <h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+	        🎁 Daily Deal
+              </h1>
+              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+                <table style="padding:0px 0px;width:100%">
+                  <tbody>
+                    <tr>
+                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
+                        <p style="margin:0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;">Attention: Entrepreneurs, Small Business Owners, Online Marketers and Marketing Agencies...</span></p>
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          <img alt="" src="https://funnelhackingsecrets.com/hosted/images/e4/7a6d01fa7f4c35941a3e0e68ad6c7f/FHS-Affiliate-graphics-Ads-3a.jpg" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
+                        </p>
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.5;font-family:sans-serif;display:block;font-size:1rem;">
+			  Find Out Which Funnels Will Work The Best <u>For YOUR Specific Business!</u> (...plus a <b>MASSIVE 91% OFF</b> deal inside!)
+			</p>
+                        <p style="margin:4% 0 0 0;color:#2bb14c;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          <a href="https://www.funnelhackingsecrets.com?cf_affiliate_id=831693&affiliate_id=831693" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;">👉 REGISTER FOR THE FREE WEBCLASS NOW!</a>
+                        </p>
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          <a href="https://twitter.com/intent/tweet?text=%22The%20Weird%20%28Almost%20Backwards%29%20Funnel%20Secret%20That%20Is%20Currently%20Being%20Used%20By%20An%20Underground%20Group%20Of%20Entrepreneurs%20To%20Sell%20Almost%20Anything%20You%20Can%20Dream%20Of%21%22&url=https%3A%2F%2Fwww.funnelhackingsecrets.com%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,10X,DEALS&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+	        🤓 Meta
+              </h1>
+              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+                <table style="padding:0px 0px;width:100%">
+                  <tbody>
+                    <tr>
+                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
+                          <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
+                          <br><b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}
+                          <br><b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}
+                          <br><b>Message ID:</b> {{CONTACT \`message_id\`}}
+                          <br><b>Subscriber ID:</b> {{CONTACT \`subscriber_id\`}}
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </td></tr></tbody></table>
+  </td></tr></tbody></table>
+</td></tr></tbody></table>
+`,
+       "plain": `
+`// TODO - dynamic plaintext version of the HTML email? (strip HTML)
+      },
+      "flags": [
+        "openrate",
+        "clicktrack"
+        // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
+      ],
+      "name": today.toISOString() + ' 10X DEALS DAILY', // TODO make timezone aware (e.g. Australia/Sydney). Note that .toISOString() always returns a timestamp in UTC
+      "type": "broadcast", // draft or broadcast
+      "editor": "custom",
+      "subject": '10X DEALS ' + emoji + ' {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
+      "fromField": {
+        "fromFieldId": "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+      },
+      "replyTo": {
+        "fromFieldId": "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+      },
+      "campaign": {
+        "campaignId": "rJYER" // "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
+      },
+  //    "sendOn": "2022-08-13T05:39:55+10:00", // omitted to send message immediately i.e. the manual trigger or 5am CRON trigger will send the message
+  //     "attachments": [
+  //       {
+  //         "fileName": "some_file.jpg",
+  //         "content": "sdfadsfetsdjfdskafdsaf==",
+  //         "mimeType": "image/jpeg"
+  //       }
+  //     ], // No attachements needed. 400kb max combined size if needed in the future.
+      "sendSettings": {
+        "selectedCampaigns": ["rJYER"], // ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
+        "selectedSegments": [],
+        "selectedSuppressions": [],
+        "excludedCampaigns": [],
+        "excludedSegments": [],
+        "selectedContacts": ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
+        "perfectTiming": "false"
+//	,
+//        "externalLexpad": {
+//           "dataSourceUrl": X_API + X_API_LEXPAD,
+//           "dataSourceToken": X_API_KEY
+//        }
+      }
+    }
+
+console.log("Test AFTER email_json");
+
+    const init = {
+      headers: {
+        'content-type': 'application/json;charset=UTF-8',
+        'X-Time-Zone': 'Australia/Sydney', // the default timezone in response data is UTC (if I remove this header)
+        'X-Auth-Token': 'api-key ' + GR_API_KEY
+      },
+      body: JSON.stringify(email_json),
+      method: 'POST'
+    };
+console.log("Test AFTER init");
+console.log(init);
+
+    const response = await fetch(endpoint, init);
+console.log("Test AFTER fetch");
+    const content = await response.json();
+console.log("Test AFTER response");
+    
+    resolve(content);
+  });
+}
+
+
+/**
+* Stats sent via GetResponse API. 
+* Triggered via /statsemail URL, or via Cloudflare Worker CRON
+**/
+async function sendStatsemail() {
+  console.log('sendStatsemail start');
+  return new Promise(async function (resolve) {
+    let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+    let emojis = ["😀","😃","😄","😁","😆","😅","😂","🤣","😊","😇","🙂","🙃","😉","😌","😍","🥰","😘","😗","😙","😚","😋","😛","😝","😜","🤪","🤨","🧐","🤓","😎","🤩","🥳","😏","😒","😞","😔","😟","😕","🙁","☹️","😣","😖","😫","😩","🥺","😢","😭","😤","😠","😡","🤬","🤯","😳","🥵","🥶","😱","😨","😰","😥","😓","🤗","🤔","🤭","🤫","🤥","😶","😐","😑","😬","🙄","😯","😦","😧","😮","😲","🥱","😴","🤤","😪","😵","🤐","🥴","🤢","🤮","🤧","😷","🤒","🤕","🤑","🤠","😈","👿","👹","👺","🤡","💩","👻","👽","👾","🤖","🎃"];
+    let emoji = emojis[Math.floor(Math.random()*emojis.length)];
+    let endpoint = `${GR_API}${GR_API_NEWSLETTERS}`;
+    let email_json = {
+      "content": {
+        "html": `
+<table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
+  <table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
+    <table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
+      <table align="center" cellpadding="0" cellspacing="0" role="presentation">
+        <tbody>
+          <tr style="background-color:#f5f7fb">
+            <td>
+
+	      <h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+	        📈 Daily Stats
+              </h1>
+              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+                <table style="padding:0px 0px;width:100%">
+                  <tbody>
+                    <tr>
+                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	                  <b>Status:</b> {{IF "(user_active NUMBER_EQ '1')"}}Active{{ENDIF}}{{IF "(user_active NUMBER_EQ '0')"}}Inactive{{ENDIF}}
+                          <br><b>Referrals:</b> Direct: 1 • Network: 3
+                          <br><b>Commissions:</b> Direct: $47.99 • Network: $9.97
+                          <br><b>Traffic:</b> Clicks: 0 • Leads: 0 • Revenue: $0.00
+                          <br><b>Points:</b> This Week: 5pts • All Time: 246pts
+                          <br><b>Rewards:</b> This Week: $375 • This Month: $2,000
+			</p>
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+	        🤓 Meta
+              </h1>
+              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+                <table style="padding:0px 0px;width:100%">
+                  <tbody>
+                    <tr>
+                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
+                          <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
+                          <br><b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}
+                          <br><b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}
+                          <br><b>Message ID:</b> {{CONTACT \`message_id\`}}
+                          <br><b>Subscriber ID:</b> {{CONTACT \`subscriber_id\`}}
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </td></tr></tbody></table>
+  </td></tr></tbody></table>
+</td></tr></tbody></table>
+`,
+       "plain": `
+`// TODO - dynamic plaintext version of the HTML email? (strip HTML)
+      },
+      "flags": [
+        "openrate",
+        "clicktrack"
+        // "google_analytics" // requires higher paid plan. Adds UTM tracking on links in email, to be tracked on our Website
+      ],
+      "name": today.toISOString() + ' 10X STATS DAILY', // TODO make timezone aware (e.g. Australia/Sydney). Note that .toISOString() always returns a timestamp in UTC
+      "type": "broadcast", // draft or broadcast
+      "editor": "custom",
+      "subject": '10X STATS ' + emoji + ' {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
+      "fromField": {
+        "fromFieldId": "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+      },
+      "replyTo": {
+        "fromFieldId": "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+      },
+      "campaign": {
+        "campaignId": "rJYER" // "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
+      },
+  //    "sendOn": "2022-08-13T05:39:55+10:00", // omitted to send message immediately i.e. the manual trigger or 5am CRON trigger will send the message
+  //     "attachments": [
+  //       {
+  //         "fileName": "some_file.jpg",
+  //         "content": "sdfadsfetsdjfdskafdsaf==",
+  //         "mimeType": "image/jpeg"
+  //       }
+  //     ], // No attachements needed. 400kb max combined size if needed in the future.
+      "sendSettings": {
+        "selectedCampaigns": ["rJYER"], // ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
+        "selectedSegments": [],
+        "selectedSuppressions": [],
+        "excludedCampaigns": [],
+        "excludedSegments": [],
+        "selectedContacts": ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
+        "perfectTiming": "false"
+//	,
+//        "externalLexpad": {
+//           "dataSourceUrl": X_API + X_API_LEXPAD,
+//           "dataSourceToken": X_API_KEY
+//        }
+      }
+    }
+
+console.log("Test AFTER email_json");
+
+    const init = {
+      headers: {
+        'content-type': 'application/json;charset=UTF-8',
+        'X-Time-Zone': 'Australia/Sydney', // the default timezone in response data is UTC (if I remove this header)
+        'X-Auth-Token': 'api-key ' + GR_API_KEY
+      },
+      body: JSON.stringify(email_json),
+      method: 'POST'
+    };
+console.log("Test AFTER init");
+console.log(init);
+
+    const response = await fetch(endpoint, init);
+console.log("Test AFTER fetch");
+    const content = await response.json();
+console.log("Test AFTER response");
+    
+    resolve(content);
+  });
+}
+
+
 /*
 This is the last route we define, it will match anything that hasn't hit a route we've defined
 above, therefore it's useful as a 404 (and avoids us hitting worker exceptions, so make sure to include it!).
@@ -770,7 +1135,11 @@ async function triggerEvent(scheduledTime) {
   console.log(cron_entries);
   const cron_news = await cacheNews();
   console.log(cron_news);
-  const cron_email = await sendNewsletter();
-  console.log(cron_email);
+  const cron_newsemail = await sendNewsemail();
+  console.log(cron_newsemail);
+  const cron_dealsemail = await sendDealsemail();
+  console.log(cron_dealsemail);
+  const cron_statsemail = await sendStatsemail();
+  console.log(cron_statsemail);
   console.log('cron logs end'); 
 }
