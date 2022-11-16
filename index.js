@@ -1006,6 +1006,10 @@ async function sendStatsemail() {
                           </tbody>
                         </table>
 			
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
+			
                         <table style="padding:0px 0px;width:100%">
                           <tbody>
                             <tr>
@@ -1202,6 +1206,10 @@ async function sendStatsemail() {
                           </tbody>
                         </table>
 			
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
+			
                         <table style="padding:0px 0px;width:100%">
                           <tbody>
                             <tr>
@@ -1360,7 +1368,7 @@ async function sendStatsemail() {
               </div>
 	      
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🚗 Organic Traffic
+	        🌱 Organic Traffic
               </h1>
               <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
                 <table style="padding:0px 0px;width:100%">
@@ -1428,9 +1436,29 @@ async function sendStatsemail() {
                                 10%
                               </td>
                             </tr>
+                          </tbody>
+                        </table>
+			
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
+			
+                        <table style="padding:0px 0px;width:100%">
+                          <tbody>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Shares<br>(All Time)</b>
+                                &nbsp;
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Your Organic Traffic<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Top 10 Avg.<br>(All Time)</b>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Shares</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 50
@@ -1441,7 +1469,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Referrals<br>(All Time)</b>
+                                <b>Referrals</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
@@ -1452,7 +1480,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Commissions<br>(All Time)</b>
+                                <b>Commissions</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 $0.00
@@ -1463,7 +1491,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Life-Time-Value<br>(All Time)</b>
+                                <b>Life-Time-Value</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 $0.00
@@ -1553,9 +1581,29 @@ async function sendStatsemail() {
                                 30%
                               </td>
                             </tr>
+                          </tbody>
+                        </table>
+			
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
+			
+                        <table style="padding:0px 0px;width:100%">
+                          <tbody>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Cost<br>(All Time)</b>
+                                &nbsp;
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Your Paid Traffic<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Top 10 Avg.<br>(All Time)</b>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Cost</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 $0.00
@@ -1566,7 +1614,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Revenue Re-invested<br>(All Time)</b>
+                                <b>Revenue Re-invested</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 $0.00
@@ -1577,7 +1625,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Referrals<br>(All Time)</b>
+                                <b>Referrals</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 0
@@ -1588,7 +1636,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Cost-Per-Acquisition<br>(All Time)</b>
+                                <b>Cost-Per-Acquisition</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 $0.00
@@ -1599,7 +1647,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Commissions<br>(All Time)</b>
+                                <b>Commissions</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 $0.00
@@ -1610,7 +1658,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
-                                <b>Life-Time-Value<br>(All Time)</b>
+                                <b>Life-Time-Value</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 $0.00
@@ -1669,6 +1717,10 @@ async function sendStatsemail() {
                             </tr>
                           </tbody>
                         </table>
+			
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
 			
                         <table style="padding:0px 0px;width:100%">
                           <tbody>
@@ -1832,7 +1884,7 @@ async function sendStatsemail() {
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 <b>Bonus Points</b>
                               </td>
-                              <td colspan="7" style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                              <td colspan="7" style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
 	                        <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                                   <b>70pts</b> (7 x 10pts) Weekly Streak!
 			        </p>
@@ -1891,6 +1943,10 @@ async function sendStatsemail() {
                             </tr>
                           </tbody>
                         </table>
+			
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
 			
                         <table style="padding:0px 0px;width:100%">
                           <tbody>
