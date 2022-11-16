@@ -982,6 +982,33 @@ async function sendStatsemail() {
                         <table style="padding:0px 0px;width:100%">
                           <tbody>
                             <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>10X Level</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Active Referrals</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Next Level<br>(Referrals Needed)</b>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                3
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                6
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                3
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+			
+                        <table style="padding:0px 0px;width:100%">
+                          <tbody>
+                            <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 &nbsp;
                               </td>
@@ -1118,10 +1145,10 @@ async function sendStatsemail() {
                                 <b>TOTAL</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
-                                0
+                                <b>0</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
-                                10
+                                <b>10</b>
                               </td>
                             </tr>
                           </tbody>
@@ -1151,11 +1178,38 @@ async function sendStatsemail() {
                         <table style="padding:0px 0px;width:100%">
                           <tbody>
                             <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>10X Status</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Your Commissions<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Top 10 Avg. Commissions<br>(All Time)</b>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                Active
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $123,456.00
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+			
+                        <table style="padding:0px 0px;width:100%">
+                          <tbody>
+                            <tr>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
                                 &nbsp;
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
-                                <b>You<br>(This Week)</b>
+                                <b>Your Commissions<br>(This Week)</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
                                 <b>Top 10 Avg.<br>(This Week)</b>
@@ -1287,10 +1341,10 @@ async function sendStatsemail() {
                                 <b>TOTAL</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
-                                $0.00
+                                <b>$0.00</b>
                               </td>
                               <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
-                                $10.00
+                                <b>$10.00</b>
                               </td>
                             </tr>
                           </tbody>
@@ -1306,7 +1360,132 @@ async function sendStatsemail() {
               </div>
 	      
 	      <h1 style="margin:8px 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🚀 Traffic
+	        🚗 Organic Traffic
+              </h1>
+              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+                <table style="padding:0px 0px;width:100%">
+                  <tbody>
+                    <tr>
+                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          Organic traffic content here
+			</p>
+			
+                        <table style="padding:0px 0px;width:100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                &nbsp;
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Your Organic Traffic<br>(This Week)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Top 10 Avg.<br>(This Week)</b>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Shares</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                7
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Views</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                10
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Referrals</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                1
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Conversion</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0%
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                10%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Shares<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                50
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                5000
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Referrals<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                1000
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Commissions<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1000
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Life-Time-Value<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $1.00
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+			
+                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+	      
+	      <h1 style="margin:8px 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+	        🚀 Paid Traffic
               </h1>
               <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
                 <table style="padding:0px 0px;width:100%">
@@ -1316,6 +1495,133 @@ async function sendStatsemail() {
 	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                           Traffic content here
 			</p>
+			
+                        <table style="padding:0px 0px;width:100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                &nbsp;
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Your Paid Traffic<br>(This Week)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                <b>Top 10 Avg.<br>(This Week)</b>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Spend</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $2,000.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Views</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                10
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Referrals</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                3
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Conversion</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0%
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                30%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Cost<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $5000.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Revenue Re-invested<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $6000.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Referrals<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                0
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                1000
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Cost-Per-Acquisition<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                -$1.00
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Commissions<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $10,000
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:left;">
+                                <b>Life-Time-Value<br>(All Time)</b>
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $0.00
+                              </td>
+                              <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;font-size:1rem;text-align:center;">
+                                $10
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+			
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
                           <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
                         </p>
