@@ -988,7 +988,7 @@ async function sendStatsemail() {
                               <td style="padding:2%;">
                                 <b>Active Referrals</b>
                               </td>
-                              <td style="padding:2%;>
+                              <td style="padding:2%;">
                                 <b>Next Level<br>(Referrals Needed)</b>
                               </td>
                             </tr>
@@ -1006,9 +1006,9 @@ async function sendStatsemail() {
                           </tbody>
                         </table>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:#dee3ea;color:#64748b;">
+                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
-                            <tr style="background:#e3edff;color:#1b6dff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;">
                                 &nbsp;
                               </td>
@@ -1019,135 +1019,135 @@ async function sendStatsemail() {
                                 <b>Top 10 Avg.<br>(All Time)</b>
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
                                 <b>DIRECT</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 1</b>
+                                <b>LEVEL&nbsp;1</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 2</b>
+                                <b>LEVEL&nbsp;2</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 3</b>
+                                <b>LEVEL&nbsp;3</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 4</b>
+                                <b>LEVEL&nbsp;4</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 5</b>
+                                <b>LEVEL&nbsp;5</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 6</b>
+                                <b>LEVEL&nbsp;6</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
-                              <td style="padding:2%text-align:left;">
-                                <b>LEVEL 7</b>
-                              </td>
-                              <td style="padding:2%;">
-                                0
-                              </td>
-                              <td style="padding:2%;">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 8</b>
+                                <b>LEVEL&nbsp;7</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 9</b>
+                                <b>LEVEL&nbsp;8</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 10</b>
+                                <b>LEVEL&nbsp;9</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b>LEVEL&nbsp;10</b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                0
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                1
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.3);">
                               <td style="padding:2%;text-align:left;">
                                 <b>TOTAL</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 <b>0</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 <b>10</b>
                               </td>
                             </tr>
