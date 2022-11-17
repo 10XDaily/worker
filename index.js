@@ -979,9 +979,9 @@ async function sendStatsemail() {
                           Referral content here
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px 0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:#dee3ea;color:#64748b;">
+                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
-                            <tr style="background:#e3edff;color:#1b6dff;">
+                            <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;">
                                 <b>10X Level</b>
                               </td>
@@ -992,14 +992,14 @@ async function sendStatsemail() {
                                 <b>Next Level<br>(Referrals Needed)</b>
                               </td>
                             </tr>
-                            <tr style="background:#fff;">
-                              <td style="padding:2%;">
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 3
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 6
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 3
                               </td>
                             </tr>
