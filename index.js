@@ -1013,10 +1013,10 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1182,10 +1182,10 @@ async function sendStatsemail() {
                                 <b>10X Status</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1209,10 +1209,10 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1378,10 +1378,10 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week)</span></b>
+                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week)</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1438,10 +1438,10 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1541,10 +1541,10 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1623,10 +1623,10 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1759,10 +1759,10 @@ async function sendStatsemail() {
                                 <b>Points Multiplier</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1770,7 +1770,7 @@ async function sendStatsemail() {
                                 7X
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                35pts<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">7 x 5pts</span>
+                                35pts<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">7 x 5pts</span>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 2,000pts
@@ -1978,24 +1978,24 @@ async function sendStatsemail() {
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
-                                <b>10X Rewards<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>10X Rewards<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Month</span></b>
+                                <b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Month</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>10X Rewards<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1,000<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$10 x 100 users</span>
+                                $1,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$10 x 100 users</span>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $4,000<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$1,000 x 4 users</span>
+                                $4,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$1,000 x 4 users</span>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $123,456 <span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">across 1,234 users</span>
+                                $123,456 <span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">across 1,234 users</span>
                               </td>
                             </tr>
                           </tbody>
@@ -2075,13 +2075,13 @@ async function sendStatsemail() {
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
-                                <b>Revenue<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Costs<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Profit<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -2102,13 +2102,13 @@ async function sendStatsemail() {
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
-                                <b>Revenue<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Costs<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Profit<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -2166,13 +2166,13 @@ async function sendStatsemail() {
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
-                                <b>Organic Referrals<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Organic Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Paid Referrals<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Paid Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Income<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -2196,10 +2196,10 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Referrals<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Income<br><span style="display:inline-block;background-color:rgba(255,255,255,0.25);border-radius:10px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
