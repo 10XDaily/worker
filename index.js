@@ -1942,7 +1942,7 @@ async function sendStatsemail() {
                                 <b>Bonus Points</b>
                               </td>
                               <td colspan="7" style="padding:2%;text-align:left;background:rgba(255,255,255,0.5);">
-	                        <p style="margin:3% 0 0 0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	                        <p style="margin:0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                                   <b>70pts</b> (7 x 10pts) Weekly Streak!
 			        </p>
 	                        <p style="margin:3% 0 0 0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
