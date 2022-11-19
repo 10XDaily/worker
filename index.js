@@ -1013,7 +1013,7 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Referrals<br>(All Time)</b>
+                                <b>You<br>(All Time)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>Top 10 Avg.<br>(All Time)</b>
@@ -1032,7 +1032,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;1</b>
+                                <b>LEVEL 1</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1043,7 +1043,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;2</b>
+                                <b>LEVEL 2</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1054,7 +1054,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;3</b>
+                                <b>LEVEL 3</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1065,7 +1065,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;4</b>
+                                <b>LEVEL 4</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1076,7 +1076,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;5</b>
+                                <b>LEVEL 5</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1087,7 +1087,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;6</b>
+                                <b>LEVEL 6</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1098,7 +1098,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;7</b>
+                                <b>LEVEL 7</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1109,7 +1109,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;8</b>
+                                <b>LEVEL 8</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1120,7 +1120,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;9</b>
+                                <b>LEVEL 9</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1131,7 +1131,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>LEVEL&nbsp;10</b>
+                                <b>LEVEL 10</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 0
@@ -1164,7 +1164,7 @@ async function sendStatsemail() {
               </div>
 	      
 	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        💵 Commissions
+	        💵 Passive Income
               </h1>
               <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
                 <table style="padding:0px 0px;width:100%">
@@ -1172,7 +1172,7 @@ async function sendStatsemail() {
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
 	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Commissions content here
+                          Passive income content here
 			</p>
 			
                         <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -1182,10 +1182,10 @@ async function sendStatsemail() {
                                 <b>10X Status</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Commissions<br>(All Time)</b>
+                                <b>You<br>(All Time)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg. Commissions<br>(All Time)</b>
+                                <b>Top 10 Avg.<br>(All Time)</b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1209,7 +1209,7 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Commissions<br>(This Week)</b>
+                                <b>You<br>(This Week)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>Top 10 Avg.<br>(This Week)</b>
@@ -1378,7 +1378,7 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Organic Traffic<br>(This Week)</b>
+                                <b>You<br>(This Week)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>Top 10 Avg.<br>(This Week)</b>
@@ -1438,7 +1438,7 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Organic Traffic<br>(All Time)</b>
+                                <b>You<br>(All Time)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>Top 10 Avg.<br>(All Time)</b>
@@ -1457,6 +1457,17 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
+                                <b>Views</b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                100
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                10,000
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
                                 <b>Referrals</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
@@ -1468,7 +1479,18 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>Commissions</b>
+                                <b>Conversion</b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                0
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                5%
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b>Income</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 $0.00
@@ -1519,7 +1541,7 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Paid Traffic<br>(This Week)</b>
+                                <b>You<br>(This Week)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>Top 10 Avg.<br>(This Week)</b>
@@ -1533,7 +1555,29 @@ async function sendStatsemail() {
                                 $0.00
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $2,000.00
+                                $2,000
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b>Cost</b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                $0.00
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                $5,000
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b>Revenue Reinvested</b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                $0.00
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                $6,000
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1579,10 +1623,21 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Paid Traffic<br>(All Time)</b>
+                                <b>You<br>(All Time)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>Top 10 Avg.<br>(All Time)</b>
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b>Spend</b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                $0.00
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                $11,000
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1593,18 +1648,29 @@ async function sendStatsemail() {
                                 $0.00
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $5000.00
+                                $5,000
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>Revenue Re-invested</b>
+                                <b>Revenue Reinvested</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 $0.00
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $6000.00
+                                $6,000
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b>Views</b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                0
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                10,000
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1620,6 +1686,17 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
+                                <b>Conversion</b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                0
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                10%
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
                                 <b>Cost-Per-Acquisition</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
@@ -1631,7 +1708,7 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>Commissions</b>
+                                <b>Income</b>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
                                 $0.00
@@ -1682,10 +1759,10 @@ async function sendStatsemail() {
                                 <b>Points Multiplier</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Points<br>(This Week)</b>
+                                <b>You<br>(This Week)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Points<br>(All Time)</b>
+                                <b>You<br>(All Time)</b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1708,155 +1785,155 @@ async function sendStatsemail() {
                               <td style="padding:2%;text-align:left;width:33%;">
                                 &nbsp;
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;width:9%;">
                                 <b>1</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;width:9%;">
                                 <b>2</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;width:9%;">
                                 <b>3</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;width:9%;">
                                 <b>4</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;width:9%;">
                                 <b>5</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;width:9%;">
                                 <b>6</b>
                               </td>
-                              <td style="padding:2%;">
+                              <td style="padding:2%;width:9%;">
                                 <b>7</b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>Open Daily News</b>
+                                <b>Open News Email</b>
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 10
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>Open Daily Deals</b>
+                                <b>Open Deals Email</b>
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 10
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>Share Daily</b>
+                                <b>Share Email Content</b>
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 10
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>Action Daily</b>
+                                <b>Complete Daily Action</b>
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 10
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;">
-                                <b>Sponsor Daily</b>
+                                <b>Visit Daily Sponsor</b>
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 1
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
+                                0
+                              </td>
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 10
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
                                 0
                               </td>
                             </tr>
@@ -1864,7 +1941,7 @@ async function sendStatsemail() {
                               <td style="padding:2%;text-align:left;">
                                 <b>Bonus Points</b>
                               </td>
-                              <td colspan="7" style="padding:2px;text-align:left;background:rgba(255,255,255,0.5);">
+                              <td colspan="7" style="padding:2%;text-align:left;background:rgba(255,255,255,0.5);">
 	                        <p style="margin:3% 0 0 0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                                   <b>70pts</b> (7 x 10pts) Weekly Streak!
 			        </p>
@@ -1901,13 +1978,13 @@ async function sendStatsemail() {
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
-                                <b>Rewards<br>(This Week)</b>
+                                <b>10X Rewards<br>(This Week)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Rewards<br>(This Month)</b>
+                                <b>10X Rewards<br>(This Month)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Rewards<br>(All Time)</b>
+                                <b>10X Rewards<br>(All Time)</b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -1931,7 +2008,7 @@ async function sendStatsemail() {
                                 &nbsp;
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Your Rewards</b>
+                                <b>You</b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>Top 10 Avg.</b>
@@ -2095,7 +2172,7 @@ async function sendStatsemail() {
                                 <b>Paid Referrals<br>(All Time)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Commissions<br>(All Time)</b>
+                                <b>Income<br>(All Time)</b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
@@ -2122,7 +2199,7 @@ async function sendStatsemail() {
                                 <b>Referrals<br>(This Week)</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>Commissions<br>(This Week)</b>
+                                <b>Income<br>(This Week)</b>
                               </td>
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
