@@ -2109,7 +2109,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   The 10X referral program has a system user named Zeus sitting in the top most position... Zeus is the Direct Referrer of 10X Team members and all non-reffered signups. 
+	   The 10X referral program has a system user named Zeus sitting in the top most position... Zeus is the Direct Referrer of 10X Team members and all non-referred signups. 
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2399,7 +2399,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>50% Contributors:</b>
+	  <b>50% Team:</b>
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🏦 10% Cash Savings
@@ -2460,11 +2460,11 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   10X is a "lifestyle business" that earns you money outside of your day job (in just a few hours per week!)... you aren't trading time for money; instead you are building lifetime assets.
+	   10X is a "lifestyle business" that earns you money outside of your day job in just a few hours per week!... stop trading time for money, escape the rat race, and build lifelong assets.
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   As a Core Team member you "bank a week" by contributing 10+&nbsp;Hours (across 1 or more weeks) and then provide Proof-of-Contribution (PoC)... the more weeks you bank the bigger slice you own of 10X Lifetime profits. 
+	   As a Core Team member you "bank a week" by contributing 10+&nbsp;Hours (across 1 or more weeks) and then provide Proof-of-Contribution... the more weeks you bank the bigger slice you own of 10X Lifetime profits. 
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2533,59 +2533,59 @@ async function sendStatsemail() {
 	</table>
 
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Cash Savings:</b>
+	  <b>Cash Savings (All Time):</b>
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  💰 $10 Earnt (All Time)
+	  💰 $10 Earnt
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  💸 $3 Spent (All Time)
+	  💸 $3 Spent
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🔒 $7 Saved (All Time)
+	  🔒 $7 Saved
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Cash/Bitcoin (Current Team):</b>
+	  <b>Cash/Bitcoin (This Week):</b>
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🪙 $10 Total (This Week)
+	  🪙 $10 Total
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  💃 1 Current Team (This Week)
+	  💃 1 Current Team
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💗 $10 each Current Team Member
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Traffic (Current Team):</b>
+	  <b>Traffic (All Time):</b>
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🚀 $100 Spent (All Time)
+	  🚀 $100 Spent
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  💕 200 Referrals (All Time)
+	  💕 200 Referrals
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  💵 $1,000 Income (All Time)
+	  💵 $1,000 Income
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Passive Income (Lifetime Team):</b>
+	  <b>Passive Income (This Week):</b>
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  👻 2 Lifetime Team Members
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🔅 $3 Lowest (This Week)
+	  🔅 $3 Lowest 
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🔆 $7 Highest (This Week)
+	  🔆 $7 Highest
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Crypto Portfolio (Lifetime Team):</b>
+	  <b>Crypto Portfolio:</b>
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌑 $10,000 Bitcoin (50%)
@@ -2603,7 +2603,7 @@ async function sendStatsemail() {
 	  🌕 $1,000 Moonshots (5%)
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🧑‍🚀 $100,000 Total Portfolio Value
+	  🧑‍🚀 $100,000 Total Portfolio Value (+500%)
 	</p>
 
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
