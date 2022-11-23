@@ -2004,11 +2004,11 @@ async function sendStatsemail() {
 			</p>
 			
 	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           Rewards of "Paid Traffic" can be earnt each week and month... helping boost the automated growth of your direct referrals.
+                           Rewards of Paid Traffic can be earnt each week and month... helping boost the automated growth of your direct referrals.
 			</p>
 			
 	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-			   Weekly Rewards are based on your points earnt "This Week" and are awarded to as many users as possible... while Monthly Rewards are based on your points earnt across "All Time" and are design to be as BIG as possible!
+			   Weekly Rewards are based on your points earnt "This Week" and are awarded to as many users as possible... while Monthly Rewards are based on your points earnt across "All Time" and are designed to be as BIG as possible!
 			</p>
 			
                         <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2104,11 +2104,19 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          10X DAO content here
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>DAO = <i>Decentralized</i> Autonomous Organization</b>
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truely FREE, Scalable & Sustainable "Passive Income Machine".
+			</p>
+			
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+			   Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st Product/Market Fit, 2nd Community Participation and 3rd Sufficient Decentralization (community ownership).
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
@@ -2162,20 +2170,20 @@ async function sendStatsemail() {
                           </tbody>
                         </table>
 			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          From the Commissions & Sponsor Fees that 10X Company keeps, we subtract operating costs (e.g. web hosting, email provider, etc) and then split and distribute profits WEEKLY as follows:
-			  <br><b>50% Company:</b>
-			  <br>&nbsp;&nbsp;&nbsp; 10% Company Cash Savings
-			  <br>&nbsp;&nbsp;&nbsp; 10% Cash (or Bitcoin) to Current Team
-			  <br>&nbsp;&nbsp;&nbsp; 10% Traffic to Current Team
-			  <br>&nbsp;&nbsp;&nbsp; 10% Passive Income to Lifetime Team
-			  <br>&nbsp;&nbsp;&nbsp; 10% Crypto Investment to Lifetime Team
-			  <br><b>50% Community:</b>
-			  <br>&nbsp;&nbsp;&nbsp; 10% Crypto Rekt
-			  <br>&nbsp;&nbsp;&nbsp; 10% Bootstrapper Fund
-			  <br>&nbsp;&nbsp;&nbsp; 10% Bonus Bounty
-			  <br>&nbsp;&nbsp;&nbsp; 10% Weekly Rewards (Weekly 10X Points)
-			  <br>&nbsp;&nbsp;&nbsp; 10% Monthly Rewards (Lifetime 10X Points) 			  
+	                <p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          Profits are split and distributed WEEKLY as follows...
+			  <br><br><b>50% Company:</b>
+			  <br>🏦 10% Company Cash Savings
+			  <br>🪙 10% Cash (or Bitcoin) to Current Team
+			  <br>🚀 10% Traffic to Current Team
+			  <br>🏖️ 10% Passive Income to Lifetime Team
+			  <br>📈 10% Crypto Investment to Lifetime Team
+			  <br><br><b>50% Community:</b>
+			  <br>📉 10% Crypto Rekt
+			  <br>🥾 10% Bootstrapper Fund
+			  <br>💖 10% Bonus Bounty
+			  <br>🎊 10% Weekly Rewards
+			  <br>🎉 10% Monthly Rewards			  
 			</p>
 			
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2195,15 +2203,23 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Zeus content here
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>Zeus = <i>God</i> Level User</b>
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           The 10X referral program has a system user named Zeus sitting in the top most position... Zeus is the Direct Referrer of 10X Team members and all non-reffered signups. 
+			</p>
+			
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           Income earnt by Zeus is split 50% Traffic / 50% Profits... Profits go into a treasury that is transparently spent on community proposals (like influencer campaigns, licensing bonuses, contracting expert copywriters, etc).
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
-                                <b>Organic Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+                                <b>Non-Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>Paid Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
@@ -2374,8 +2390,16 @@ async function sendStatsemail() {
                           </tbody>
                         </table>
 			
+	                <p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+                          <b>Zeus's Treasury is currently:</b>
+			  <br>👑 $123,456.00
+			</p>
+			
 	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Zeus money spent this week on...
+                          <b>Funds recently spent on:</b>
+			  <br>😎 $10K Influencer XYZ Campaign
+			  <br>🎀 $5K Licensing ABC Bonus
+			  <br>🖊️ $20K Contracting @ExpertCopywriter
 			</p>
 			
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
