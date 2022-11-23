@@ -2172,19 +2172,46 @@ async function sendStatsemail() {
 			
 	                <p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                           Profits are split and distributed WEEKLY as follows...
-			  <br><br><b>50% Company:</b>
-			  <br>🏦 10% Company Cash Savings
-			  <br>🪙 10% Cash (or Bitcoin) to Current Team
-			  <br>🚀 10% Traffic to Current Team
-			  <br>🏖️ 10% Passive Income to Lifetime Team
-			  <br>📈 10% Crypto Investment to Lifetime Team
-			  <br><br><b>50% Community:</b>
-			  <br>📉 10% Crypto Rekt
-			  <br>🥾 10% Bootstrapper Fund
-			  <br>💖 10% Bonus Bounty
-			  <br>🎊 10% Weekly Rewards
-			  <br>🎉 10% Monthly Rewards			  
 			</p>
+			
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>50% Company:</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🏦 10% Company Cash Savings
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🪙 10% Cash (or Bitcoin) to Current Team
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🚀 10% Traffic to Current Team
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🏖️ 10% Passive Income to Lifetime Team
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  📈 10% Crypto Investment to Lifetime Team
+			</p>
+			
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>50% Community:</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  📉 10% Crypto Rekt
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🥾 10% Bootstrapper Fund
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  💖 10% Bonus Bounty
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🎊 10% Weekly Rewards
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🎉 10% Monthly Rewards
+			</p>		  
+			
 			
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
                           <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
@@ -2390,16 +2417,24 @@ async function sendStatsemail() {
                           </tbody>
                         </table>
 			
-	                <p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <b>Zeus's Treasury is currently:</b>
-			  <br>👑 $123,456.00
+			<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>Zeus's Treasury is currently:</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  👑 $123,456.00
 			</p>
 			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <b>Funds recently spent on:</b>
-			  <br>😎 $10K Influencer XYZ Campaign
-			  <br>🎀 $5K Licensing ABC Bonus
-			  <br>🖊️ $20K Contracting @ExpertCopywriter
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>Funds recently spent on:</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  😎 $10K Influencer XYZ Campaign
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🎀 $5K Licensing ABC Bonus
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🖊️ $20K Contracting @ExpertCopywriter
 			</p>
 			
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
