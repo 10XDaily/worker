@@ -975,11 +975,15 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Referral content here
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>More Referrals = More <i>Potential</i> Income</b>
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          Grow your direct referrals by sharing 10X with family, friends & followers... then sit back and watch your network of referrals grow on autopilot to Level 10!
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
@@ -1171,11 +1175,19 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Passive income content here
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>More <i>Passive</i> Income = More Freedom</b>
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          If your Direct Referrals purchase a 10X Deal you can earn 50% of the commission... plus, your Network Referrals can earn you up to 5% each from Level 1 to Level 10!
+			</p>
+			
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          Your 10X Level is currently "3" so you can earn income up to LEVEL 3... and your 10X Status is "Active" so you are eligible for earning income this week!
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
@@ -1367,11 +1379,15 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Organic traffic content here
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>More Organic Traffic = More <i>FREE</i> Referrals</b>
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          Your daily 10X News email is filled with today's most popular content... if you maintain the habit of sharing content each day it will fuel your organic traffic and increase your direct referrals! 
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;width:33%;">
@@ -1530,11 +1546,19 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Traffic content here
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>More Paid Traffic = More <i>Automated</i> Referrals</b>
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           Paid traffic is the fastest and most scalable way to accelerate the growth of your direct referrals... 10X runs paid advertising campaigns on your behalf without you ever paying us a single cent from your own pocket!
+			</p>
+			
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           How?! If you earn Passive Income, then 50% automatically gets invested into Paid Traffic... and if that traffic produces revenue within 30 days then it gets reinvested into more paid traffic! 
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;text-align:left;width:33%;">
@@ -1748,11 +1772,19 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Points content here
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>More Points = More <i>Potential</i> Rewards</b>
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           Earn points by completing any of the 5 simple daily tasks... the more points you earn each week increases your chances of winning Rewards (like $$$ towards Paid Traffic)!
+			</p>
+			
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           You earn 1pt for completing a task and if you maintain an unbroken streak for 7 days you earn 10pts... also, if you continue a streak for all 5 tasks this week then you increase your Points Multiplier by +1 (all the way up to 10X)! 
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
@@ -1943,9 +1975,6 @@ async function sendStatsemail() {
                               </td>
                               <td colspan="7" style="padding:2%;text-align:left;background:rgba(255,255,255,0.5);">
 	                        <p style="margin:0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                                  <b>70pts</b> (7 x 10pts) Weekly Streak!
-			        </p>
-	                        <p style="margin:3% 0 0 0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
                                   <b>7pts</b> (7 x 1pts) Special One Time Offer
 			        </p>
                               </td>
@@ -1970,18 +1999,26 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Rewards content here
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>More Rewards = More <i>Paid</i> Traffic</b>
 			</p>
 			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           Rewards of "Paid Traffic" can be earnt each week and month... helping boost the automated growth of your direct referrals.
+			</p>
+			
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+			   Weekly Rewards are based on your points earnt "This Week" and are awarded to as many users as possible... while Monthly Rewards are based on your points earnt across "All Time" and are design to be as BIG as possible!
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
                           <tbody>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;width:33%;">
-                                <b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                                <b>Weekly Rewards</b>
                               </td>
                               <td style="padding:2%;width:33%;">
-                                <b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Month</span></b>
+                                <b>Monthly Rewards</b>
                               </td>
                               <td style="padding:2%;width:33%;">
                                 <b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
@@ -1989,13 +2026,13 @@ async function sendStatsemail() {
                             </tr>
                             <tr style="background:rgba(255,255,255,0.5);">
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$10 x 100 users</span>
+                                $1,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$10 x 100&nbsp;users</span>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $4,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$1,000 x 4 users</span>
+                                $4,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$1,000 x 4&nbsp;users</span>
                               </td>
                               <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $123,456 <span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">across 1,234 users</span>
+                                $123,456 <span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">1,234 users</span>
                               </td>
                             </tr>
                           </tbody>
