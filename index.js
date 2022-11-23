@@ -1380,7 +1380,7 @@ async function sendStatsemail() {
     <tr>
       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
 	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <b>More Organic Traffic = More <i>FREE</i> Referrals</b>
+	  <b>Organic Traffic = <i>FREE</i> Referrals</b>
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -1547,7 +1547,7 @@ async function sendStatsemail() {
     <tr>
       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
 	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <b>More Paid Traffic = More <i>Automated</i> Referrals</b>
+	  <b>Paid Traffic = <i>Automated</i> Referrals</b>
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2097,132 +2097,6 @@ async function sendStatsemail() {
 </div>
 
 <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-🦄 10X DAO
-</h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
-  <tbody>
-    <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <b>DAO = <i>Decentralized</i> Autonomous Organization</b>
-	</p>
-
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truely FREE, Scalable & Sustainable "Passive Income Machine".
-	</p>
-
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st Product/Market Fit, 2nd Community Participation and 3rd Sufficient Decentralization (community ownership).
-	</p>
-
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
-		<b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$1,000
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$200
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$800
-	      </td>
-	    </tr>
-	  </tbody>
-	</table>
-
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
-		<b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$10,000
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$2,000
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$8,000
-	      </td>
-	    </tr>
-	  </tbody>
-	</table>
-
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  Profits are split and distributed WEEKLY as follows...
-	</p>
-
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>50% Contributors:</b>
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🏦 10% Cash Savings
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🪙 10% Cash/Bitcoin (Current Team)
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🚀 10% Traffic (Current Team)
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🏖️ 10% Passive Income (Lifetime Team)
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📈 10% Crypto Portfolio (Lifetime Team)
-	</p>
-
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>50% Community:</b>
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📉 10% Crypto Rekt
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🥾 10% Bootstrapper Fund
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  💖 10% Bonus Bounty
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🎊 10% Weekly Rewards
-	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🎉 10% Monthly Rewards
-	</p>		  
-
-
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-	</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
 ⚡ Zeus
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -2447,6 +2321,133 @@ async function sendStatsemail() {
 </div>
 
 <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+🦄 10X DAO
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>10X <i>Decentralized</i> Autonomous Organization</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truely FREE, Scalable & Sustainable "Passive Income Machine".
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st Product/Market Fit, 2nd Community Participation and 3rd Sufficient Decentralization (community ownership).
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1,000
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$200
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$800
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$10,000
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$2,000
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$8,000
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  Profits are split and distributed WEEKLY as follows...
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>50% Contributors:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🏦 10% Cash Savings
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🪙 10% Cash/Bitcoin (Current Team)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🚀 10% Traffic (Current Team)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🏖️ 10% Passive Income (Lifetime Team)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📈 10% Crypto Portfolio (Lifetime Team)
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>50% Community:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📉 10% Crypto Rekt
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🥾 10% Bootstrapper Fund
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💖 10% Bonus Bounty
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🎊 10% Weekly Rewards
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🎉 10% Monthly Rewards
+	</p>		  
+
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
 ✊ Team
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -2459,11 +2460,11 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   10X is a "lifestyle business" that earns you money outside of your day job (in just a few hours per week!)... you aren't trading time for money; instead you are building lifelong assets.
+	   10X is a "lifestyle business" that earns you money outside of your day job (in just a few hours per week!)... you aren't trading time for money; instead you are building lifetime assets.
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   As a Core Team member you "bank a week" by contributing 10+&nbsp;Hours (across 1 or more weeks) and then provide Proof-of-Contribution (PoC)... the more weeks you bank the more you own 10X; earning you a bigger slice of the Lifetime profits. 
+	   As a Core Team member you "bank a week" by contributing 10+&nbsp;Hours (across 1 or more weeks) and then provide Proof-of-Contribution (PoC)... the more weeks you bank the bigger slice you own of 10X Lifetime profits. 
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2503,7 +2504,7 @@ async function sendStatsemail() {
 		<b>Team</b>
 	      </td>
 	      <td style="padding:2%;width:33%;">
-		<b>Banked Weeks</b>
+		<b>Weeks Banked</b>
 	      </td>
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
