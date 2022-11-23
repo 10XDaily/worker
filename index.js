@@ -967,1674 +967,1674 @@ async function sendStatsemail() {
           <tr style="background-color:#f5f7fb">
             <td>
 
-	      <h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        💕 Referrals
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>More Referrals = More <i>Potential</i> Income</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          Grow your direct referrals by sharing 10X with family, friends & followers... then sit back and watch your network of referrals grow on autopilot to Level 10!
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;width:33%;">
-                                <b>10X Level</b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Active Referrals</b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Next Level</b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                3
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                6
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                67%
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>DIRECT</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 1</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 2</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 3</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 4</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 5</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 6</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 7</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 8</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 9</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 10</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.3);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>TOTAL</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                <b>0</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                <b>10</b>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        💵 Passive Income
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>More <i>Passive</i> Income = More Freedom</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          If your Direct Referrals purchase a 10X Deal you can earn 50% of the commission... plus, your Network Referrals can earn you up to 5% each from Level 1 to Level 10!
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          Your 10X Level is currently "3" so you can earn income up to LEVEL 3... and your 10X Status is "Active" so you are eligible for earning income this week!
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;width:33%;">
-                                <b>10X Status</b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                Active
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $123,456.00
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>DIRECT</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 1</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 2</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 3</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 4</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 5</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 6</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 7</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 8</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 9</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 10</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.3);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>TOTAL</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                <b>$0.00</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                <b>$10.00</b>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🌱 Organic Traffic
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>More Organic Traffic = More <i>FREE</i> Referrals</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          Your daily 10X News email is filled with today's most popular content... if you maintain the habit of sharing content each day it will fuel your organic traffic and increase your direct referrals! 
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week)</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Shares</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                7
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Views</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Referrals</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Conversion</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0%
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                10%
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Shares</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                50
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                5000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Views</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                100
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                10,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Referrals</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Conversion</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                5%
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Income</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Life-Time-Value</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🚀 Paid Traffic
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>More Paid Traffic = More <i>Automated</i> Referrals</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           Paid traffic is the fastest and most scalable way to accelerate the growth of your direct referrals... 10X runs paid advertising campaigns on your behalf without you ever paying us a single cent from your own pocket!
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           How?! If you earn Passive Income, then 50% automatically gets invested into Paid Traffic... and if that traffic produces revenue within 30 days then it gets reinvested into more paid traffic! 
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Spend</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $2,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Cost</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $5,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Revenue Reinvested</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $6,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Views</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Referrals</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                3
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Conversion</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0%
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                30%
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Spend</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $11,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Cost</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $5,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Revenue Reinvested</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $6,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Views</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                10,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Referrals</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                1000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Conversion</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                10%
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Cost-Per-Acquisition</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                -$1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Income</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $10,000
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Life-Time-Value</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $10
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🏆 Points
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>More Points = More <i>Potential</i> Rewards</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           Earn points by completing any of the 5 simple daily tasks... the more points you earn each week increases your chances of winning Rewards (like $$$ towards Paid Traffic)!
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           You earn 1pt for completing a task and if you maintain an unbroken streak for 7 days you earn 10pts... also, if you continue a streak for all 5 tasks this week then you increase your Points Multiplier by +1 (all the way up to 10X)! 
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;width:33%;">
-                                <b>Points Multiplier</b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                7X
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                35pts<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">7 x 5pts</span>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                2,000pts
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:9%;">
-                                <b>1</b>
-                              </td>
-                              <td style="padding:2%;width:9%;">
-                                <b>2</b>
-                              </td>
-                              <td style="padding:2%;width:9%;">
-                                <b>3</b>
-                              </td>
-                              <td style="padding:2%;width:9%;">
-                                <b>4</b>
-                              </td>
-                              <td style="padding:2%;width:9%;">
-                                <b>5</b>
-                              </td>
-                              <td style="padding:2%;width:9%;">
-                                <b>6</b>
-                              </td>
-                              <td style="padding:2%;width:9%;">
-                                <b>7</b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Open News Email</b>
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Open Deals Email</b>
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Share Email Content</b>
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Complete Daily Action</b>
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Visit Daily Sponsor</b>
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                1
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                              <td style="padding:0%;background:rgba(255,255,255,0.5);">
-                                0
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>Bonus Points</b>
-                              </td>
-                              <td colspan="7" style="padding:2%;text-align:left;background:rgba(255,255,255,0.5);">
-	                        <p style="margin:0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                                  <b>7pts</b> (7 x 1pts) Special One Time Offer
-			        </p>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🎉 Rewards
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>More Rewards = More <i>Paid</i> Traffic</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           Rewards of Paid Traffic can be earnt each week and month... helping boost the automated growth of your direct referrals.
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-			   Weekly Rewards are based on your points earnt "This Week" and are awarded to as many users as possible... while Monthly Rewards are based on your points earnt across "All Time" and are designed to be as BIG as possible!
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;width:33%;">
-                                <b>Weekly Rewards</b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Monthly Rewards</b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$10 x 100&nbsp;users</span>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $4,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$1,000 x 4&nbsp;users</span>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $123,456 <span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">1,234 users</span>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>You</b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Top 10 Avg.</b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>This Week</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>This Month</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $10.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>All Time</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $0.00
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $100.00
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+<h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+💕 Referrals
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>More Referrals = More <i>Potential</i> Income</b>
+	</p>
 
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🦄 10X DAO
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>DAO = <i>Decentralized</i> Autonomous Organization</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truely FREE, Scalable & Sustainable "Passive Income Machine".
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-			   Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st Product/Market Fit, 2nd Community Participation and 3rd Sufficient Decentralization (community ownership).
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;width:33%;">
-                                <b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1,000
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $200
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $800
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;width:33%;">
-                                <b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $10,000
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $2,000
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $8,000
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-	                <p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Profits are split and distributed WEEKLY as follows...
-			</p>
-			
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>50% Contributors:</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🏦 10% Cash Savings
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🪙 10% Cash/Bitcoin (Current Team)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🚀 10% Traffic (Current Team)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🏖️ 10% Passive Income (Lifetime Team)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  📈 10% Crypto Portfolio (Lifetime Team)
-			</p>
-			
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>50% Community:</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  📉 10% Crypto Rekt
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🥾 10% Bootstrapper Fund
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  💖 10% Bonus Bounty
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🎊 10% Weekly Rewards
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🎉 10% Monthly Rewards
-			</p>		  
-			
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  Grow your direct referrals by sharing 10X with family, friends & followers... then sit back and watch your network of referrals grow on autopilot to Level 10!
+	</p>
 
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        ⚡ Zeus
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>Zeus = <i>God</i> Level User</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           The 10X referral program has a system user named Zeus sitting in the top most position... Zeus is the Direct Referrer of 10X Team members and all non-reffered signups. 
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           Income earnt by Zeus is split 50% Traffic / 50% Profits... Profits go into a treasury that is transparently spent on community proposals (like influencer campaigns, licensing bonuses, contracting expert copywriters, etc).
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;width:33%;">
-                                <b>Non-Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Paid Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                100
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                200
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $800,000
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>DIRECT</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                50
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $100.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 1</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 2</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 3</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 4</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 5</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 6</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 7</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 8</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 9</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>LEVEL 10</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                $1.00
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.3);">
-                              <td style="padding:2%;text-align:left;">
-                                <b>TOTAL</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                <b>456</b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                <b>$120.00</b>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-			<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>Zeus's Treasury is currently:</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  👑 $123,456.00
-			</p>
-			
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>Funds recently spent on:</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  😎 $10K Influencer XYZ Campaign
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🎀 $5K Licensing ABC Bonus
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🖊️ $20K Contracting @ExpertCopywriter
-			</p>
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        ✊ Team
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <b>Built by Side-Hustlers <i>for</i> Side-Hustlers</b>
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           10X is a "lifestyle business" that earns you money outside of your day job (in just a few hours per week!)... you aren't trading time for money; instead you are building lifelong assets.
-			</p>
-			
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                           As a Core Team member you "bank a week" by contributing 10+&nbsp;Hours (across 1 or more weeks) and then provide Proof-of-Contribution (PoC)... the more weeks you bank the more you own 10X; earning you a bigger slice of the Lifetime profits. 
-			</p>
-			
-                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Contribution<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Hours<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                <a href="https://twitter.com/chrisleejacob" target="_blank" style="color:rgba(0,0,0,0.5);">2022-11-23</a>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-                          <tbody>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;width:33%;">
-                                &nbsp;
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Team</b>
-                              </td>
-                              <td style="padding:2%;width:33%;">
-                                <b>Banked Weeks</b>
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Example</a></b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                Lifetime
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                123
-                              </td>
-                            </tr>
-                            <tr style="background:rgba(255,255,255,0.5);">
-                              <td style="padding:2%;text-align:left;">
-                                <b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                Current
-                              </td>
-                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
-                                10
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-			
-			<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>Cash Savings:</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  💰 $10 Earnt (All Time)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  💸 $3 Spent (All Time)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🔒 $7 Saved (All Time)
-			</p>
-			
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>Cash/Bitcoin (Current Team):</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🪙 $10 Total (This Week)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  💃 1 Current Team (This Week)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  💗 $10 each Current Team Member
-			</p>
-			
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>Traffic (Current Team):</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🚀 $100 Spent (All Time)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  💕 200 Referrals (All Time)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  💵 $1,000 Income (All Time)
-			</p>
-			
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>Passive Income (Lifetime Team):</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  👻 2 Lifetime Team Members
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🔅 $3 Lowest (This Week)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🔆 $7 Highest (This Week)
-			</p>
-			
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>Crypto Portfolio (Lifetime Team):</b>
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🌑 $10,000 Bitcoin (50%)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🌒 $5,000 Ethereum (25%)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🌓 $2,000 Cardano (10%)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🌔 $2,000 Solana (10%)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🌕 $1,000 Moonshots (5%)
-			</p>
-			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🧑‍🚀 $100,000 Total Portfolio Value
-			</p>
-			
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>10X Level</b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Active Referrals</b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Next Level</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		3
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		6
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		67%
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
 
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🤓 Meta
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
-                          <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
-                          <br><b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}
-                          <br><b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}
-                          <br><b>Message ID:</b> {{CONTACT \`message_id\`}}
-                          <br><b>Subscriber ID:</b> {{CONTACT \`subscriber_id\`}}
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>DIRECT</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 1</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 2</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 3</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 4</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 5</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 6</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 7</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 8</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 9</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 10</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.3);">
+	      <td style="padding:2%;text-align:left;">
+		<b>TOTAL</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		<b>0</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		<b>10</b>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+💵 Passive Income
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>More <i>Passive</i> Income = More Freedom</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  If your Direct Referrals purchase a 10X Deal you can earn 50% of the commission... plus, your Network Referrals can earn you up to 5% each from Level 1 to Level 10!
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  Your 10X Level is currently "3" so you can earn income up to LEVEL 3... and your 10X Status is "Active" so you are eligible for earning income this week!
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>10X Status</b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		Active
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$123,456.00
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>DIRECT</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 1</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 2</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 3</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 4</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 5</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 6</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 7</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 8</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 9</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 10</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.3);">
+	      <td style="padding:2%;text-align:left;">
+		<b>TOTAL</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		<b>$0.00</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		<b>$10.00</b>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+🌱 Organic Traffic
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>More Organic Traffic = More <i>FREE</i> Referrals</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  Your daily 10X News email is filled with today's most popular content... if you maintain the habit of sharing content each day it will fuel your organic traffic and increase your direct referrals! 
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week)</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Shares</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		7
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Views</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Referrals</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Conversion</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		10%
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Shares</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		50
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		5000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Views</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		100
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		10,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Referrals</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Conversion</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		5%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Income</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Life-Time-Value</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+🚀 Paid Traffic
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>More Paid Traffic = More <i>Automated</i> Referrals</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   Paid traffic is the fastest and most scalable way to accelerate the growth of your direct referrals... 10X runs paid advertising campaigns on your behalf without you ever paying us a single cent from your own pocket!
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   How?! If you earn Passive Income, then 50% automatically gets invested into Paid Traffic... and if that traffic produces revenue within 30 days then it gets reinvested into more paid traffic! 
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Spend</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$2,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Cost</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$5,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Revenue Reinvested</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$6,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Views</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Referrals</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		3
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Conversion</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		30%
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Spend</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$11,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Cost</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$5,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Revenue Reinvested</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$6,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Views</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		10,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Referrals</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		1000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Conversion</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		10%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Cost-Per-Acquisition</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		-$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Income</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$10,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Life-Time-Value</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$10
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+🏆 Points
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>More Points = More <i>Potential</i> Rewards</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   Earn points by completing any of the 5 simple daily tasks... the more points you earn each week increases your chances of winning Rewards (like $$$ towards Paid Traffic)!
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   You earn 1pt for completing a task and if you maintain an unbroken streak for 7 days you earn 10pts... also, if you continue a streak for all 5 tasks this week then you increase your Points Multiplier by +1 (all the way up to 10X)! 
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>Points Multiplier</b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		7X
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		35pts<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">7 x 5pts</span>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		2,000pts
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:9%;">
+		<b>1</b>
+	      </td>
+	      <td style="padding:2%;width:9%;">
+		<b>2</b>
+	      </td>
+	      <td style="padding:2%;width:9%;">
+		<b>3</b>
+	      </td>
+	      <td style="padding:2%;width:9%;">
+		<b>4</b>
+	      </td>
+	      <td style="padding:2%;width:9%;">
+		<b>5</b>
+	      </td>
+	      <td style="padding:2%;width:9%;">
+		<b>6</b>
+	      </td>
+	      <td style="padding:2%;width:9%;">
+		<b>7</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Open News Email</b>
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Open Deals Email</b>
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Share Email Content</b>
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Complete Daily Action</b>
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Visit Daily Sponsor</b>
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		1
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Bonus Points</b>
+	      </td>
+	      <td colspan="7" style="padding:2%;text-align:left;background:rgba(255,255,255,0.5);">
+		<p style="margin:0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+		  <b>7pts</b> (7 x 1pts) Special One Time Offer
+		</p>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+🎉 Rewards
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>More Rewards = More <i>Paid</i> Traffic</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   Rewards of Paid Traffic can be earnt each week and month... helping boost the automated growth of your direct referrals.
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   Weekly Rewards are based on your points earnt "This Week" and are awarded to as many users as possible... while Monthly Rewards are based on your points earnt across "All Time" and are designed to be as BIG as possible!
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>Weekly Rewards</b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Monthly Rewards</b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$10 x 100&nbsp;users</span>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$4,000<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$1,000 x 4&nbsp;users</span>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$123,456 <span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">1,234 users</span>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>You</b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Top 10 Avg.</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>This Week</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>This Month</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$10.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>All Time</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$100.00
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+🦄 10X DAO
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>DAO = <i>Decentralized</i> Autonomous Organization</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truely FREE, Scalable & Sustainable "Passive Income Machine".
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st Product/Market Fit, 2nd Community Participation and 3rd Sufficient Decentralization (community ownership).
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1,000
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$200
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$800
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$10,000
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$2,000
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$8,000
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  Profits are split and distributed WEEKLY as follows...
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>50% Contributors:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🏦 10% Cash Savings
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🪙 10% Cash/Bitcoin (Current Team)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🚀 10% Traffic (Current Team)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🏖️ 10% Passive Income (Lifetime Team)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📈 10% Crypto Portfolio (Lifetime Team)
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>50% Community:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📉 10% Crypto Rekt
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🥾 10% Bootstrapper Fund
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💖 10% Bonus Bounty
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🎊 10% Weekly Rewards
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🎉 10% Monthly Rewards
+	</p>		  
+
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+⚡ Zeus
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>Zeus = <i>God</i> Level User</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   The 10X referral program has a system user named Zeus sitting in the top most position... Zeus is the Direct Referrer of 10X Team members and all non-reffered signups. 
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   Income earnt by Zeus is split 50% Traffic / 50% Profits... Profits go into a treasury that is transparently spent on community proposals (like influencer campaigns, licensing bonuses, contracting expert copywriters, etc).
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:33%;">
+		<b>Non-Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Paid Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		100
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		200
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$800,000
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>DIRECT</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		50
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$100.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 1</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 2</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 3</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 4</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 5</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 6</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 7</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 8</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 9</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>LEVEL 10</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$1.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.3);">
+	      <td style="padding:2%;text-align:left;">
+		<b>TOTAL</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		<b>456</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		<b>$120.00</b>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Zeus's Treasury is currently:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  👑 $123,456.00
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Funds recently spent on:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  😎 $10K Influencer XYZ Campaign
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🎀 $5K Licensing ABC Bonus
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🖊️ $20K Contracting @ExpertCopywriter
+	</p>
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+✊ Team
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <b>Built by Side-Hustlers <i>for</i> Side-Hustlers</b>
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   10X is a "lifestyle business" that earns you money outside of your day job (in just a few hours per week!)... you aren't trading time for money; instead you are building lifelong assets.
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   As a Core Team member you "bank a week" by contributing 10+&nbsp;Hours (across 1 or more weeks) and then provide Proof-of-Contribution (PoC)... the more weeks you bank the more you own 10X; earning you a bigger slice of the Lifetime profits. 
+	</p>
+
+	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Contribution<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Hours<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		<a href="https://twitter.com/chrisleejacob" target="_blank" style="color:rgba(0,0,0,0.5);">2022-11-23</a>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;width:33%;">
+		&nbsp;
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Team</b>
+	      </td>
+	      <td style="padding:2%;width:33%;">
+		<b>Banked Weeks</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Example</a></b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		Lifetime
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		123
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		Current
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		10
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Cash Savings:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💰 $10 Earnt (All Time)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💸 $3 Spent (All Time)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🔒 $7 Saved (All Time)
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Cash/Bitcoin (Current Team):</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🪙 $10 Total (This Week)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💃 1 Current Team (This Week)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💗 $10 each Current Team Member
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Traffic (Current Team):</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🚀 $100 Spent (All Time)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💕 200 Referrals (All Time)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💵 $1,000 Income (All Time)
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Passive Income (Lifetime Team):</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  👻 2 Lifetime Team Members
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🔅 $3 Lowest (This Week)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🔆 $7 Highest (This Week)
+	</p>
+
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Crypto Portfolio (Lifetime Team):</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🌑 $10,000 Bitcoin (50%)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🌒 $5,000 Ethereum (25%)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🌓 $2,000 Cardano (10%)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🌔 $2,000 Solana (10%)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🌕 $1,000 Moonshots (5%)
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🧑‍🚀 $100,000 Total Portfolio Value
+	</p>
+
+	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+🤓 Meta
+</h1>
+<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
+<table style="padding:0px 0px;width:100%">
+  <tbody>
+    <tr>
+      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
+	  <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
+	  <br><b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}
+	  <br><b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}
+	  <br><b>Message ID:</b> {{CONTACT \`message_id\`}}
+	  <br><b>Subscriber ID:</b> {{CONTACT \`subscriber_id\`}}
+	</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
             </td>
           </tr>
