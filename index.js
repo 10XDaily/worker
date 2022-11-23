@@ -2175,22 +2175,22 @@ async function sendStatsemail() {
 			</p>
 			
 			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  <b>50% Company:</b>
+			  <b>50% Contributors:</b>
 			</p>
 			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🏦 10% Company Cash Savings
+			  🏦 10% Cash Savings
 			</p>
 			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🪙 10% Cash (or Bitcoin) to Current Team
+			  🪙 10% Cash/Bitcoin (Current Team)
 			</p>
 			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🚀 10% Traffic to Current Team
+			  🚀 10% Traffic (Current Team)
 			</p>
 			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  🏖️ 10% Passive Income to Lifetime Team
+			  🏖️ 10% Passive Income (Lifetime Team)
 			</p>
 			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-			  📈 10% Crypto Investment to Lifetime Team
+			  📈 10% Crypto Portfolio (Lifetime Team)
 			</p>
 			
 			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
@@ -2454,8 +2454,155 @@ async function sendStatsemail() {
                   <tbody>
                     <tr>
                       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          Team content here... hours spent, proof of work, current team, lifetime team...
+	                <p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                          <b>Built by Side-Hustlers <i>for</i> Side-Hustlers</b>
+			</p>
+			
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           10X is a "lifestyle business" that earns you money outside of your day job (in just a few hours per week!)... you aren't trading time for money; instead you are building lifelong assets.
+			</p>
+			
+	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+                           As a Core Team member you "bank a week" by contributing 10+&nbsp;Hours (across 1 or more weeks) and then provide Proof-of-Contribution (PoC)... the more weeks you bank the more you own 10X; earning you a bigger slice of the Lifetime profits. 
+			</p>
+			
+                        <table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+                          <tbody>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;width:33%;">
+                                &nbsp;
+                              </td>
+                              <td style="padding:2%;width:33%;">
+                                <b>Contribution<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                              </td>
+                              <td style="padding:2%;width:33%;">
+                                <b>Hours<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                <a href="https://twitter.com/chrisleejacob" target="_blank" style="color:rgba(0,0,0,0.5);">2022-11-23</a>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                10
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+			
+                        <table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+                          <tbody>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;width:33%;">
+                                &nbsp;
+                              </td>
+                              <td style="padding:2%;width:33%;">
+                                <b>Team</b>
+                              </td>
+                              <td style="padding:2%;width:33%;">
+                                <b>Banked Weeks</b>
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Example</a></b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                Lifetime
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                123
+                              </td>
+                            </tr>
+                            <tr style="background:rgba(255,255,255,0.5);">
+                              <td style="padding:2%;text-align:left;">
+                                <b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                Current
+                              </td>
+                              <td style="padding:2%;background:rgba(255,255,255,0.5);">
+                                10
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+			
+			<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>Cash Savings:</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  💰 $10 Earnt (All Time)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  💸 $3 Spent (All Time)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🔒 $7 Saved (All Time)
+			</p>
+			
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>Cash/Bitcoin (Current Team):</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🪙 $10 Total (This Week)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  💃 1 Current Team (This Week)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  💗 $10 each Current Team Member
+			</p>
+			
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>Traffic (Current Team):</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🚀 $100 Spent (All Time)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  💕 200 Referrals (All Time)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  💵 $1,000 Income (All Time)
+			</p>
+			
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>Passive Income (Lifetime Team):</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  👻 2 Lifetime Team Members
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🔅 $3 Lowest (This Week)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🔆 $7 Highest (This Week)
+			</p>
+			
+			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  <b>Crypto Portfolio (Lifetime Team):</b>
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🌑 $10,000 Bitcoin (50%)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🌒 $5,000 Ethereum (25%)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🌓 $2,000 Cardano (10%)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🌔 $2,000 Solana (10%)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🌕 $1,000 Moonshots (5%)
+			</p>
+			<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+			  🧑‍🚀 $100,000 Total Portfolio Value
 			</p>
 			
                         <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
