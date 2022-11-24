@@ -1852,7 +1852,7 @@ async function sendStatsemail() {
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
 		1
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td style="padding:0%;background:rgba(255,255,255,0.75);">
 		10
 	      </td>
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
@@ -1878,7 +1878,7 @@ async function sendStatsemail() {
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
 		1
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td style="padding:0%;background:rgba(255,255,255,0.75);">
 		10
 	      </td>
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
@@ -1904,7 +1904,7 @@ async function sendStatsemail() {
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
 		1
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td style="padding:0%;background:rgba(255,255,255,0.75);">
 		10
 	      </td>
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
@@ -1930,7 +1930,7 @@ async function sendStatsemail() {
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
 		1
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td style="padding:0%;background:rgba(255,255,255,0.75);">
 		10
 	      </td>
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
@@ -1959,7 +1959,7 @@ async function sendStatsemail() {
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td style="padding:0%;background:rgba(255,255,255,0.75);">
 		10
 	      </td>
 	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
