@@ -1777,7 +1777,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   Earn points by completing any of the 5 simple daily tasks... the more points you earn each week increases your chances of winning Rewards (like $$$ towards Paid Traffic)!
+	   Earn points by completing any of the 5 simple daily tasks... the more points you earn each week increases your chances of winning Rewards (i.e. Paid Traffic)!
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -1981,6 +1981,50 @@ async function sendStatsemail() {
 	    </tr>
 	  </tbody>
 	</table>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Your Streak:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📧 0 Open News Email
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🧧 0 Open Deals Email
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  👍 0 Share Email Content
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  ✅ 0 Complete Daily Action
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🌟 0 Visit Daily Sponsor
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🖐🏽 0 Complete All 5 Tasks
+	</p>
+		
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Top 10 Avg. Streak:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📧 11 Open News Email
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🧧 11 Open Deals Email
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  👍 11 Share Email Content
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  ✅ 11 Complete Daily Action
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🌟 11 Visit Daily Sponsor
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🖐🏽 11 Complete All 5 Tasks
+	</p>
 
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
