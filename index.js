@@ -2117,13 +2117,13 @@ async function sendStatsemail() {
 	  <b>#10X Social Rewards:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🐦 $5 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Example</a> for liking on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
+	  🐦 $5 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Example</a> for LIKE on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📘 $98 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for posting on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
+	  📘 $98 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for POST on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🤘 $37 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Name</a> for commenting on <a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>
+	  🤘 $37 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Name</a> for COMMENT on <a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>
 	</p>
 
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2331,10 +2331,16 @@ async function sendStatsemail() {
 	</table>
 
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Zeus's Treasury is currently:</b>
+	  <b>Zeus's Treasury:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  👑 $123,456.00
+	  💎 $123,456.00 Earnt
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  👑 $100,456.00 Spent
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💛 $23,000.00 Saved
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
@@ -2785,56 +2791,104 @@ async function sendStatsemail() {
 	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🐦 0 Followers • 0 Views • 0&nbsp;Clicks
+	   🐦 0 Followers
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   🐦 0 Views
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   🐦 0 Clicks
 	</p>
 	
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🤘 0 Followers • 0 Views • 0&nbsp;Clicks
+	   🤘 0 Followers
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   🤘 0 Views
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   🤘 0 Clicks
 	</p>
 	
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">YouTube</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📺 0 Followers • 0 Views • 0&nbsp;Clicks
+	   📺 0 Subscribers
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   📺 0 Views
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   📺 0 Clicks
 	</p>
 	
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">TikTok</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🕺 0 Followers • 0 Views • 0&nbsp;Clicks
+	   🕺 0 Followers
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   🕺 0 Views
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   🕺 0 Clicks
 	</p>
 	
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📘 0 Followers • 0 Views • 0&nbsp;Clicks
+	   📘 0 Followers
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   📘 0 Views
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   📘 0 Clicks
 	</p>
 	
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Instagram</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📷 0 Followers • 0 Views • 0&nbsp;Clicks
+	   📷 0 Followers
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   📷 0 Views
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   📷 0 Clicks
 	</p>
 	
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">LinkedIn</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   👔 0 Followers • 0 Views • 0&nbsp;Clicks
+	   👔 0 Followers
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   👔 0 Views
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   👔 0 Clicks
 	</p>
 	
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Giphy</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🌈 0 Followers • 0 Views • 0&nbsp;Clicks
+	   🌈 0 Uploads
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   🌈 0 Views
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	   🌈 0 Clicks
 	</p>
 	
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2854,6 +2908,10 @@ async function sendStatsemail() {
   <tbody>
     <tr>
       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">View Historical 10X Stats Spreadsheet</a></b>
+	</p>
+	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
 	  <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
