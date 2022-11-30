@@ -1963,44 +1963,44 @@ async function sendStatsemail() {
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Your Streak:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  📧 0 Open News Email
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🧧 0 Open Deals Email
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  👍 0 Share Email Content
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  ✅ 0 Complete Daily Action
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌟 0 Visit Daily Sponsor
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🖐🏽 0 Complete All 5 Tasks
 	</p>
 		
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Top 10 Avg. Streak:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  📧 11 Open News Email
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🧧 11 Open Deals Email
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  👍 11 Share Email Content
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  ✅ 11 Complete Daily Action
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌟 11 Visit Daily Sponsor
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🖐🏽 11 Complete All 5 Tasks
 	</p>
 
@@ -2116,13 +2116,13 @@ async function sendStatsemail() {
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>#10X Social Rewards:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  👍 $5 to <a href="https://10x.day" target="_blank" style="color:#677489;">@ExampleUser</a> for liking on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  📨 $98 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for posting on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  ✍️ $37 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Name</a> for commenting on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
 	</p>
 
@@ -2333,23 +2333,23 @@ async function sendStatsemail() {
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Zeus's Treasury is currently:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  👑 $123,456.00
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Funds recently spent on:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  😎 $10K Influencer XYZ Campaign
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🎀 $5K Licensing ABC Bonus
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🖊️ $20K Contracting @ExpertCopywriter
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  😊 $12K #10X Social Rewards
 	</p>
 
@@ -2437,44 +2437,44 @@ async function sendStatsemail() {
 	</table>
 
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  Profits are split and distributed WEEKLY as follows...
+	  Profits are distributed WEEKLY as follows...
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>50% Team:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🏦 10% Savings
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🪙 10% Cash/Bitcoin (Current Team)
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🚀 10% Traffic (Current Team)
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🏖️ 10% Passive Income (Lifetime Team)
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  📈 10% Crypto Portfolio (Lifetime Team)
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>50% Community:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  📉 10% Crypto Rekt
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🥾 10% Bootstrap Fund
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💖 10% Bonus Bounty
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🎊 10% Weekly Rewards
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🎉 10% Monthly Rewards
 	</p>		  
 
@@ -2502,11 +2502,11 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   10X is a "lifestyle business" that earns you money outside of your day job in just a few hours per week!... stop trading time for money, escape the rat race, and build lifelong assets.
+	   10X is a "lifestyle business" that earns you money outside of your day job (in just a few hours per week)... stop trading time for money and escape the rat race by building lifelong assets!
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   As a Core Team member you "bank a week" by contributing 10+&nbsp;Hours (across 1 or more weeks) and then provide Proof-of-Contribution... the more weeks you bank the bigger slice you own of 10X Lifetime profits. 
+	   As a team member you "bank a week" by contributing 10+ hours (across 1 or more weeks) and then provide Proof-of-Contribution... the more weeks you bank the more you own and can earn from Current Team and Lifetime Team profits.
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2577,74 +2577,74 @@ async function sendStatsemail() {
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Savings (All Time):</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💰 $10 Earnt
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💸 $3 Spent
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🔒 $7 Saved
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Cash/Bitcoin (This Week):</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🪙 $10 Total
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💃 1 Current Team
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💗 $10 each Current Team Member
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Traffic (All Time):</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🚀 $100 Spent
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💕 200 Referrals
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💵 $1,000 Income
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Passive Income (This Week):</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  👻 2 Lifetime Team Members
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🔅 $3 Lowest 
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🔆 $7 Highest
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Crypto Portfolio:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌑 $10,000 Bitcoin (50%)
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌒 $5,000 Ethereum (25%)
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌓 $2,000 Cardano (10%)
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌔 $2,000 Solana (10%)
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌕 $1,000 Moonshots (5%)
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🧑‍🚀 $100,000 Total Portfolio Value (+500%)
 	</p>
 
@@ -2669,21 +2669,17 @@ async function sendStatsemail() {
 	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  <b>Community is <i>Everything</i></b>
 	</p>
-
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   The 10X Community has 3 core pillars to support Web3 Adoption, Boostrapping Businesses & Freelance Creatives...
-	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <b>Crypto Rekt</b> is helping <b>123</b> people who have lost <b>90%+</b> in crypto projects. The program aims to get members their first <b>10</b> Direct Referrals. Currently earning an average of <b>$...</b>.  
+	   Crypto Rekt is helping <b>123</b> crypto adopters who have experianced 80%-100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <b>Bootstrap Fund</b> is helping <b>10</b> ambitious entrepreneurs get their first <b>100</b> Direct Referrals. Currently earning an average of <b>$...</b>.  
+	   Bootstrap Fund is enabling <b>16</b> ambitious entrepreneurs to self fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <b>Bonus Bounty</b> is helping <b>12</b> freelance creatives build a passive traffic source to grow their Direct Referrals. Currently earning an average of <b>$...</b>.  
+	   Bonus Bounty has rewarded <b>12</b> freelance creatives with Paid Traffic for building epic 10X Bonuses... The program has a treasury of <b>$1,234</b> to be earnt!
 	</p>
 
 
@@ -2788,10 +2784,31 @@ async function sendStatsemail() {
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  <b>Social Stats:</b>
 	</p>
-	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🐦 0 Twitter Followers
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🐦 <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a> 0 Followers • 0 Views • 0&nbsp;Clicks
 	</p>
-
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🤘 <a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📺 <a href="https://10x.day" target="_blank" style="color:#677489;">YouTube</a> 0 Subscribers • 0 Views • 0&nbsp;Clicks
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕺 <a href="https://10x.day" target="_blank" style="color:#677489;">TikTok</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📘 <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📷 <a href="https://10x.day" target="_blank" style="color:#677489;">Instagram</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  👔 <a href="https://10x.day" target="_blank" style="color:#677489;">LinkedIn</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🌈 <a href="https://10x.day" target="_blank" style="color:#677489;">Giphy</a> 0 Uploads • 0 Views • 0&nbsp;Clicks
+	</p>
+	
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
 	</p>
