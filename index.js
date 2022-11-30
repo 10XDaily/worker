@@ -1188,7 +1188,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  Your 10X Level is currently <b>0</b> so you can earn income up to <b>DIRECT</b>... and your 10X Status is <b>Active</b> so you are eligible for earning income this week!
+	  Your 10X Level is currently <b>0</b> so you can earn income up to <b>LEVEL 0 (DIRECT)</b>... and your 10X Status is <b>ACTIVE</b> so you are <b>ELIGIBLE</b> for earning income this week!
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -1387,6 +1387,10 @@ async function sendStatsemail() {
 	  <b>Organic Traffic = <i>FREE</i> Referrals</b>
 	</p>
 
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	  Your referral link: <b><a href="https://10X.day?ref=123" target="_blank" style="color:#677489;">https://10X.day?ref=123</a></b>
+	</p>
+	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  Your daily 10X News email is filled with today's most popular content... if you maintain the habit of sharing content each day it will fuel your organic traffic and increase your direct referrals! 
 	</p>
@@ -2038,7 +2042,7 @@ async function sendStatsemail() {
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   #10X Social Rewards randomly gives $1 to $100 to users engaging on social media with the hashtag #10X
+	   #10X Social Rewards randomly gives $1 to $100 Paid Traffic to users engaging on social media with the hashtag #10X
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2059,7 +2063,7 @@ async function sendStatsemail() {
 		$0.00<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$0.00 x 0&nbsp;users</span>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$0.00 x 4&nbsp;users</span>
+		$0.00<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$0.00 x 0&nbsp;users</span>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$0.00 <span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">0&nbsp;users</span>
@@ -2121,13 +2125,13 @@ async function sendStatsemail() {
 	  <b>#10X Social Rewards:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🐦 $0 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User1</a> for LIKE on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
+	  🐦 $0.00 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User1</a> for LIKE on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📘 $0 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for POST on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
+	  📘 $0.00 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for COMMENT on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🤘 $0 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User3</a> for COMMENT on <a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>
+	  🤘 $0.00 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User3</a> for POST on <a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>
 	</p>
 
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2389,7 +2393,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st Product/Market Fit, 2nd Community Participation and 3rd Sufficient Decentralization (community ownership).
+	   Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st&nbsp;Product/Market Fit, 2nd&nbsp;Community Participation and 3rd&nbsp;Sufficient Decentralization (community ownership).
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2457,7 +2461,7 @@ async function sendStatsemail() {
 	  🏦 10% Savings
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🪙 10% Cash/Bitcoin (Current Team)
+	  🪙 10% Cash or Bitcoin (Current Team)
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🚀 10% Traffic (Current Team)
@@ -2516,7 +2520,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   As a team member you "bank a week" by contributing 10+ hours (across 1 or more weeks) and then provide Proof-of-Contribution... the more weeks you bank the more you own and can earn from Current Team and Lifetime Team profits.
+	   As a team member you "bank a week" by contributing 10+&nbsp;hours (across 1 or more weeks) and then provide Proof-of-Contribution... the more weeks you bank the more you own and can earn from Current Team and Lifetime Team profits.
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2561,17 +2565,6 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">User4</a></b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		Lifetime
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
 		<b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
@@ -2598,7 +2591,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Cash/Bitcoin (This Week):</b>
+	  <b>Cash or Bitcoin (This Week):</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🪙 $0.00 Total
@@ -2681,7 +2674,7 @@ async function sendStatsemail() {
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <a href="https://10x.day" target="_blank" style="color:#677489;">Crypto Rekt</a> is helping <b>0</b> crypto adopters who have experianced 80%-100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
+	   <a href="https://10x.day" target="_blank" style="color:#677489;">Crypto Rekt</a> is helping <b>0</b> crypto adopters who have experianced 80% to 100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
