@@ -1188,7 +1188,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  Your 10X Level is currently <b>0</b> so you can earn income up to <b>LEVEL 0 (DIRECT)</b>... and your 10X Status is <b>ACTIVE</b> so you are <b>ELIGIBLE</b> for earning income this week!
+	  Your 10X Level is currently <b>0</b> so you can earn income up to <b>LEVEL&nbsp;0&nbsp;(DIRECT)</b>... and your 10X Status is <b>ACTIVE</b> so you are <b>ELIGIBLE</b> for earning income this week!
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
