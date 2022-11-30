@@ -1517,7 +1517,7 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Life-Time-Value</b>
+		<b>LTV</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$0.00
@@ -1555,7 +1555,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   How?! If you earn Passive Income, then 50% automatically gets invested into Paid Traffic... and if that traffic produces revenue within 30 days then it gets reinvested into more paid traffic! 
+	   How?! If you earn Passive Income, then 50% automatically gets invested into Paid Traffic... and if that traffic produces revenue within 100 days then it gets reinvested into more paid traffic! 
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -1573,17 +1573,6 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Spend</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$2,000
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
 		<b>Cost</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
@@ -1591,17 +1580,6 @@ async function sendStatsemail() {
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$5,000
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Revenue Reinvested</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$6,000
 	      </td>
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
@@ -1637,6 +1615,17 @@ async function sendStatsemail() {
 		30%
 	      </td>
 	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Revenue (Reinvested)</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$6,000
+	      </td>
+	    </tr>
 	  </tbody>
 	</table>
 
@@ -1655,17 +1644,6 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Spend</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$11,000
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
 		<b>Cost</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
@@ -1673,17 +1651,6 @@ async function sendStatsemail() {
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$5,000
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Revenue Reinvested</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$6,000
 	      </td>
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
@@ -1721,7 +1688,18 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Cost-Per-Acquisition</b>
+		<b>Revenue (Reinvested)</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$6,000
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>CPA</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$0.00
@@ -1743,7 +1721,7 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Life-Time-Value</b>
+		<b>LTV</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$0.00
