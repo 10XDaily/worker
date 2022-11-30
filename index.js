@@ -1392,7 +1392,7 @@ async function sendStatsemail() {
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  Your referral link: <b><a href="https://10X.day?ref=123" target="_blank" style="color:#000;background-color:yellow;padding:1.5%;border-radius:4px;border:2px dashed rgba(0,0,0,0.25);text-decoration:none;">https://10X.day?ref=123</a></b>
+	  Your referral link: <b><a href="https://10X.day?ref=123" target="_blank" style="color:#000;background-color:yellow;padding:1%;border-radius:4px;border:2px dashed rgba(0,0,0,0.25);text-decoration:none;">https://10X.day?ref=123</a></b>
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
