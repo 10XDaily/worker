@@ -1563,7 +1563,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   How?! If you earn Passive Income, then 50% automatically gets invested into Paid Traffic... and if that traffic produces revenue within 100 days then it gets reinvested into more paid traffic! 
+	   How?! If you earn Passive Income, then 50% automatically gets invested into Paid Traffic... and if that traffic produces revenue within 100 days, then it gets reinvested into more paid traffic! 
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2156,7 +2156,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   The 10X referral program has a system user named Zeus sitting in the top most position... Zeus is the Direct Referrer of 10X Team members and all non-referred signups. 
+	   The 10X referral program has a system user named Zeus sitting in the highest position... Zeus is the Direct Referrer of 10X Team members and all non-referred signups. 
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2389,7 +2389,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truely FREE, Scalable & Sustainable "Passive Income Machine".
+	   10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truly FREE, Scalable & Sustainable "Passive Income Machine".
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2674,11 +2674,11 @@ async function sendStatsemail() {
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <a href="https://10x.day" target="_blank" style="color:#677489;">Crypto Rekt</a> is helping <b>0</b> crypto adopters who have experianced 80% to 100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
+	   <a href="https://10x.day" target="_blank" style="color:#677489;">Crypto Rekt</a> is helping <b>0</b> crypto adopters who have experienced 80% to 100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <a href="https://10x.day" target="_blank" style="color:#677489;">Bootstrap Fund</a> is enabling <b>0</b> ambitious entrepreneurs to self fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!
+	   <a href="https://10x.day" target="_blank" style="color:#677489;">Bootstrap Fund</a> is enabling <b>0</b> ambitious entrepreneurs to self-fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
