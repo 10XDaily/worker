@@ -2787,109 +2787,141 @@ async function sendStatsemail() {
 	  </tbody>
 	</table>
 
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>:</b>
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🐦 0 Followers
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🐦 0 Views
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🐦 0 Clicks
-	</p>
-	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>:</b>
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🤘 0 Followers
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🤘 0 Views
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🤘 0 Clicks
-	</p>
-	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">YouTube</a>:</b>
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📺 0 Subscribers
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📺 0 Views
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📺 0 Clicks
-	</p>
-	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">TikTok</a>:</b>
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🕺 0 Followers
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🕺 0 Views
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🕺 0 Clicks
-	</p>
-	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>:</b>
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📘 0 Followers
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📘 0 Views
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📘 0 Clicks
-	</p>
-	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Instagram</a>:</b>
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📷 0 Followers
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📷 0 Views
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   📷 0 Clicks
-	</p>
-	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">LinkedIn</a>:</b>
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   👔 0 Followers
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   👔 0 Views
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   👔 0 Clicks
-	</p>
-	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Giphy</a>:</b>
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🌈 0 Uploads
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🌈 0 Views
-	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	   🌈 0 Clicks
-	</p>
+	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:left;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 100%);">
+	  <tbody>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:50%;">
+		<b>🐦 <a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Twitter</a></b>
+	      </td>
+	      <td style="padding:2%;width:50%;">
+		<b>🤘 <a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Coub</a></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Followers
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Followers
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Views
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Views
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Clicks
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Clicks
+	      </td>
+	    </tr>
+	    
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:50%;">
+		<b>📺 <a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">YouTube</a></b>
+	      </td>
+	      <td style="padding:2%;width:50%;">
+		<b>🕺 <a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">TikTok</a></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Subscribers
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Followers
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Views
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Views
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Clicks
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Clicks
+	      </td>
+	    </tr>
+	    
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:50%;">
+		<b>📘 <a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Facebook</a></b>
+	      </td>
+	      <td style="padding:2%;width:50%;">
+		<b>📷 <a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Instagram</a></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Followers
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Followers
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Views
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Views
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Clicks
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Clicks
+	      </td>
+	    </tr>
+	    
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;width:50%;">
+		<b>👔 <a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">LinkedIn</a></b>
+	      </td>
+	      <td style="padding:2%;width:50%;">
+		<b>🌈 <a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Giphy</a></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Followers
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Followers
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Views
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Views
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Clicks
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0 Clicks
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
 	
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
@@ -2909,7 +2941,7 @@ async function sendStatsemail() {
     <tr>
       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">View Historical 10X Stats Spreadsheet</a></b>
+	  <b>📈 <a href="https://10x.day" target="_blank" style="color:#677489;">View Historical 10X Stats Spreadsheet</a></b>
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
