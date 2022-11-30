@@ -2054,6 +2054,10 @@ async function sendStatsemail() {
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	   Weekly Rewards are based on your points earnt "This Week" and are awarded to as many users as possible... while Monthly Rewards are based on your points earnt across "All Time" and are designed to be as BIG as possible!
 	</p>
+	
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   #10X Social Rewards randomly gives $1 to $100 to users engaging on social media with the hashtag #10X
+	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
 	  <tbody>
@@ -2065,7 +2069,7 @@ async function sendStatsemail() {
 		<b>Monthly Rewards</b>
 	      </td>
 	      <td style="padding:2%;width:33%;">
-		<b>10X Rewards<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+		<b>All Time Rewards</b>
 	      </td>
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
@@ -2130,6 +2134,19 @@ async function sendStatsemail() {
 	    </tr>
 	  </tbody>
 	</table>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>#10X Social Rewards:</b>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  👍 $5 to <a href="https://10x.day" target="_blank" style="color:#677489;">@ExampleUser</a> for liking on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  📨 $98 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for posting on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
+	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  ✍️ $37 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Name</a> for commenting on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
+	</p>
 
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
@@ -2354,6 +2371,9 @@ async function sendStatsemail() {
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🖊️ $20K Contracting @ExpertCopywriter
 	</p>
+	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  😊 $12K #10X Social Rewards
+	</p>
 
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
@@ -2446,7 +2466,7 @@ async function sendStatsemail() {
 	  <b>50% Team:</b>
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🏦 10% Cash Savings
+	  🏦 10% Savings
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🪙 10% Cash/Bitcoin (Current Team)
@@ -2468,7 +2488,7 @@ async function sendStatsemail() {
 	  📉 10% Crypto Rekt
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🥾 10% Bootstrapper Fund
+	  🥾 10% Bootstrap Fund
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💖 10% Bonus Bounty
@@ -2577,7 +2597,7 @@ async function sendStatsemail() {
 	</table>
 
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Cash Savings (All Time):</b>
+	  <b>Savings (All Time):</b>
 	</p>
 	<p style="margin:1% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  💰 $10 Earnt
@@ -2681,7 +2701,7 @@ async function sendStatsemail() {
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <b>Bootstrapper Fund</b> is helping <b>10</b> ambitious entrepreneurs get their first <b>100</b> Direct Referrals. Currently earning an average of <b>$...</b>.  
+	   <b>Bootstrap Fund</b> is helping <b>10</b> ambitious entrepreneurs get their first <b>100</b> Direct Referrals. Currently earning an average of <b>$...</b>.  
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
