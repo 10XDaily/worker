@@ -1617,7 +1617,7 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Revenue (Reinvested)</b>
+		<b>Revenue Reinvested</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$0.00
@@ -1688,7 +1688,7 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Revenue (Reinvested)</b>
+		<b>Revenue Reinvested</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$0.00
