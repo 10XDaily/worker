@@ -2117,13 +2117,13 @@ async function sendStatsemail() {
 	  <b>#10X Social Rewards:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  👍 $5 to <a href="https://10x.day" target="_blank" style="color:#677489;">@ExampleUser</a> for liking on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
+	  🐦 $5 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Example</a> for liking on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📨 $98 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for posting on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
+	  📘 $98 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for posting on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  ✍️ $37 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Name</a> for commenting on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
+	  🤘 $37 to <a href="https://10x.day" target="_blank" style="color:#677489;">@Name</a> for commenting on <a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>
 	</p>
 
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
@@ -2671,15 +2671,15 @@ async function sendStatsemail() {
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   Crypto Rekt is helping <b>123</b> crypto adopters who have experianced 80%-100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
+	   <a href="https://10x.day" target="_blank" style="color:#677489;">Crypto Rekt</a> is helping <b>123</b> crypto adopters who have experianced 80%-100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
 	</p>
 
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   Bootstrap Fund is enabling <b>16</b> ambitious entrepreneurs to self fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!
+	   <a href="https://10x.day" target="_blank" style="color:#677489;">Bootstrap Fund</a> is enabling <b>16</b> ambitious entrepreneurs to self fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   Bonus Bounty has rewarded <b>12</b> freelance creatives with Paid Traffic for building epic 10X Bonuses... The program has a treasury of <b>$1,234</b> to be earnt!
+	   <a href="https://10x.day" target="_blank" style="color:#677489;">Bonus Bounty</a> has rewarded <b>12</b> freelance creatives with Paid Traffic for building epic 10X Bonuses... The program has a treasury of <b>$1,234</b> to be earnt!
 	</p>
 
 
@@ -2782,31 +2782,59 @@ async function sendStatsemail() {
 	</table>
 
 	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>Social Stats:</b>
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🐦 <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	   🐦 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🤘 <a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	   🤘 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">YouTube</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📺 <a href="https://10x.day" target="_blank" style="color:#677489;">YouTube</a> 0 Subscribers • 0 Views • 0&nbsp;Clicks
+	   📺 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">TikTok</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🕺 <a href="https://10x.day" target="_blank" style="color:#677489;">TikTok</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	   🕺 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📘 <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	   📘 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Instagram</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📷 <a href="https://10x.day" target="_blank" style="color:#677489;">Instagram</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	   📷 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">LinkedIn</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  👔 <a href="https://10x.day" target="_blank" style="color:#677489;">LinkedIn</a> 0 Followers • 0 Views • 0&nbsp;Clicks
+	   👔 0 Followers • 0 Views • 0&nbsp;Clicks
+	</p>
+	
+	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b><a href="https://10x.day" target="_blank" style="color:#677489;">Giphy</a>:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🌈 <a href="https://10x.day" target="_blank" style="color:#677489;">Giphy</a> 0 Uploads • 0 Views • 0&nbsp;Clicks
+	   🌈 0 Followers • 0 Views • 0&nbsp;Clicks
 	</p>
 	
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
