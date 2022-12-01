@@ -2813,692 +2813,692 @@ async function sendStatsemail() {
 	   Follow us on social media for the best daily news, insights &amp; memes!
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
-	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
-		&nbsp;
-	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Total<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Total<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	  </tbody>
-	</table>
+<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+  <tbody>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;width:33%;">
+	&nbsp;
+      </td>
+      <td style="padding:2%;width:33%;">
+	<b>Total<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+      </td>
+      <td style="padding:2%;width:33%;">
+	<b>Total<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
-	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
-		&nbsp;
-	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
-	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Twitter</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Coub</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">YouTube</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">TikTok</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Facebook</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Instagram</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">LinkedIn</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Pinterest</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Reddit</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
-		<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Giphy</a></b>
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Followers</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Posts</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Views</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Engagement</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b>Clicks</b>
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
-	      </td>
-	    </tr>
-	  </tbody>
-	</table>
+<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+  <tbody>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;width:33%;">
+	&nbsp;
+      </td>
+      <td style="padding:2%;width:33%;">
+	<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+      </td>
+      <td style="padding:2%;width:33%;">
+	<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Twitter</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Coub</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">YouTube</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">TikTok</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Facebook</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Instagram</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">LinkedIn</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Pinterest</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Reddit</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td colspan="3" style="padding:2%;text-align:center;">
+	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Giphy</a></b>
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Followers</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Posts</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Views</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Engagement</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+    <tr style="background:rgba(255,255,255,0.5);">
+      <td style="padding:2%;text-align:left;">
+	<b>Clicks</b>
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	0
+      </td>
+    </tr>
+  </tbody>
+</table>
 	
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
