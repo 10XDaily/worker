@@ -2640,7 +2640,7 @@ async function sendStatsemail() {
 	  🌑 $0.00 Bitcoin (50%)
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🌒 $0.00 Ethereum (25%)
+	  🌒 $0.00 Ethereum (20%)
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🌓 $0.00 Cardano (10%)
@@ -2649,7 +2649,7 @@ async function sendStatsemail() {
 	  🌔 $0.00 Solana (10%)
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🌕 $0.00 Moonshots (5%)
+	  🌕 $0.00 Moonshots (10%)
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  🧑‍🚀 $0.00 Total Portfolio Value (+0.00%)
