@@ -962,8 +962,31 @@ async function sendStatsemail() {
 <html><head>
 <style>
 .a{margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
-.b{}
-.c{}
+.b{margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd;}
+.c{padding:0px 0px;width:100%;}
+.d{padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;}
+.e{margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;}
+.f{margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);}
+.g{background:rgba(255,255,255,0.5);}
+.h{padding:2%;width:33%;}
+.i{padding:2%;background:rgba(255,255,255,0.5);}
+.j{margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);}
+.k{display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;}
+.l{padding:2%;text-align:left;}
+.m{background:rgba(255,255,255,0.3);}
+.n{margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;}
+.o{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;}
+.p{margin:4% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;}
+.q{color:#000;background-color:yellow;padding:1%;border-radius:4px;border:2px dashed rgba(0,0,0,0.25);text-decoration:none;}
+.r{padding:2%;width:9%;}
+.s{padding:0%;background:rgba(255,255,255,0.5);}
+.t{padding:2%;text-align:left;background:rgba(255,255,255,0.5);}
+.u{margin:0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
+.v{margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
+.w{color:#677489;}
+.x{text-decoration:none;color:rgba(0,0,0,0.5);}
+.y{color:rgba(0,0,0,0.5);}
+.z{padding:2%;text-align:center;}
 </style>
 </head>
 <body>
@@ -978,200 +1001,200 @@ async function sendStatsemail() {
 <h1 class="a" style="margin:0;">
 💕 Referrals
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>More Referrals = More <i>Potential</i> Income</b>
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	  Grow your direct referrals by sharing 10X with family, friends & followers... then sit back and watch your network of referrals grow on autopilot to Level 10!
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	  You only need <b>1</b> more Active Referrals to get to <b>LEVEL&nbsp;1!</b>
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
+	    <tr class="g">
+	      <td class="h">
 		<b>10X Level</b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
+	      <td class="h">
 		<b>Active Referrals</b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
+	      <td class="h">
 		<b>Next Level</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	    <tr class="g">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
+	    <tr class="g">
+	      <td class="h">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Top 10 Avg.<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>DIRECT</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 1</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 2</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 3</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 4</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 5</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 6</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 7</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 8</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 9</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 10</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.3);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="m">
+	      <td class="l">
 		<b>TOTAL</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		<b>0</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		<b>0</b>
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -1182,200 +1205,200 @@ async function sendStatsemail() {
 <h1 class="a">
 💵 Passive Income
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>More <i>Passive</i> Income = More Freedom</b>
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	  If your Direct Referrals purchase a 10X Deal you can earn 50% of the commission... plus, your Network Referrals can earn you up to 5% each from Level 1 to Level 10!
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	  Your 10X Level is currently <b>0</b> so you can earn income up to <b>LEVEL&nbsp;0&nbsp;(DIRECT)</b>... and your 10X Status is <b>ACTIVE</b> so you are <b>ELIGIBLE</b> for earning income this week!
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
+	    <tr class="g">
+	      <td class="h">
 		<b>10X Status</b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Top 10 Avg.<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	    <tr class="g">
+	      <td class="i">
 		Active
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Top 10 Avg.<br><span class="k">This Week</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>DIRECT</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 1</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 2</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 3</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 4</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 5</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 6</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 7</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 8</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 9</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 10</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.3);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="m">
+	      <td class="l">
 		<b>TOTAL</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		<b>$0.00</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		<b>$0.00</b>
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -1386,171 +1409,171 @@ async function sendStatsemail() {
 <h1 class="a">
 🌱 Organic Traffic
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>Organic Traffic = <i>FREE</i> Referrals</b>
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	  Your daily 10X News email is filled with today's most popular content... if you maintain the habit of sharing content each day it will fuel your organic traffic and increase your direct referrals! 
 	</p>
 	
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="p">
 	  Share your referral link everywhere!
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <b><a href="https://10X.day?ref=123" target="_blank" style="color:#000;background-color:yellow;padding:1%;border-radius:4px;border:2px dashed rgba(0,0,0,0.25);text-decoration:none;">https://10X.day?ref=123</a></b>
+	<p class="e">
+	  <b><a href="https://10X.day?ref=123" target="_blank" class="q">https://10X.day?ref=123</a></b>
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Top 10 Avg.<br><span class="k">This Week</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Shares</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Referrals</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Conversion</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Top 10 Avg.<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Shares</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-      <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+      <tr class="g">
+	      <td class="l">
 		<b>Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Referrals</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Conversion</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Income</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LTV</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -1561,222 +1584,222 @@ async function sendStatsemail() {
 <h1 class="a">
 🚀 Paid Traffic
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>Paid Traffic = <i>Automated</i> Referrals</b>
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   Paid traffic is the fastest and most scalable way to accelerate the growth of your direct referrals... 10X runs paid advertising campaigns on your behalf without you ever paying us a single cent from your own pocket!
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   How?! If you earn Passive Income, then 50% automatically gets invested into Paid Traffic... and if that traffic produces revenue within 100 days, then it gets reinvested into more paid traffic! 
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Top 10 Avg.<br><span class="k">This Week</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Cost</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Views</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-      <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+      <tr class="g">
+	      <td class="l">
 		<b>Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Referrals</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Conversion</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Revenue Reinvested</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Top 10 Avg.<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Top 10 Avg.<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Cost</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Views</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-      <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+      <tr class="g">
+	      <td class="l">
 		<b>Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Referrals</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Conversion</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Revenue Reinvested</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>CPA</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Income</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LTV</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -1787,214 +1810,214 @@ async function sendStatsemail() {
 <h1 class="a">
 🏆 Points
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>More Points = More <i>Potential</i> Rewards</b>
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   Earn points by completing any of the 5 simple daily tasks... the more points you earn each week increases your chances of winning Rewards (i.e. Paid Traffic)!
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   You earn 1pt for completing a task and if you maintain an unbroken streak for 7 days you earn 10pts... also, if you continue a streak for all 5 tasks this week then you increase your Points Multiplier by +1 (all the way up to 10X)! 
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
+	    <tr class="g">
+	      <td class="h">
 		<b>Points Multiplier</b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>You<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>You<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	    <tr class="g">
+	      <td class="i">
 		1X
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0pts<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">1 x 0pts</span>
+	      <td class="i">
+		0pts<br><span class="k">1 x 0pts</span>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0pts
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:9%;">
+	      <td class="r">
 		<b>1</b>
 	      </td>
-	      <td style="padding:2%;width:9%;">
+	      <td class="r">
 		<b>2</b>
 	      </td>
-	      <td style="padding:2%;width:9%;">
+	      <td class="r">
 		<b>3</b>
 	      </td>
-	      <td style="padding:2%;width:9%;">
+	      <td class="r">
 		<b>4</b>
 	      </td>
-	      <td style="padding:2%;width:9%;">
+	      <td class="r">
 		<b>5</b>
 	      </td>
-	      <td style="padding:2%;width:9%;">
+	      <td class="r">
 		<b>6</b>
 	      </td>
-	      <td style="padding:2%;width:9%;">
+	      <td class="r">
 		<b>7</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Open News Email</b>
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Open Deals Email</b>
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Share Email Content</b>
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Complete Daily Action</b>
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Visit Daily Sponsor</b>
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
-	      <td style="padding:0%;background:rgba(255,255,255,0.5);">
+	      <td class="s">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Bonus Points</b>
 	      </td>
-	      <td colspan="7" style="padding:2%;text-align:left;background:rgba(255,255,255,0.5);">
-		<p style="margin:0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	      <td colspan="7" class="t">
+		<p class="u">
 		  <b>0pts</b> (1 x 0pts)
 		</p>
 	      </td>
@@ -2002,52 +2025,52 @@ async function sendStatsemail() {
 	  </tbody>
 	</table>
 	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:5% 0 0 0;">
 	  <b>Your Streak:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  📧 0 Open News Email
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🧧 0 Open Deals Email
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  👍 0 Share Email Content
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  ✅ 0 Complete Daily Action
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🌟 0 Visit Daily Sponsor
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🖐🏽 0 Complete All 5 Tasks
 	</p>
 		
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:5% 0 0 0;">
 	  <b>Top 10 Avg. Streak:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  📧 0 Open News Email
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🧧 0 Open Deals Email
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  👍 0 Share Email Content
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  ✅ 0 Complete Daily Action
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🌟 0 Visit Daily Sponsor
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🖐🏽 0 Complete All 5 Tasks
 	</p>
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -2058,118 +2081,118 @@ async function sendStatsemail() {
 <h1 class="a">
 🎉 Rewards
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>More Rewards = More <i>Paid</i> Traffic</b>
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   Rewards of Paid Traffic can be earnt each week and month... helping boost the automated growth of your direct referrals.
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   Weekly Rewards are based on your points earnt "This Week" and are awarded to as many users as possible... while Monthly Rewards are based on your points earnt across "All Time" and are designed to be as BIG as possible!
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   #10X Social Rewards randomly gives $1 to $100 Paid Traffic to users engaging on social media with the hashtag #10X
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
+	    <tr class="g">
+	      <td class="h">
 		<b>Weekly Rewards</b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
+	      <td class="h">
 		<b>Monthly Rewards</b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
+	      <td class="h">
 		<b>All Time Rewards</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$0.00 x 0&nbsp;users</span>
+	    <tr class="g">
+	      <td class="i">
+		$0.00<br><span class="k">$0.00 x 0&nbsp;users</span>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">$0.00 x 0&nbsp;users</span>
+	      <td class="i">
+		$0.00<br><span class="k">$0.00 x 0&nbsp;users</span>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00 <span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">0&nbsp;users</span>
+	      <td class="i">
+		$0.00 <span class="k">0&nbsp;users</span>
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
+	      <td class="h">
 		<b>You</b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
+	      <td class="h">
 		<b>Top 10 Avg.</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>This Week</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>This Month</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>All Time</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 	
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:5% 0 0 0;">
 	  <b>#10X Social Rewards:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🐦 $0.00 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User1</a> for LIKE on <a href="https://10x.day" target="_blank" style="color:#677489;">Twitter</a>
+	<p class="v">
+	  🐦 $0.00 to <a href="https://10x.day" target="_blank" class="w">@User1</a> for LIKE on <a href="https://10x.day" target="_blank" class="w">Twitter</a>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  📘 $0.00 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User2</a> for LIKE on <a href="https://10x.day" target="_blank" style="color:#677489;">Facebook</a>
+	<p class="v">
+	  📘 $0.00 to <a href="https://10x.day" target="_blank" class="w">@User2</a> for LIKE on <a href="https://10x.day" target="_blank" class="w">Facebook</a>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  🤘 $0.00 to <a href="https://10x.day" target="_blank" style="color:#677489;">@User3</a> for POST on <a href="https://10x.day" target="_blank" style="color:#677489;">Coub</a>
+	<p class="v">
+	  🤘 $0.00 to <a href="https://10x.day" target="_blank" class="w">@User3</a> for POST on <a href="https://10x.day" target="_blank" class="w">Coub</a>
 	</p>
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -2180,229 +2203,229 @@ async function sendStatsemail() {
 <h1 class="a">
 ⚡ Zeus
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>Zeus = <i>God</i> Level User</b>
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   The 10X referral program has a system user named Zeus sitting in the highest position... Zeus is the Direct Referrer of 10X Team members and all non-referred signups. 
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   Income earnt by Zeus is split 50% Traffic / 50% Profits... Profits go into a treasury that is transparently spent on community proposals (like influencer campaigns, licensing bonuses, contracting expert copywriters, etc).
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
-		<b>Non-Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	    <tr class="g">
+	      <td class="h">
+		<b>Non-Referrals<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Paid Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Paid Referrals<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Income<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	    <tr class="g">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Referrals<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Income<br><span class="k">This Week</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>DIRECT</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 1</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 2</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 3</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 4</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 5</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 6</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 7</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 8</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 9</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>LEVEL 10</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.3);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="m">
+	      <td class="l">
 		<b>TOTAL</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		<b>0</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		<b>$0.00</b>
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:5% 0 0 0;">
 	  <b>Zeus's Treasury:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🔱 $0.00 Earnt
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  👑 $0.00 Spent
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💛 $0.00 Saved
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>Funds recently spent on:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  😊 $0.00 #10X Social Rewards
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  😎 $0.00 Example Campaign
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🎀 $0.00 Example Bonus
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🖊️ $0.00 Example Contractor
 	</p>
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -2413,122 +2436,122 @@ async function sendStatsemail() {
 <h1 class="a">
 🦄 10X DAO
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>10X <i>Decentralized</i> Autonomous Organization</b>
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truly FREE, Scalable & Sustainable "Passive Income Machine".
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st&nbsp;Product/Market Fit, 2nd&nbsp;Community Participation and 3rd&nbsp;Sufficient Decentralization (community ownership).
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
-		<b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	    <tr class="g">
+	      <td class="h">
+		<b>Revenue<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Costs<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Profit<br><span class="k">This Week</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	    <tr class="g">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;width:33%;">
-		<b>Revenue<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	    <tr class="g">
+	      <td class="h">
+		<b>Revenue<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Costs<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Costs<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Profit<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Profit<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	    <tr class="g">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:5% 0 0 0;">
 	  Profits are distributed WEEKLY as follows...
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>50% Team:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🏦 10% Savings
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🪙 10% Cash or Bitcoin (Current Team)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🚀 10% Traffic (Current Team)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🏖️ 10% Passive Income (Lifetime Team)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  📈 10% Crypto Portfolio (Lifetime Team)
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>50% Community:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  📉 10% Crypto Rekt
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🥾 10% Bootstrap Fund
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💖 10% Bonus Bounty
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🎊 10% Weekly Rewards
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🎉 10% Monthly Rewards
 	</p>		  
 
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -2540,175 +2563,175 @@ async function sendStatsemail() {
 <h1 class="a">
 ✊ Team
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>Built by Side-Hustlers <i>for</i> Side-Hustlers</b>
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   10X is a "lifestyle business" that earns you money outside of your day job (in just a few hours per week)... stop trading time for money and escape the rat race by building lifelong assets!
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   As a team member you "bank a week" by contributing 10+&nbsp;hours (across 1 or more weeks) and then provide Proof-of-Contribution... the more weeks you bank the more you own and can earn from Current Team and Lifetime Team profits.
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Contribution<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Contribution<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Hours<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Hours<br><span class="k">This Week</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
+	    <tr class="g">
+	      <td class="l">
+		<b><a href="https://twitter.com/chrisleejacob" target="_blank" class="x">Chris Jacob</a></b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		<a href="https://twitter.com/chrisleejacob" target="_blank" style="color:rgba(0,0,0,0.5);">2099-01-01</a>
+	      <td class="i">
+		<a href="https://twitter.com/chrisleejacob" target="_blank" class="y">2099-01-01</a>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-      <tr style="background:rgba(255,255,255,0.3);">
-	      <td style="padding:2%;text-align:left;">
+      <tr class="m">
+	      <td class="l">
 		<b>Total</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		1
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
+	      <td class="h">
 		<b>Team</b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
+	      <td class="h">
 		<b>Weeks Banked</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
-		<b><a href="https://twitter.com/chrisleejacob" target="_blank" style="text-decoration:none;color:rgba(0,0,0,0.5);">Chris Jacob</a></b>
+	    <tr class="g">
+	      <td class="l">
+		<b><a href="https://twitter.com/chrisleejacob" target="_blank" class="x">Chris Jacob</a></b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		Current
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-      <tr style="background:rgba(255,255,255,0.3);">
-	      <td style="padding:2%;text-align:left;">
+      <tr class="m">
+	      <td class="l">
 		<b>Total</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		1
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<p style="margin:5% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:5% 0 0 0;">
 	  <b>Savings (All Time):</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💰 $0.00 Earnt
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💸 $0.00 Spent
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🔒 $0.00 Saved
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>Cash or Bitcoin (This Week):</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🪙 $0.00 Total
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💃 1 Current Team Members
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💗 $0.00 each Current Team Member
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>Traffic (All Time):</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🚀 $0.00 Spent
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💕 0 Referrals
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💵 $0.00 Income
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>Passive Income (This Week):</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  👻 1 Lifetime Team Members
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🔅 $0.00 Lowest 
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🔆 $0.00 Highest
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>Crypto Portfolio:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🌑 $0.00 Bitcoin (50%)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🌒 $0.00 Ethereum (20%)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🌓 $0.00 Cardano (10%)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🌔 $0.00 Solana (10%)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🌕 $0.00 Moonshots (10%)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🧑‍🚀 $0.00 Total Portfolio Value (+0.00%)
 	</p>
 
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -2720,128 +2743,128 @@ async function sendStatsemail() {
 <h1 class="a">
 👏 Community
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>Community is <i>Everything</i></b>
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <a href="https://10x.day" target="_blank" style="color:#677489;">Crypto Rekt</a> is helping <b>0</b> crypto adopters who have experienced 80% to 100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
+	<p class="e">
+	   <a href="https://10x.day" target="_blank" class="w">Crypto Rekt</a> is helping <b>0</b> crypto adopters who have experienced 80% to 100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals! 
 	</p>
 
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <a href="https://10x.day" target="_blank" style="color:#677489;">Bootstrap Fund</a> is enabling <b>0</b> ambitious entrepreneurs to self-fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!
+	<p class="e">
+	   <a href="https://10x.day" target="_blank" class="w">Bootstrap Fund</a> is enabling <b>0</b> ambitious entrepreneurs to self-fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	   <a href="https://10x.day" target="_blank" style="color:#677489;">Bonus Bounty</a> has rewarded <b>0</b> freelance creatives with Paid Traffic for building epic 10X Bonuses... The program has a treasury of <b>$0.00</b> to be earnt!
+	<p class="e">
+	   <a href="https://10x.day" target="_blank" class="w">Bonus Bounty</a> has rewarded <b>0</b> freelance creatives with Paid Traffic for building epic 10X Bonuses... The program has a treasury of <b>$0.00</b> to be earnt!
 	</p>
 
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Referrals<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Income<br><span class="k">This Week</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Crypto Rekt</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Bootstrap Fund</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Bonus Bounty</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Referrals<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Income<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Crypto Rekt</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Bootstrap Fund</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Bonus Bounty</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 	
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -2852,896 +2875,896 @@ async function sendStatsemail() {
 <h1 class="a">
 📩 Email
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>Email is the <i>core</i> of 10X</b>
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   10X is an Email-First Startup... low tech, high ROI!
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   We have a growing community of <b>1</b> subscribers, producing <b>$0.00</b> passive income, across <b>10</b> topics, with each user subscribing to an average of <b>2</b> topics.
 	</p>
 
-	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="f">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Subscribed<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Subscribed<br><span class="k">All Time</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Income<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Tech</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Crypto</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Marketing</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Design</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Business</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Startups</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Gaming</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Culture</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Finance</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Fashion</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+	<table class="j">
 	  <tbody>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;width:33%;">
+	    <tr class="g">
+	      <td class="h" style="text-align:left;">
 		&nbsp;
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+	      <td class="h">
+		<b>Count<br><span class="k">This Week</span></b>
 	      </td>
-	      <td style="padding:2%;width:33%;">
-		<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      <td class="h">
+		<b>Count<br><span class="k">All Time</span></b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
+	    <tr class="g">
+	      <td colspan="3" class="z">
 		<b>All Emails</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Subscribe</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Unsubscribe</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Growth Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Emails Sent</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Bounce</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Delivery Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Opens</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Open Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Click Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
+	    <tr class="g">
+	      <td colspan="3" class="z">
 		<b>Revenue</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Buyers</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Buyer Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Income</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Avg. Income</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Sponsor Revenue</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		$0.00
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
+	    <tr class="g">
+	      <td colspan="3" class="z">
 		<b>Engagement</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Points</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Avg. Points</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>All 5 Tasks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>All 5 Tasks Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Avg. Points Multiplier</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Active</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Inactive</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Active Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Level Up</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Level Down</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Level Up Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Avg. 10X Level</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
+	    <tr class="g">
+	      <td colspan="3" class="z">
 		<b>Stats Email</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Opens</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Open Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Share Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Share Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
+	    <tr class="g">
+	      <td colspan="3" class="z">
 		<b>News Email</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Opens</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Open Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Content Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Content Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Share Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Share Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Action Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Action Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Sponsor Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Sponsor Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Quote Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Quote Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Meme Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Meme Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
+	    <tr class="g">
+	      <td colspan="3" class="z">
 		<b>Deals Email</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Opens</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Open Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Share Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Share Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Offer Clicks</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Offer Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td colspan="3" style="padding:2%;text-align:center;">
+	    <tr class="g">
+	      <td colspan="3" class="z">
 		<b>Referrals</b>
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Organic</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Organic Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Paid</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Paid Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Non-Referred</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>Non-Referred Rate</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0%
 	      </td>
 	    </tr>
-	    <tr style="background:rgba(255,255,255,0.5);">
-	      <td style="padding:2%;text-align:left;">
+	    <tr class="g">
+	      <td class="l">
 		<b>K Factor</b>
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
-	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+	      <td class="i">
 		0
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>Life Time Value:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  ⏲️ 0 Avg. Days Subscribed
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕰️ 0 Subscribed for 100+ Days
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💍 $0.00 LTV per user (all subscribers)
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  💎 $0.00 LTV per user (after 100+ Days)
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>Growth Velocity:</b>
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕐 0 Days until first Share
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕑 0 Days until first Direct Referral
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕒 0 Days until first Network Referral
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕓 0 Days until first Direct Income
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕔 0 Days until first Network Income
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕕 0 Days until first Paid Traffic
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕖 0 Days until first Paid Referral
 	</p>
-  <p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+  <p class="v">
 	  🕗 0 Days until first Revenue Reinvested
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕘 0 Days until first Deal Purchase
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕙 0 Days until returned to Active
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕚 0 Days until Points Multiplier 10X!
 	</p>
-	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v">
 	  🕛 0 Days until LEVEL 10!
 	</p>
 	
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -3753,1071 +3776,1071 @@ async function sendStatsemail() {
 <h1 class="a">
 👍 Social
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+      <td class="d">
+	<p class="e" style="margin:0;">
 	  <b>More Signals, <i>Less Noise</i></b>
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	<p class="e">
 	   Follow us on social media for the best daily news, deals &amp; memes!
 	</p>
 
-<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
+<table class="f">
   <tbody>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;width:33%;">
+    <tr class="g">
+      <td class="h" style="text-align:left;">
 	&nbsp;
       </td>
-      <td style="padding:2%;width:33%;">
-	<b>Total<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+      <td class="h">
+	<b>Total<br><span class="k">This Week</span></b>
       </td>
-      <td style="padding:2%;width:33%;">
-	<b>Total<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+      <td class="h">
+	<b>Total<br><span class="k">All Time</span></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
   </tbody>
 </table>
 
-<table style="margin:3% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,230,0,1) 100%);color:rgba(0,0,0,0.5);">
+<table class="j">
   <tbody>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;width:33%;">
+    <tr class="g">
+      <td class="h" style="text-align:left;">
 	&nbsp;
       </td>
-      <td style="padding:2%;width:33%;">
-	<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+      <td class="h">
+	<b>Count<br><span class="k">This Week</span></b>
       </td>
-      <td style="padding:2%;width:33%;">
-	<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
-      </td>
-    </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Twitter</a></b>
+      <td class="h">
+	<b>Count<br><span class="k">All Time</span></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">Twitter</a></b>
+      </td>
+    </tr>
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Coub</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">Coub</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">YouTube</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">YouTube</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">TikTok</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">TikTok</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Facebook</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">Facebook</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Instagram</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">Instagram</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">LinkedIn</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">LinkedIn</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Pinterest</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">Pinterest</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Reddit</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">Reddit</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td colspan="3" style="padding:2%;text-align:center;">
-	<b><a href="https://10x.day" target="_blank" style="color:rgba(0,0,0,0.5);">Giphy</a></b>
+    <tr class="g">
+      <td colspan="3" class="z">
+	<b><a href="https://10x.day" target="_blank" class="y">Giphy</a></b>
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Followers</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Posts</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Views</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Engagement</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Clicks</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Referrals</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Conversion</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	0%
       </td>
     </tr>
-    <tr style="background:rgba(255,255,255,0.5);">
-      <td style="padding:2%;text-align:left;">
+    <tr class="g">
+      <td class="l">
 	<b>Income</b>
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
-      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+      <td class="i">
 	$0.00
       </td>
     </tr>
   </tbody>
 </table>
 	
-	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
+	<p class="n">
+	  <a href="https://10x.day" target="_blank" class="o">SHARE</a>
 	</p>
       </td>
     </tr>
@@ -4829,16 +4852,16 @@ async function sendStatsemail() {
 <h1 class="a">
 🤓 Meta
 </h1>
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
+<div class="b">
+<table class="c">
   <tbody>
     <tr>
-      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  <b>📈 <a href="https://10x.day" target="_blank" style="color:#677489;">View Historical Stats Spreadsheet</a></b>
+      <td class="d">
+	<p class="v" style="margin:3% 0 0 0;">
+	  <b>📈 <a href="https://10x.day" target="_blank" class="w">View Historical Stats Spreadsheet</a></b>
 	</p>
 	
-	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	<p class="v" style="margin:3% 0 0 0;">
 	  <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
 	  <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
 	  <br><b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}
