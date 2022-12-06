@@ -3160,6 +3160,28 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
+		<b>All 5 Tasks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>All 5 Tasks Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
 		<b>Avg. Points Multiplier</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
