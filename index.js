@@ -959,6 +959,14 @@ async function sendStatsemail() {
     let email_json = {
       "content": {
         "html": `
+<html><head>
+<style>
+.a{margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
+.b{}
+.c{}
+</style>
+</head>
+<body>
 <table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
   <table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
     <table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
@@ -967,7 +975,7 @@ async function sendStatsemail() {
           <tr style="background-color:#f5f7fb">
             <td>
 
-<h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a" style="margin:0;">
 💕 Referrals
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -1171,7 +1179,7 @@ async function sendStatsemail() {
 </table>
 </div>
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 💵 Passive Income
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -1375,7 +1383,7 @@ async function sendStatsemail() {
 </table>
 </div>
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 🌱 Organic Traffic
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -1550,7 +1558,7 @@ async function sendStatsemail() {
 </table>
 </div>
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 🚀 Paid Traffic
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -1776,7 +1784,7 @@ async function sendStatsemail() {
 </table>
 </div>
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 🏆 Points
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -2047,7 +2055,7 @@ async function sendStatsemail() {
 </table>
 </div>
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 🎉 Rewards
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -2169,7 +2177,7 @@ async function sendStatsemail() {
 </table>
 </div>
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 ⚡ Zeus
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -2402,7 +2410,7 @@ async function sendStatsemail() {
 </table>
 </div>
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 🦄 10X DAO
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -2529,7 +2537,7 @@ async function sendStatsemail() {
 </div>
 
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 ✊ Team
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -2709,7 +2717,7 @@ async function sendStatsemail() {
 </div>
 
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 👏 Community
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -2841,7 +2849,7 @@ async function sendStatsemail() {
 </table>
 </div>
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 📩 Email
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -3742,7 +3750,7 @@ async function sendStatsemail() {
 </div>
 
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 👍 Social
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -4818,7 +4826,7 @@ async function sendStatsemail() {
 </div>
 
 
-<h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
+<h1 class="a">
 🤓 Meta
 </h1>
 <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
@@ -4851,6 +4859,7 @@ async function sendStatsemail() {
     </td></tr></tbody></table>
   </td></tr></tbody></table>
 </td></tr></tbody></table>
+</body></html>
 `,
        "plain": `
 `// TODO - dynamic plaintext version of the HTML email? (strip HTML)
