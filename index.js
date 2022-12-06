@@ -2824,7 +2824,7 @@ async function sendStatsemail() {
 		&nbsp;
 	      </td>
 	      <td style="padding:2%;width:33%;">
-		<b>Subscribers<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+		<b>Subscribed<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
 	      </td>
 	      <td style="padding:2%;width:33%;">
 		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
