@@ -2346,7 +2346,7 @@ async function sendStatsemail() {
 	  <b>Zeus's Treasury:</b>
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-	  💎 $0.00 Earnt
+	  🔱 $0.00 Earnt
 	</p>
 	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
 	  👑 $0.00 Spent
@@ -2806,11 +2806,15 @@ async function sendStatsemail() {
     <tr>
       <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
 	<p style="margin:0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
-	  <b>The <i>core</i> of 10X</b>
+	  <b>Email is the <i>core</i> of 10X</b>
 	</p>
 	
 	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	   10X is an Email-First Startup... low tech, high ROI!
+	</p>
+	
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
+	   We have a growing community of <b>1</b> subscribers, producing <b>$0.00</b> passive income, across <b>10</b> topics, with each user subscribing to an average of <b>2</b> topics.
 	</p>
 
 	<table style="margin:5% 0 0 0;padding:0px;width:100%;border-radius:4px;text-align:center;border-collapse:separate;border-spacing:1px;background:linear-gradient(0deg, rgba(170,0,255,1) 0%, rgba(0,138,255,1) 100%);color:rgba(0,0,0,0.5);">
@@ -2820,15 +2824,15 @@ async function sendStatsemail() {
 		&nbsp;
 	      </td>
 	      <td style="padding:2%;width:33%;">
-		<b>Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+		<b>Subscribers<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
 	      </td>
 	      <td style="padding:2%;width:33%;">
-		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
+		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
 	      </td>
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Crypto Rekt</b>
+		<b>Tech</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		0
@@ -2839,7 +2843,7 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Bootstrap Fund</b>
+		<b>Crypto</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		0
@@ -2850,7 +2854,84 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Bonus Bounty</b>
+		<b>Marketing</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Design</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Business</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Startups</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Gaming</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Culture</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Finance</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Fashion</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		0
@@ -2869,18 +2950,160 @@ async function sendStatsemail() {
 		&nbsp;
 	      </td>
 	      <td style="padding:2%;width:33%;">
-		<b>Referrals<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+		<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">This Week</span></b>
 	      </td>
 	      <td style="padding:2%;width:33%;">
-		<b>Income<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+		<b>Count<br><span style="display:block;background-color:rgba(255,255,255,0.25);border-radius:4px;font-size:0.9rem;font-weight:normal;line-height:1;padding:5% 10%;margin-top:5%;">All Time</span></b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td colspan="3" style="padding:2%;text-align:center;">
+		<b>All Emails</b>
 	      </td>
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Crypto Rekt</b>
+		<b>Subscribe</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Unsubscribe</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Growth Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Emails Sent</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Bounce</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Delivery Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Opens</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Open Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Click Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td colspan="3" style="padding:2%;text-align:center;">
+		<b>Revenue</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Buyers</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Buyer Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Income</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$0.00
@@ -2888,10 +3111,10 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Bootstrap Fund</b>
+		<b>Avg. Income</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		0
+		$0.00
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		$0.00
@@ -2899,17 +3122,549 @@ async function sendStatsemail() {
 	    </tr>
 	    <tr style="background:rgba(255,255,255,0.5);">
 	      <td style="padding:2%;text-align:left;">
-		<b>Bonus Bounty</b>
+		<b>Sponsor Revenue</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		$0.00
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td colspan="3" style="padding:2%;text-align:center;">
+		<b>Engagement</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Points</b>
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
 		0
 	      </td>
 	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
-		$0.00
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Avg. Points</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Avg. Points Multiplier</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Active</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Inactive</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Active Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Level Up</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Level Down</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Level Up Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Avg. 10X Level</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td colspan="3" style="padding:2%;text-align:center;">
+		<b>Stats Email</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Opens</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Open Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Share Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Share Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td colspan="3" style="padding:2%;text-align:center;">
+		<b>News Email</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Opens</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Open Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Content Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Content Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Share Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Share Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Action Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Action Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Sponsor Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Sponsor Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Quote Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Quote Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Meme Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Meme Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td colspan="3" style="padding:2%;text-align:center;">
+		<b>Deals Email</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Opens</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Open Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Share Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Share Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Offer Clicks</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Offer Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td colspan="3" style="padding:2%;text-align:center;">
+		<b>Referrals</b>
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Organic</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Organic Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Paid</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Paid Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Non-Referred</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>Non-Referred Rate</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0%
+	      </td>
+	    </tr>
+	    <tr style="background:rgba(255,255,255,0.5);">
+	      <td style="padding:2%;text-align:left;">
+		<b>K Factor</b>
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
+	      </td>
+	      <td style="padding:2%;background:rgba(255,255,255,0.5);">
+		0
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
+	
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Life Time Value:</b>
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  ⏲️ 0 Avg. Days Subscribed
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕰️ 0 Subscribed for 100+ Days
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💍 $0.00 LTV per user (all subscribers)
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  💎 $0.00 LTV per user (after 100+ Days)
+	</p>
+	
+	<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  <b>Growth Velocity:</b>
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕐 0 Days until first Share
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕑 0 Days until first Direct Referral
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕒 0 Days until first Network Referral
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕓 0 Days until first Direct Income
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕔 0 Days until first Network Income
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕕 0 Days until first Paid Traffic
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕖 0 Days until first Revenue Reinvested
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕗 0 Days until first Paid Referral
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕘 0 Days until first Deal Purchase
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕙 0 Days until returned to Active
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕚 0 Days until Points Multiplier 10X!
+	</p>
+	<p style="margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+	  🕛 0 Days until Level 10!
+	</p>
 	
 	<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;">
 	  <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
