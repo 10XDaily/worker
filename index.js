@@ -975,17 +975,17 @@ async function sendStatsemail() {
 .l{padding:2%;text-align:left;}
 .m{background:rgba(255,255,255,0.3);}
 .n{margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;}
-.o{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;}
+.o{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;border-radius:4px;}
 .p{margin:4% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;text-align:center;}
-.q{color:#000;background-color:yellow;padding:1%;border-radius:4px;border:2px dashed rgba(0,0,0,0.25);text-decoration:none;}
+.q{background-color:yellow;padding:1%;border-radius:4px;border:2px dashed rgba(0,0,0,0.25);text-decoration:none;}
 .r{padding:2%;width:9%;}
 .s{padding:0%;background:rgba(255,255,255,0.5);}
 .t{padding:2%;text-align:left;background:rgba(255,255,255,0.5);}
 .u{margin:0;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
 .v{margin:2% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
-.w{color:#677489;}
-.x{text-decoration:none;color:rgba(0,0,0,0.5);}
-.y{color:rgba(0,0,0,0.5);}
+.w{text-decoration:underline;}
+.x{text-decoration:none;}
+.y{}
 .z{padding:2%;text-align:center;}
 </style>
 </head>
@@ -1083,7 +1083,7 @@ async function sendStatsemail() {
 			</tr>
 		</tbody>
 	</table>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">💵 Passive Income</h1>
@@ -1174,7 +1174,7 @@ async function sendStatsemail() {
 			</tr>
 		</tbody>
 	</table>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">🌱 Organic Traffic</h1>
@@ -1182,7 +1182,7 @@ async function sendStatsemail() {
 	<p class="e" style="margin:0;"><b>Organic Traffic = <i>FREE</i> Referrals</b></p>
 	<p class="e">Your daily 10X News email is filled with today's most popular content... if you maintain the habit of sharing content each day it will fuel your organic traffic and increase your direct referrals!</p>
 	<p class="p">Share your referral link everywhere!</p>
-	<p class="e"><b><a class="q" href="https://10X.day?ref=123" target="_blank">https://10X.day?ref=123</a></b></p>
+	<p class="e"><b><a class="q" style="color:#000;" href="https://10X.day?ref=123" target="_blank">https://10X.day?ref=123</a></b></p>
 	<table class="f">
 		<tbody>
 			<tr class="g">
@@ -1251,7 +1251,7 @@ async function sendStatsemail() {
 			</tr>
 		</tbody>
 	</table>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">🚀 Paid Traffic</h1>
@@ -1352,7 +1352,7 @@ async function sendStatsemail() {
 			</tr>
 		</tbody>
 	</table>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">🏆 Points</h1>
@@ -1458,7 +1458,7 @@ async function sendStatsemail() {
 	<p class="v">✅ 0 Complete Daily Action</p>
 	<p class="v">🌟 0 Visit Daily Sponsor</p>
 	<p class="v">🖐🏽 0 Complete All 5 Tasks</p>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">🎉 Rewards</h1>
@@ -1506,10 +1506,10 @@ async function sendStatsemail() {
 		</tbody>
 	</table>
 	<p class="v" style="margin:5% 0 0 0;"><b>#10X Social Rewards:</b></p>
-	<p class="v">🐦 $0.00 to <a class="w" href="https://10x.day" target="_blank">@User1</a> for LIKE on <a class="w" href="https://10x.day" target="_blank">Twitter</a></p>
-	<p class="v">📘 $0.00 to <a class="w" href="https://10x.day" target="_blank">@User2</a> for LIKE on <a class="w" href="https://10x.day" target="_blank">Facebook</a></p>
-	<p class="v">🤘 $0.00 to <a class="w" href="https://10x.day" target="_blank">@User3</a> for POST on <a class="w" href="https://10x.day" target="_blank">Coub</a></p>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="v">🐦 $0.00 to <a class="w" style="color:#677489;" href="https://10x.day" target="_blank">@User1</a> for LIKE on <a class="w" style="color:#677489;" href="https://10x.day" target="_blank">Twitter</a></p>
+	<p class="v">📘 $0.00 to <a class="w" style="color:#677489;" href="https://10x.day" target="_blank">@User2</a> for LIKE on <a class="w" style="color:#677489;" href="https://10x.day" target="_blank">Facebook</a></p>
+	<p class="v">🤘 $0.00 to <a class="w" style="color:#677489;" href="https://10x.day" target="_blank">@User3</a> for POST on <a class="w" style="color:#677489;" href="https://10x.day" target="_blank">Coub</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">⚡ Zeus</h1>
@@ -1609,7 +1609,7 @@ async function sendStatsemail() {
 	<p class="v">😎 $0.00 Example Campaign</p>
 	<p class="v">🎀 $0.00 Example Bonus</p>
 	<p class="v">🖊️ $0.00 Example Contractor</p>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">🦄 10X DAO</h1>
@@ -1658,7 +1658,7 @@ async function sendStatsemail() {
 	<p class="v">💖 10% Bonus Bounty</p>
 	<p class="v">🎊 10% Weekly Rewards</p>
 	<p class="v">🎉 10% Monthly Rewards</p>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">✊ Team</h1>
@@ -1674,8 +1674,8 @@ async function sendStatsemail() {
 				<td class="h"><b>Hours<br><span class="k">This Week</span></b></td>
 			</tr>
 			<tr class="g">
-				<td class="l"><b><a class="x" href="https://twitter.com/chrisleejacob" target="_blank">Chris Jacob</a></b></td>
-				<td class="i"><a class="y" href="https://twitter.com/chrisleejacob" target="_blank">2099-01-01</a></td>
+				<td class="l"><b><a class="x" style="color:rgba(0,0,0,0.5);" href="https://twitter.com/chrisleejacob" target="_blank">Chris Jacob</a></b></td>
+				<td class="i"><a class="y" style="color:rgba(0,0,0,0.5);" href="https://twitter.com/chrisleejacob" target="_blank">2099-01-01</a></td>
 				<td class="i">0</td>
 			</tr>
 			<tr class="m">
@@ -1693,7 +1693,7 @@ async function sendStatsemail() {
 				<td class="h"><b>Weeks Banked</b></td>
 			</tr>
 			<tr class="g">
-				<td class="l"><b><a class="x" href="https://twitter.com/chrisleejacob" target="_blank">Chris Jacob</a></b></td>
+				<td class="l"><b><a class="x" style="color:rgba(0,0,0,0.5);" href="https://twitter.com/chrisleejacob" target="_blank">Chris Jacob</a></b></td>
 				<td class="i">Current</td>
 				<td class="i">0</td>
 			</tr>
@@ -1727,15 +1727,15 @@ async function sendStatsemail() {
 	<p class="v">🌔 $0.00 Solana (10%)</p>
 	<p class="v">🌕 $0.00 Moonshots (10%)</p>
 	<p class="v">🧑‍🚀 $0.00 Total Portfolio Value (+0.00%)</p>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">👏 Community</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
 	<p class="e" style="margin:0;"><b>Community is <i>Everything</i></b></p>
-	<p class="e"><a class="w" href="https://10x.day" target="_blank">Crypto Rekt</a> is helping <b>0</b> crypto adopters who have experienced 80% to 100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals!</p>
-	<p class="e"><a class="w" href="https://10x.day" target="_blank">Bootstrap Fund</a> is enabling <b>0</b> ambitious entrepreneurs to self-fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!</p>
-	<p class="e"><a class="w" href="https://10x.day" target="_blank">Bonus Bounty</a> has rewarded <b>0</b> freelance creatives with Paid Traffic for building epic 10X Bonuses... The program has a treasury of <b>$0.00</b> to be earnt!</p>
+	<p class="e"><a class="w" style="color:#677489;" href="https://10x.day" target="_blank">Crypto Rekt</a> is helping <b>0</b> crypto adopters who have experienced 80% to 100% losses on any crypto project... The program aims to get you to <b>10</b> Direct Referrals!</p>
+	<p class="e"><a class="w" style="color:#677489;" href="https://10x.day" target="_blank">Bootstrap Fund</a> is enabling <b>0</b> ambitious entrepreneurs to self-fund their businesses with passive income... The program aims to get you to <b>100</b> Direct Referrals!</p>
+	<p class="e"><a class="w" style="color:#677489;" href="https://10x.day" target="_blank">Bonus Bounty</a> has rewarded <b>0</b> freelance creatives with Paid Traffic for building epic 10X Bonuses... The program has a treasury of <b>$0.00</b> to be earnt!</p>
 	<table class="f">
 		<tbody>
 			<tr class="g">
@@ -1784,7 +1784,7 @@ async function sendStatsemail() {
 			</tr>
 		</tbody>
 	</table>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">📩 Email</h1>
@@ -2189,7 +2189,7 @@ async function sendStatsemail() {
 	<p class="v">🕙 0 Days until returned to Active</p>
 	<p class="v">🕚 0 Days until Points Multiplier 10X!</p>
 	<p class="v">🕛 0 Days until LEVEL 10!</p>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">👍 Social</h1>
@@ -2253,7 +2253,7 @@ async function sendStatsemail() {
 				<td class="h"><b>Count<br><span class="k">All Time</span></b></td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">Twitter</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">Twitter</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2296,7 +2296,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">Coub</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">Coub</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2339,7 +2339,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">YouTube</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">YouTube</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2382,7 +2382,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">TikTok</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">TikTok</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2425,7 +2425,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">Facebook</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">Facebook</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2468,7 +2468,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">Instagram</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">Instagram</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2511,7 +2511,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">LinkedIn</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">LinkedIn</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2554,7 +2554,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">Pinterest</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">Pinterest</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2597,7 +2597,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">Reddit</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">Reddit</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2640,7 +2640,7 @@ async function sendStatsemail() {
 				<td class="i">$0.00</td>
 			</tr>
 			<tr class="g">
-				<td class="z" colspan="3"><b><a class="y" href="https://10x.day" target="_blank">Giphy</a></b></td>
+				<td class="z" colspan="3"><b><a class="y" style="color:rgba(0,0,0,0.5);" href="https://10x.day" target="_blank">Giphy</a></b></td>
 			</tr>
 			<tr class="g">
 				<td class="l"><b>Followers</b></td>
@@ -2684,12 +2684,12 @@ async function sendStatsemail() {
 			</tr>
 		</tbody>
 	</table>
-	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
+	<p class="n"><a class="o" style="color:#fff;" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">🤓 Meta</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
-	<p class="v" style="margin:3% 0 0 0;"><b>📈 <a class="w" href="https://10x.day" target="_blank">View Historical Stats Spreadsheet</a></b></p>
+	<p class="v" style="margin:3% 0 0 0;"><b>📈 <a class="w" style="color:#677489;" href="https://10x.day" target="_blank">View Historical Stats Spreadsheet</a></b></p>
 	<p class="v" style="margin:3% 0 0 0;"><b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]<br>
 	<b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}<br>
 	<b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}<br>
