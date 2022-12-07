@@ -585,9 +585,8 @@ async function sendNewsemail() {
 <h1 class="a" style="margin:0;">🚧 Work In Progress</h1>
 <div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
 	<p class="v"><span class="k">10X News is under construction</span></p>
-	<p class="m"><b>UPDATE: Daily News is now available! 🥳</b></p>
-	<p class="m">We're working hard to bring you Daily Quote, Daily Action, Daily Sponsor &amp; Daily Meme ... but for now, these sections are just showing examples to give you an idea of what we're building for you!</p>
-
+	<p class="m">We're working hard to bring you Daily Quote, Daily Action, Daily Sponsor &amp; Daily Meme... but for now, these sections are just showing examples to give you an idea of what we're building.</p>
+	<p class="m"><b>UPDATE: Daily News is available! 🥳</b></p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">🤘 Daily Quote</h1>
@@ -922,10 +921,10 @@ async function sendStatsemail() {
 <h1 class="a" style="margin:0;">🚧 Work In Progress</h1>
 <div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
 	<p class="v"><span class="k">10X Stats is under construction</span></p>
-	<p class="m">We're on a mission to build the world's first truly FREE, Scalable &amp; Sustainable "Passive Income Machine"... but for now, this email just contains hardcoded example data to give you a glimpse into the future!</p>
+	<p class="m">We're on a mission to build the world's first truly FREE, scalable &amp; sustainable "Passive Income Machine"... but for now, this email just contains hardcoded example data to give you a glimpse into the future!</p>
 </td></tr></tbody></table></div>
 
-<h1 class="a" style="margin:0;">💕 Referrals</h1>
+<h1 class="a">💕 Referrals</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
 	<p class="e" style="margin:0;"><b>More Referrals = More <i>Potential</i> Income</b></p>
 	<p class="e">Grow your direct referrals by sharing 10X with family, friends & followers... then sit back and watch your network of referrals grow on autopilot to Level 10!</p>
@@ -1545,7 +1544,7 @@ async function sendStatsemail() {
 <h1 class="a">🦄 10X DAO</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
 	<p class="e" style="margin:0;"><b>10X <i>Decentralized</i> Autonomous Organization</b></p>
-	<p class="e">10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truly FREE, Scalable &amp; Sustainable "Passive Income Machine".</p>
+	<p class="e">10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truly FREE, scalable &amp; sustainable "Passive Income Machine".</p>
 	<p class="e">Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st&nbsp;Product/Market Fit, 2nd&nbsp;Community Participation and 3rd&nbsp;Sufficient Decentralization (community ownership).</p>
 	<table class="f">
 		<tbody>
