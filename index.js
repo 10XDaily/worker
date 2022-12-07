@@ -552,6 +552,7 @@ async function sendNewsemail() {
         "html": `
 <html><head>
 <style>
+#x .hidden {display:none;}
 #x .a{margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
 #x .b{margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd;}
 #x .c{padding:0px 0px;width:100%;}
@@ -581,6 +582,8 @@ async function sendNewsemail() {
 	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
 		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
+
+<div class="hidden">{{TOPIC "featuredMemeLabels"}}</div>
 
 <h1 class="a" style="margin:0;">🚧 Work In Progress</h1>
 <div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
