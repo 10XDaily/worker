@@ -585,7 +585,7 @@ async function sendNewsemail() {
 <h1 class="a" style="margin:0;">🚧 Work In Progress</h1>
 <div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
 	<p class="v"><span class="k">10X News is under construction</span></p>
-	<p class="m">We're working hard to bring you Daily Quote, Daily Action, Daily Sponsor &amp; Daily Meme... but for now, these sections are just showing examples to give you an idea of what we're building.</p>
+	<p class="m">We're working hard to bring you Daily Quote, Action, Sponsor &amp; Meme... but for now, these sections are just showing examples to give you an idea of what we're building for you.</p>
 	<p class="m"><b>UPDATE: Daily News is available! 🥳</b></p>
 </td></tr></tbody></table></div>
 
@@ -910,6 +910,10 @@ async function sendStatsemail() {
 #x .x{text-decoration:none;color:rgba(0,0,0,0.5);}
 #x .y{color:rgba(0,0,0,0.5);}
 #x .z{padding:2%;text-align:center;}
+#x .aa {margin:0;}
+#x .ab {color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;}
+#x .ac {margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.5;font-family:sans-serif;display:block;font-size:1rem;}
+#x .ad {padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;}
 </style>
 </head>
 <body>
@@ -919,9 +923,9 @@ async function sendStatsemail() {
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
 
 <h1 class="a" style="margin:0;">🚧 Work In Progress</h1>
-<div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
-	<p class="v"><span class="k">10X Stats is under construction</span></p>
-	<p class="m">We're on a mission to build the world's first truly FREE, scalable &amp; sustainable "Passive Income Machine"... but for now, this email just contains hardcoded example data to give you a glimpse into the future!</p>
+<div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="ad">
+	<p class="aa"><span class="ab">10X Stats is under construction</span></p>
+	<p class="ac">We're on a mission to build the world's first truly FREE, scalable &amp; sustainable "Passive Income Machine"... but for now, this email just contains hardcoded example data to give you a glimpse into the future!</p>
 </td></tr></tbody></table></div>
 
 <h1 class="a">💕 Referrals</h1>
