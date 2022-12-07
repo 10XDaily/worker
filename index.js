@@ -761,9 +761,9 @@ async function sendDealsemail() {
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
 
 <h1 class="a">🚧 Work In Progress</h1>
-<div class="b"><table class="c"><tbody><tr><td class="d">
-	<p class="o"><span class="e">10X Deals is currently under construction.</span></p>
-	<p class="h">We're working hard to bring you the best daily deals... while you wait, please check out the epic offer below!</p>
+<div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
+	<p class="o"><span class="e">10X Deals is under construction</span></p>
+	<p class="h">We're working hard to bring you the best daily deals... while you wait, please check out the incredible offer below!</p>
 </td></tr></tbody></table></div>
 
 <h1 class="m">🎁 Daily Deal</h1>
