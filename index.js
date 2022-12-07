@@ -735,70 +735,55 @@ async function sendDealsemail() {
     let email_json = {
       "content": {
         "html": `
-<table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
-  <table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
-    <table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
-      <table align="center" cellpadding="0" cellspacing="0" role="presentation">
-        <tbody>
-          <tr style="background-color:#f5f7fb">
-            <td>
-	      
-	      <h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🎁 Daily Deal
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-                        <p style="margin:0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;">Attention: Entrepreneurs, Small Business Owners, Online Marketers and Marketing Agencies...</span></p>
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <img alt="" src="https://funnelhackingsecrets.com/hosted/images/e4/7a6d01fa7f4c35941a3e0e68ad6c7f/FHS-Affiliate-graphics-Ads-3a.jpg" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
-                        </p>
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.5;font-family:sans-serif;display:block;font-size:1rem;">
-			  Find Out Which Funnels Will Work The Best <u>For YOUR Specific Business!</u> (...plus a <b>MASSIVE 91% OFF</b> deal inside!)
-			</p>
-                        <p style="margin:4% 0 0 0;color:#2bb14c;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://www.funnelhackingsecrets.com?cf_affiliate_id=831693&affiliate_id=831693" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;">👉 REGISTER FOR THE FREE WEBCLASS NOW!</a>
-                        </p>
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://twitter.com/intent/tweet?text=%22The%20Weird%20%28Almost%20Backwards%29%20Funnel%20Secret%20That%20Is%20Currently%20Being%20Used%20By%20An%20Underground%20Group%20Of%20Entrepreneurs%20To%20Sell%20Almost%20Anything%20You%20Can%20Dream%20Of%21%22&url=https%3A%2F%2Fwww.funnelhackingsecrets.com%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,10X,DEALS&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+<html><head>
+<style>
+#x .a{margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
+#x .b{margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd;}
+#x .c{padding:0px 0px;width:100%;}
+#x .d{padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;}
+#x .e{color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;}
+#x .f{margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
+#x .g{border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%;}
+#x .h{margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.5;font-family:sans-serif;display:block;font-size:1rem;}
+#x .i{margin:4% 0 0 0;color:#2bb14c;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
+#x .j{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;}
+#x .k{margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
+#x .l{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;}
+#x .m{margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
+#x .n{padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;}
+#x .o{margin:0;}
+</style>
+</head>
+<body>
+<table id="x" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
+	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
+		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
+			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
 
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🤓 Meta
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
-                          <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
-                          <br><b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}
-                          <br><b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}
-                          <br><b>Message ID:</b> {{CONTACT \`message_id\`}}
-                          <br><b>Subscriber ID:</b> {{CONTACT \`subscriber_id\`}}
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+<h1 class="a">🎁 Daily Deal</h1>
+<div class="b"><table class="c"><tbody><tr><td class="d">
+	<p class="o"><span class="e">Attention: Entrepreneurs, Small Business Owners, Online Marketers and Marketing Agencies...</span></p>
+	<p class="f"><img alt="" class="g" src="https://funnelhackingsecrets.com/hosted/images/e4/7a6d01fa7f4c35941a3e0e68ad6c7f/FHS-Affiliate-graphics-Ads-3a.jpg"></p>
+	<p class="h">Find Out Which Funnels Will Work The Best <u>For YOUR Specific Business!</u> (...plus a <b>MASSIVE 91% OFF</b> deal inside!)</p>
+	<p class="i"><a class="j" href="https://www.funnelhackingsecrets.com?cf_affiliate_id=831693&affiliate_id=831693" target="_blank">👉 REGISTER FOR THE FREE WEBCLASS NOW!</a></p>
+	<p class="k"><a class="l" href="https://twitter.com/intent/tweet?text=%22The%20Weird%20%28Almost%20Backwards%29%20Funnel%20Secret%20That%20Is%20Currently%20Being%20Used%20By%20An%20Underground%20Group%20Of%20Entrepreneurs%20To%20Sell%20Almost%20Anything%20You%20Can%20Dream%20Of%21%22&url=https%3A%2F%2Fwww.funnelhackingsecrets.com%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,10X,DEALS&via=10XDaily" target="_blank">SHARE</a></p>
+</td></tr></tbody></table></div>
 
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </td></tr></tbody></table>
-  </td></tr></tbody></table>
+<h1 class="l">🤓 Meta</h1>
+<div class="b"><table class="c"><tbody><tr><td class="l">
+	<p class="f"><b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]<br>
+	<b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}<br>
+	<b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}<br>
+	<b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}<br>
+	<b>Message ID:</b> {{CONTACT \`message_id\`}}<br>
+	<b>Subscriber ID:</b> {{CONTACT \`subscriber_id\`}}</p>
+</td></tr></tbody></table></div>
+
+			</td></tr></tbody></table>
+		</td></tr></tbody></table>
+	</td></tr></tbody></table>
 </td></tr></tbody></table>
+</body></html>
 `,
        "plain": `
 `// TODO - dynamic plaintext version of the HTML email? (strip HTML)
