@@ -769,8 +769,8 @@ async function sendDealsemail() {
 	<p class="k"><a class="l" href="https://twitter.com/intent/tweet?text=%22The%20Weird%20%28Almost%20Backwards%29%20Funnel%20Secret%20That%20Is%20Currently%20Being%20Used%20By%20An%20Underground%20Group%20Of%20Entrepreneurs%20To%20Sell%20Almost%20Anything%20You%20Can%20Dream%20Of%21%22&url=https%3A%2F%2Fwww.funnelhackingsecrets.com%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,10X,DEALS&via=10XDaily" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
-<h1 class="a">🤓 Meta</h1>
-<div class="b"><table class="c"><tbody><tr><td class="d">
+<h1 class="m">🤓 Meta</h1>
+<div class="b"><table class="c"><tbody><tr><td class="n">
 	<p class="f"><b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]<br>
 	<b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}<br>
 	<b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}<br>
