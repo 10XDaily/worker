@@ -582,7 +582,15 @@ async function sendNewsemail() {
 		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
 
-<h1 class="a" style="margin:0;">🤘 Daily Quote</h1>
+<h1 class="a" style="margin:0;">🚧 Work In Progress</h1>
+<div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
+	<p class="v"><span class="k">10X News is under construction</span></p>
+	<p class="m"><b>UPDATE: Daily News is now available! 🥳</b></p>
+	<p class="m">We're working hard to bring you Daily Quote, Daily Action, Daily Sponsor &amp; Daily Meme ... but for now, these sections are just showing examples to give you an idea of what we're building for you!</p>
+
+</td></tr></tbody></table></div>
+
+<h1 class="a">🤘 Daily Quote</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
 	<p class="e">“Knowledge is Power ⚡ Money is Freedom” <span class="f">—&nbsp;10X&nbsp;Daily</span></p>
 	<p class="g"><a class="h" href="https://twitter.com/intent/tweet?text=%E2%80%9CKnowledge%20is%20Power%20%E2%9A%A1%20Money%20is%20Freedom%E2%80%9D%20%E2%80%94%2010X%20Daily&url=https%3A%2F%2F10x.day&hashtags=10X&via=10XDaily" target="_blank">SHARE</a></p>
@@ -737,7 +745,7 @@ async function sendDealsemail() {
         "html": `
 <html><head>
 <style>
-#x .a{margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
+#x .a{margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
 #x .b{margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd;}
 #x .c{padding:0px 0px;width:100%;}
 #x .d{padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;}
@@ -749,7 +757,7 @@ async function sendDealsemail() {
 #x .j{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;}
 #x .k{margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
 #x .l{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;}
-#x .m{margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
+#x .m{}
 #x .n{padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;}
 #x .o{margin:0;}
 </style>
@@ -760,13 +768,13 @@ async function sendDealsemail() {
 		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
 
-<h1 class="a">🚧 Work In Progress</h1>
+<h1 class="a" style="margin:0;">🚧 Work In Progress</h1>
 <div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
 	<p class="o"><span class="e">10X Deals is under construction</span></p>
-	<p class="h">We're working hard to bring you the best daily deals... while you wait, please check out the incredible offer below!</p>
+	<p class="h">We're in the process of finding you the BEST daily deals... while you wait, please check out the incredible offer below!</p>
 </td></tr></tbody></table></div>
 
-<h1 class="m">🎁 Daily Deal</h1>
+<h1 class="a">🎁 Daily Deal</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
 	<p class="o"><span class="e">Attention: Entrepreneurs, Small Business Owners, Online Marketers and Marketing Agencies...</span></p>
 	<p class="f"><img alt="" class="g" src="https://funnelhackingsecrets.com/hosted/images/e4/7a6d01fa7f4c35941a3e0e68ad6c7f/FHS-Affiliate-graphics-Ads-3a.jpg"></p>
@@ -775,7 +783,7 @@ async function sendDealsemail() {
 	<p class="k"><a class="l" href="https://twitter.com/intent/tweet?text=%22The%20Weird%20%28Almost%20Backwards%29%20Funnel%20Secret%20That%20Is%20Currently%20Being%20Used%20By%20An%20Underground%20Group%20Of%20Entrepreneurs%20To%20Sell%20Almost%20Anything%20You%20Can%20Dream%20Of%21%22&url=https%3A%2F%2Fwww.funnelhackingsecrets.com%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,10X,DEALS&via=10XDaily" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
-<h1 class="m">🤓 Meta</h1>
+<h1 class="a">🤓 Meta</h1>
 <div class="b"><table class="c"><tbody><tr><td class="n">
 	<p class="f"><b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]<br>
 	<b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}<br>
@@ -910,6 +918,12 @@ async function sendStatsemail() {
 	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
 		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
+
+<h1 class="a" style="margin:0;">🚧 Work In Progress</h1>
+<div class="b" style="background-color:lightyellow;"><table class="c"><tbody><tr><td class="d">
+	<p class="v"><span class="k">10X Stats is under construction</span></p>
+	<p class="m">We're on a mission to build the world's first truly FREE, Scalable &amp; Sustainable "Passive Income Machine"... but for now, this email just contains hardcoded example data to give you a glimpse into the future!</p>
+</td></tr></tbody></table></div>
 
 <h1 class="a" style="margin:0;">💕 Referrals</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
@@ -1531,7 +1545,7 @@ async function sendStatsemail() {
 <h1 class="a">🦄 10X DAO</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
 	<p class="e" style="margin:0;"><b>10X <i>Decentralized</i> Autonomous Organization</b></p>
-	<p class="e">10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truly FREE, Scalable & Sustainable "Passive Income Machine".</p>
+	<p class="e">10X operates transparently as a Global, Bootstrapped, Open Startup building the world's first truly FREE, Scalable &amp; Sustainable "Passive Income Machine".</p>
 	<p class="e">Our long-term goal is to be owned and operated by our community of users through progressive decentralization... 1st&nbsp;Product/Market Fit, 2nd&nbsp;Community Participation and 3rd&nbsp;Sufficient Decentralization (community ownership).</p>
 	<table class="f">
 		<tbody>
