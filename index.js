@@ -550,182 +550,107 @@ async function sendNewsemail() {
     let email_json = {
       "content": {
         "html": `
-<table cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
-  <table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
-    <table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
-      <table align="center" cellpadding="0" cellspacing="0" role="presentation">
-        <tbody>
-          <tr style="background-color:#f5f7fb">
-            <td>
-	    
-	      <h1 style="margin:0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🤘 Daily Quote
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-			<p style="margin:3% 0 0 0;color:#29303e;font-weight:900;font-size:1.5rem;font-family:sans-serif;line-height:1.5;">
-                          “Knowledge is Power ⚡ Money is Freedom” <span style="color:#677489;">—&nbsp;10X&nbsp;Daily</span>
-                        </p>
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://twitter.com/intent/tweet?text=%E2%80%9CKnowledge%20is%20Power%20%E2%9A%A1%20Money%20is%20Freedom%E2%80%9D%20%E2%80%94%2010X%20Daily&url=https%3A%2F%2F10x.day&hashtags=10X&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        ⚡ Daily Action
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-			<p style="margin:0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">Poll: Do you have a business?</span></p>
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
-                            Nope, not interested
-                          </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
-                            Thinking up ideas
-                          </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
-                            In development (Pre-launch)
-                          </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
-                            Launched (Pre-revenue)
-                          </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
-                            Finding Product-Market-Fit (<$10K/mth)
-                          </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
-                            Startup Scaling (>$10K/mth)
-                          </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
-                            Business Scaling (>$100K/mth)
-                          </a>
-                          <a href="https://10x.day" target="_blank" style="display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;">
-                            Enterprise Scaling (>$1M/mth)
-                          </a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	      
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        ⭐ Daily Sponsor
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-                        <p style="margin:3% 0 0 0;"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;">What Would You Do With An Extra 10, 100, or 1,000 New Leads Per Day!?!</span></p>
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <img alt="" src="https://5dayleadchallenge.com/hosted/images/bf/1dcba62d6444f286b2d42c45c8103a/5DLC_Affiliate_1080x1080C.png" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
-                        </p>
-			<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.5;font-family:sans-serif;display:block;font-size:1rem;">
-			  Join The "5 Day Lead Challenge" (FOR FREE) And Learn How To "Turn-On" An Endless Stream Of Hot Leads For Your Business!
-			</p>
-                        <p style="margin:4% 0 0 0;color:#2bb14c;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://www.5dayleadchallenge.com/?cf_affiliate_id=831693&affiliate_id=831693" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;">👉 JOIN THE "5 DAY LEAD CHALLENGE" FOR FREE!</a>
-                        </p>
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://twitter.com/intent/tweet?text=Join%20The%20%225%20Day%20Lead%20Challenge%22%20%28FOR%20FREE%29%20And%20Learn%20How%20To%20%22Turn-On%22%20An%20Endless%20Stream%20Of%20Hot%20Leads%20For%20Your%20Business%21&url=https%3A%2F%2Fwww.5dayleadchallenge.com%2F%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,TRAFFIC,LEADS,10X&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+<html><head>
+<style>
+#x .a{margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;}
+#x .b{margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd;}
+#x .c{padding:0px 0px;width:100%;}
+#x .d{padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;}
+#x .e{margin:3% 0 0 0;color:#29303e;font-weight:900;font-size:1.5rem;font-family:sans-serif;line-height:1.5;}
+#x .f{color:#677489;}
+#x .g{margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
+#x .h{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;}
+#x .i{color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;}
+#x .j{display:block;text-decoration:none;width:100%;margin:4% 0 0 0;padding:4% 0;line-height:1.5;font-weight:700;background-color:#fff;color:#15c;border:2px solid #15c;border-radius:4px;}
+#x .k{color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.5;}
+#x .l{margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
+#x .m{margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.5;font-family:sans-serif;display:block;font-size:1rem;}
+#x .n{margin:4% 0 0 0;color:#2bb14c;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;}
+#x .o{border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%}
+#x .p{display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1.5;font-weight:700;background-color:#2bb14c;color:#fff;border-radius:4px;}
+#x .q{margin:3% 0 0 0;}
+#x .r{margin:3% 0 0 0;}
+#x .s{color:#677489;text-decoration:none;}
+#x .t{text-decoration:none}
+#x .u{padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;}
+#x .v{margin:0;}
+</style>
+</head>
+<body>
+<table id="x" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f5f7fb;padding:4%;" width="100%"><tbody><tr><td align="center">
+	<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:500px" width="100%"><tbody><tr><td>
+		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
+			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
 
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🔥 Daily News
-              </h1>
-		
+<h1 class="a" style="margin:0;">🤘 Daily Quote</h1>
+<div class="b"><table class="c"><tbody><tr><td class="d">
+	<p class="e">“Knowledge is Power ⚡ Money is Freedom” <span class="f">—&nbsp;10X&nbsp;Daily</span></p>
+	<p class="g"><a class="h" href="https://twitter.com/intent/tweet?text=%E2%80%9CKnowledge%20is%20Power%20%E2%9A%A1%20Money%20is%20Freedom%E2%80%9D%20%E2%80%94%2010X%20Daily&url=https%3A%2F%2F10x.day&hashtags=10X&via=10XDaily" target="_blank">SHARE</a></p>
+</td></tr></tbody></table></div>
+				
+<h1 class="a">⚡ Daily Action</h1>
+<div class="b"><table class="c"><tbody><tr><td class="d">
+	<p class="v"><span class="i">Poll: Do you have a business?</span></p>
+	<p class="g">
+		<a class="j" href="https://10x.day" target="_blank">Nope, not interested</a>
+		<a class="j" href="https://10x.day" target="_blank">Thinking up ideas</a>
+		<a class="j" href="https://10x.day" target="_blank">In development (Pre-launch)</a>
+		<a class="j" href="https://10x.day" target="_blank">Launched (Pre-revenue)</a>
+		<a class="j" href="https://10x.day" target="_blank">Finding Product-Market-Fit (&lt;$10K/mth)</a>
+		<a class="j" href="https://10x.day" target="_blank">Startup Scaling (&gt;$10K/mth)</a>
+		<a class="j" href="https://10x.day" target="_blank">Business Scaling (&gt;$100K/mth)</a>
+		<a class="j" href="https://10x.day" target="_blank">Enterprise Scaling (&gt;$1M/mth)</a>
+	</p>
+</td></tr></tbody></table></div>
+
+<h1 class="a">⭐ Daily Sponsor</h1>
+<div class="b"><table class="c"><tbody><tr><td class="d">
+	<p class="q"><span class="k">What Would You Do With An Extra 10, 100, or 1,000 New Leads Per Day!?!</span></p>
+	<p class="l"><img alt="" class="o" src="https://5dayleadchallenge.com/hosted/images/bf/1dcba62d6444f286b2d42c45c8103a/5DLC_Affiliate_1080x1080C.png"></p>
+	<p class="m">Join The "5 Day Lead Challenge" (FOR FREE) And Learn How To "Turn-On" An Endless Stream Of Hot Leads For Your Business!</p>
+	<p class="n"><a class="p" href="https://www.5dayleadchallenge.com/?cf_affiliate_id=831693&affiliate_id=831693" target="_blank">👉 JOIN THE "5 DAY LEAD CHALLENGE" FOR FREE!</a></p>
+	<p class="g"><a class="h" href="https://twitter.com/intent/tweet?text=Join%20The%20%225%20Day%20Lead%20Challenge%22%20%28FOR%20FREE%29%20And%20Learn%20How%20To%20%22Turn-On%22%20An%20Endless%20Stream%20Of%20Hot%20Leads%20For%20Your%20Business%21&url=https%3A%2F%2Fwww.5dayleadchallenge.com%2F%3Fcf_affiliate_id%3D831693%26affiliate_id%3D831693&hashtags=CLICKFUNNELS,TRAFFIC,LEADS,10X&via=10XDaily" target="_blank">SHARE</a></p>
+</td></tr></tbody></table></div>
+
+<h1 class="a">🔥 Daily News</h1>
 {{LOOP "news" "item"}}
-<div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-<table style="padding:0px 0px;width:100%">
-<tbody>
-<tr>
-<td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-<a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%"></a>
-<p style="margin:3% 0 0 0;"><a href="{{LINK "item" "canonicalUrl"}}" style="text-decoration:none" target="_blank"><span style="color:#29303e;font-weight:700;font-size:1.2rem;font-family:sans-serif;line-height:1.3;">{{TOPIC "item" "title"}}</span></a></p>
-<p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
+<div class="b"><table class="c"><tbody><tr><td class="d">
+	<a href="{{LINK "item" "canonicalUrl"}}" class="t" target="_blank"><img alt="" src="{{TOPIC "item" "visualUrl"}}" class="o"></a>
+	<p class="r"><a href="{{LINK "item" "canonicalUrl"}}" class="t" target="_blank"><span class="i">{{TOPIC "item" "title"}}</span></a></p>
+<p class="l">
 <b>{{TOPIC "item" "topic"}}</b> • 
 {{LOOP "item" "item_attribute_name" "item_attribute_value"}}
 {{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
-<a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" style="color:#677489;text-decoration:none;">{{TOPIC "item" "originTitle"}}</a> • 
+<a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" class="s">{{TOPIC "item" "originTitle"}}</a> • 
 {{ENDIF}}
 {{ENDLOOP}}
 {{TOPIC "item" "engagementShort"}}&nbsp;•&nbsp;{{TOPIC "item" "publishedShort"}}
 </p>
-<p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-<a href="{{LINK "item" "shareUrl"}}" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-</p>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+	<p class="g"><a href="{{LINK "item" "shareUrl"}}" target="_blank" class="h">SHARE</a></p>
+</td></tr></tbody></table></div>
 {{ENDLOOP}}
 
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        ❤️ Daily Meme
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:center;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <img alt="" src="https://media.tenor.com/2roX3uxz_68AAAAC/cat-space.gif" style="border-radius:5px;min-width:100px;min-height:100px;max-width:500px;max-height:500px;object-fit:cover;width:100%" />
-                        </p>
-                        <p style="margin:4% 0 0 0;color:#677489;font-weight:700;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <a href="https://twitter.com/intent/tweet?text=Nyan%20Cat&url=https%3A%2F%2Ftenor.com%2Fview%2Fcat-space-nyan-cat-gif-22656380&hashtags=MEME&via=10XDaily" target="_blank" style="display:block;text-decoration:none;width:100%;padding:4% 0;line-height:1;font-weight:700;background-color:#15c;color:#fff;border-radius:4px;">SHARE</a>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+<h1 class="a">❤️ Daily Meme</h1>
+<div class="b"><table class="c"><tbody><tr><td class="d">
+	<p class="l"><img alt="" class="o" src="https://media.tenor.com/2roX3uxz_68AAAAC/cat-space.gif"></p>
+	<p class="g"><a class="h" href="https://twitter.com/intent/tweet?text=Nyan%20Cat&url=https%3A%2F%2Ftenor.com%2Fview%2Fcat-space-nyan-cat-gif-22656380&hashtags=MEME&via=10XDaily" target="_blank">SHARE</a></p>
+</td></tr></tbody></table></div>
 
-	      <h1 style="margin:8% 0 0 0;color:#29303e;font-weight:700;font-size:1.5rem;font-family:sans-serif;line-height:1;">
-	        🤓 Meta
-              </h1>
-              <div style="margin:6% 0 0 0;padding:4% 4%;background-color:#fff;border-radius:10px;border:1px solid #dddddd">
-                <table style="padding:0px 0px;width:100%">
-                  <tbody>
-                    <tr>
-                      <td style="padding:0;color:#64748b;font-weight:500;line-height:1.3;font-family:Arial,-apple-system,'Segoe UI',sans-serif;display:block;font-size:1rem;text-align:left;">
-	                <p style="margin:3% 0 0 0;color:#677489;font-weight:400;line-height:1.3;font-family:sans-serif;display:block;font-size:1rem;">
-                          <b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]
-                          <br><b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}
-                          <br><b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}
-                          <br><b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}
-                          <br><b>Message ID:</b> {{CONTACT \`message_id\`}}
-                          <br><b>Subscriber ID:</b> {{CONTACT \`subscriber_id\`}}
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+<h1 class="a">🤓 Meta</h1>
+<div class="b"><table class="c"><tbody><tr><td class="u">
+	<p class="l"><b>{{RANDOM \`Hi\` \`Hello\` \`Hey\`}}:</b> [[firstname]]<br>
+	<b>Date:</b> {{DATE \`YEAR-MONTH-DAY\`}}<br>
+	<b>Time:</b> {{DATE \`HOUR:MINUTE:SECOND\`}}<br>
+	<b>Campaign ID:</b> {{CONTACT \`campaign_id\`}}<br>
+	<b>Message ID:</b> {{CONTACT \`message_id\`}}<br>
+	<b>Subscriber ID:</b> {{CONTACT \`subscriber_id\`}}</p>
+</td></tr></tbody></table></div>
 
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </td></tr></tbody></table>
-  </td></tr></tbody></table>
+			</td></tr></tbody></table>
+		</td></tr></tbody></table>
+	</td></tr></tbody></table>
 </td></tr></tbody></table>
+</body></html>
 `,
        "plain": `
 `// TODO - dynamic plaintext version of the HTML email? (strip HTML)
