@@ -626,11 +626,7 @@ async function sendNewsemail() {
 	<p class="r"><a href="{{LINK "item" "canonicalUrl"}}" class="t" target="_blank"><span class="i">{{TOPIC "item" "title"}}</span></a></p>
 <p class="l">
 <b>{{TOPIC "item" "topic"}}</b> • 
-{{LOOP "item" "item_attribute_name" "item_attribute_value"}}
-{{IF "((item_attribute_name STRING_EQ 'originTitle') LOGIC_AND (item_attribute_value STRING_NEQ ''))"}}
-<a href="{{LINK "item" "originHtmlUrl"}}" target="_blank" class="s">{{TOPIC "item" "originTitle"}}</a> • 
-{{ENDIF}}
-{{ENDLOOP}}
+<a href="{{LINK "item" "streamUrl"}}" target="_blank" class="s">{{TOPIC "item" "streamName"}}</a> • 
 {{TOPIC "item" "engagementShort"}}&nbsp;•&nbsp;{{TOPIC "item" "publishedShort"}}
 </p>
 	<p class="g"><a href="{{LINK "item" "shareUrl"}}" target="_blank" class="h">SHARE</a></p>
