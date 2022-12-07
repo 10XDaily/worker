@@ -760,7 +760,13 @@ async function sendDealsemail() {
 		<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td style="padding:0">
 			<table align="center" cellpadding="0" cellspacing="0" role="presentation"><tbody><tr style="background-color:#f5f7fb"><td>
 
-<h1 class="a">🎁 Daily Deal</h1>
+<h1 class="a">🚧 Work In Progress</h1>
+<div class="b"><table class="c"><tbody><tr><td class="d">
+	<p class="o"><span class="e">10X Deals is currently under construction.</span></p>
+	<p class="h">We're working hard to bring you the best daily deals... while you wait, please check out the epic offer below!</p>
+</td></tr></tbody></table></div>
+
+<h1 class="m">🎁 Daily Deal</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
 	<p class="o"><span class="e">Attention: Entrepreneurs, Small Business Owners, Online Marketers and Marketing Agencies...</span></p>
 	<p class="f"><img alt="" class="g" src="https://funnelhackingsecrets.com/hosted/images/e4/7a6d01fa7f4c35941a3e0e68ad6c7f/FHS-Affiliate-graphics-Ads-3a.jpg"></p>
