@@ -1446,9 +1446,9 @@ async function sendStatsemail() {
 
 <h1 class="a">⚡ Zeus</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
-	<p class="e" style="margin:0;"><b>Zeus = <i>God</i> Level User</b></p>
+	<p class="e" style="margin:0;"><b>Zeus = <i>Top</i> Level User</b></p>
 	<p class="e">The 10X referral program has a system user named Zeus sitting in the highest position... Zeus is the Direct Referrer of 10X Team members and all non-referred signups.</p>
-	<p class="e">Income earnt by Zeus is split 50% Traffic / 50% Profits... Profits go into a treasury that is transparently spent on community proposals (like influencer campaigns, licensing bonuses, contracting expert copywriters, etc).</p>
+	<p class="e">Income earnt by Zeus is split 50% Traffic / 50% Profits... Profits go into a treasury that is transparently spent on community proposals (like #10X Social Rewards, influencer campaigns, licensing bonuses, contracting copywriters, etc).</p>
 	<table class="f">
 		<tbody>
 			<tr class="g">
@@ -1581,7 +1581,7 @@ async function sendStatsemail() {
 	<p class="v" style="margin:3% 0 0 0;"><b>50% Team:</b></p>
 	<p class="v">🏦 10% Savings</p>
 	<p class="v">🪙 10% Cash or Bitcoin (Current Team)</p>
-	<p class="v">🚀 10% Traffic (Current Team)</p>
+	<p class="v">🚀 10% Paid Traffic (Current Team)</p>
 	<p class="v">🏖️ 10% Passive Income (Lifetime Team)</p>
 	<p class="v">📈 10% Crypto Portfolio (Lifetime Team)</p>
 	<p class="v" style="margin:3% 0 0 0;"><b>50% Community:</b></p>
@@ -1644,7 +1644,7 @@ async function sendStatsemail() {
 	<p class="v">🪙 $0.00 Total</p>
 	<p class="v">💃 1 Current Team Members</p>
 	<p class="v">💗 $0.00 each Current Team Member</p>
-	<p class="v" style="margin:3% 0 0 0;"><b>Traffic (All Time):</b></p>
+	<p class="v" style="margin:3% 0 0 0;"><b>Paid Traffic (All Time):</b></p>
 	<p class="v">🚀 $0.00 Spent</p>
 	<p class="v">💕 0 Referrals</p>
 	<p class="v">💵 $0.00 Income</p>
@@ -1719,11 +1719,11 @@ async function sendStatsemail() {
 	<p class="n"><a class="o" href="https://10x.day" target="_blank">SHARE</a></p>
 </td></tr></tbody></table></div>
 
-<h1 class="a">📩 Email</h1>
+<h1 class="a">🪴 Growth</h1>
 <div class="b"><table class="c"><tbody><tr><td class="d">
-	<p class="e" style="margin:0;"><b>Email is the <i>core</i> of 10X</b></p>
-	<p class="e">10X is an Email-First Startup... low tech, high ROI!</p>
-	<p class="e">We have a growing community of <b>1</b> subscribers, producing <b>$0.00</b> passive income, across <b>10</b> topics, with each user subscribing to an average of <b>2</b> topics.</p>
+	<p class="e" style="margin:0;"><b>Congratulations on <i>your</i> 10X Business!</b></p>
+	<p class="e">Joining 10X means you are now your own boss...drive referrals, revenue &amp; engagement to grow these core business metrics!</p>
+	<p class="e">Together we have a growing community of <b>1</b> subscribers, producing <b>$0.00</b> passive income, across <b>10</b> topics, with each user subscribing to an average of <b>2</b> topics.</p>
 	<table class="f">
 		<tbody>
 			<tr class="g">
