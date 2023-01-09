@@ -36,6 +36,100 @@ const X_API_LEXPAD = "lexpad" // https://x8ki-letl-twmt.n7.xano.io/apidoc:xhF9IG
 const X_API_ENTRIES = "entries" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/entries
 const X_API_NEWS = "news" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/news
 
+
+/*
+EXPERIMENT - EveryNFT
+*/
+/*
+Goals: 
+- 1px vertical slice of every NFT in an NFT collection
+- If 1000px x 1000px image, and > 1000 NFTs in collection, then randomly pick 1000 NFTs from the collection (to keep 1000 x 1000 image dimension)
+- 5% Royalties split with original creator (80% original, 20% me)
+
+POC assets:
+- BAYC IPFS Image hosting - https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/
+- BAYC Dimensions = 631px x 631px
+- BAYC #0 - https://ipfs.io/ipfs/QmRRPWG96cmgTn2qSzjwr2qvfNEuhunv6FNeMFGa9bx6mQ
+- BAYC #1 - https://ipfs.io/ipfs/QmPbxeGcXhYQQNgsC6a36dDyYUcHgMLnGKnF8pVFmGsvqi
+- BAYC #2 - https://ipfs.io/ipfs/QmcJYkCKK7QPmYWjp4FD2e3Lv5WCGFuHNUByvGKBaytif4
+- BAYC #3 - https://ipfs.io/ipfs/QmYxT4LnK8sqLupjbS6eRvu1si7Ly2wFQAqFebxhWntcf6
+
+POC References:
+- Trim: https://developers.cloudflare.com/images/image-resizing/resize-with-workers/#trim
+- An example worker: https://developers.cloudflare.com/images/image-resizing/resize-with-workers/#an-example-worker
+- Draw overlays & watermarks: https://developers.cloudflare.com/images/image-resizing/draw-overlays/
+- Draw combined into one image: https://developers.cloudflare.com/images/image-resizing/draw-overlays/#combined
+
+POC Goal:
+- Show left 50% of BAYC #0 (trim)
+- Show right 50% of BAYC #1 (trim)
+- Draw both onto one image i.e. 50/50 split (draw combined)
+- Do the same for BAYC #2 & BAYC #3 on a separate image
+- Draw all 4 onto one image i.e. 25/25/25/25 split (draw combined)
+- Draw as a 1px vertical slice for each of the 4 images i.e. total of 4px width
+- Choose BAYC's at random from IPFS (0-9999)
+- Remove possibility of duplicates in the random selection
+- Random choice seeded by a specific date (NOW GMT as the default)
+- Pass in a specific date as a URL parameter 
+*/
+router.get("/nft", async request => {
+  console.log("nft logs");
+  
+  const { protocol, pathname } = new URL(request.url);
+
+  // In the case of a Basic authentication, the exchange MUST happen over an HTTPS (TLS) connection to be secure.
+  if ('https:' !== protocol || 'https' !== request.headers.get('x-forwarded-proto')) {
+    throw new BadRequestException('Please use a HTTPS connection.');
+  }
+  
+  // The "Authorization" header is sent when authenticated.
+  if (request.headers.has('Authorization')) {
+    // Throws exception when authorization fails.
+    const { user, pass } = basicAuthentication(request);
+    verifyCredentials(user, pass);
+
+    // Only returns this response when no exception is thrown.
+  
+    //const nft_image = await generateNFT();
+    //console.log(nft_image);
+    
+console.log("Test AFTER generateNFT");
+
+    let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
+    let html_content = '<h1>Success!!!</h1>';
+    // html_content += `<p>... add more HTML to confirm the email sent successfully</p>`; // TODO
+
+    let html = `
+  <!DOCTYPE html>
+  <head>
+    <title>NFT: Generated</title>
+  </head>
+  <body>
+    <style>${html_style}</style>
+    <div id="container">
+    ${html_content}
+    </div>
+  </body>`;
+
+    return new Response(html, {
+      headers: {
+        'content-type': 'text/html;charset=UTF-8',
+        'Cache-Control': 'no-store',
+      },
+    });
+  }
+  
+  // Not authenticated.
+  return new Response('You need to login.', {
+    status: 401,
+    headers: {
+      // Prompts the user for credentials.
+      'WWW-Authenticate': 'Basic realm="my scope", charset="UTF-8"',
+    },
+  });
+})
+
+
 /*
 The newsemail route is for creating and sending the 10X News daily email newsletter via GetResponse
 */
