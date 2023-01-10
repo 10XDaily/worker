@@ -141,7 +141,7 @@ async function generateNFT() {
 	    "https://ipfs.io/ipfs/QmYxT4LnK8sqLupjbS6eRvu1si7Ly2wFQAqFebxhWntcf6"
     ]; // BAYC 0, 1, 2, 3
     let randomOriginalNFT = originalNFTs[Math.floor(Math.random()*originalNFTs.length)];
-    let endpoint = "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/3" // BAYC 3
+    let endpoint = "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/3"; // BAYC 3
 
 console.log(randomOriginalNFT);
     
@@ -154,6 +154,7 @@ console.log(randomOriginalNFT);
     };
 console.log("AFTER init");
 console.log(init); 
+console.log(endpoint); 
     const response = await fetch(endpoint, init);
 console.log("AFTER response");
 console.log(response); 
