@@ -140,7 +140,7 @@ async function generateNFT() {
 	    "https://ipfs.io/ipfs/QmcJYkCKK7QPmYWjp4FD2e3Lv5WCGFuHNUByvGKBaytif4",
 	    "https://ipfs.io/ipfs/QmYxT4LnK8sqLupjbS6eRvu1si7Ly2wFQAqFebxhWntcf6"
     ]; // BAYC 0, 1, 2, 3
-    let randomOriginalNFT = originalNFTs[Math.floor(Math.random()*originalNFTs.length];
+    let randomOriginalNFT = originalNFTs[Math.floor(Math.random()*originalNFTs.length)];
 console.log("randomOriginalNFT");	  
 console.log(randomOriginalNFT);
 	  
