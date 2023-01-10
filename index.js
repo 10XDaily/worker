@@ -38,7 +38,8 @@ const X_API_NEWS = "news" // https://x8ki-letl-twmt.n7.xano.io/api:xhF9IGoC/news
 
 
 /*
-EXPERIMENT - EveryNFT
+START EXPERIMENT ------------------------------------------------------------------------------------------------------
+Name: EveryNFT
 */
 /*
 Goals: 
@@ -90,14 +91,14 @@ router.get("/nft", async request => {
 
     // Only returns this response when no exception is thrown.
   
-    //const nft_image = await generateNFT();
-    //console.log(nft_image);
+    const nft_image = await generateNFT();
+    console.log(nft_image);
     
 console.log("Test AFTER generateNFT");
 
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
     let html_content = '<h1>Success!!!</h1>';
-    // html_content += `<p>... add more HTML to confirm the email sent successfully</p>`; // TODO
+    html_content += `<p><img src="${nft_image}" /></p>`;
 
     let html = `
   <!DOCTYPE html>
@@ -129,6 +130,38 @@ console.log("Test AFTER generateNFT");
   });
 })
 
+async function generateNFT() {
+  console.log('generateNFT start');
+  return new Promise(async function (resolve) {
+    let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+    let originalNFTs = [
+	    "https://ipfs.io/ipfs/QmRRPWG96cmgTn2qSzjwr2qvfNEuhunv6FNeMFGa9bx6mQ",
+	    "https://ipfs.io/ipfs/QmPbxeGcXhYQQNgsC6a36dDyYUcHgMLnGKnF8pVFmGsvqi",
+	    "https://ipfs.io/ipfs/QmcJYkCKK7QPmYWjp4FD2e3Lv5WCGFuHNUByvGKBaytif4",
+	    "https://ipfs.io/ipfs/QmYxT4LnK8sqLupjbS6eRvu1si7Ly2wFQAqFebxhWntcf6"
+    ]; // BAYC 0, 1, 2, 3
+    let randomOriginalNFT = originalNFTs[Math.floor(Math.random()*originalNFTs.length)];
+    let endpoint = "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/3" // BAYC 3
+
+    const init = {
+      headers: {
+        'content-type': 'application/json;charset=UTF-8',
+      },
+      body: "",
+      method: 'GET'
+    };
+
+    const response = await fetch(endpoint, init);
+    const content = await response.json();
+console.log("content");
+    
+    resolve(randomOriginalNFT);
+  });
+}
+
+/*
+END EXPERIMENT ------------------------------------------------------------------------------------------------------
+*/
 
 /*
 The newsemail route is for creating and sending the 10X News daily email newsletter via GetResponse
