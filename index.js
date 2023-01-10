@@ -155,7 +155,7 @@ console.log(randomOriginalNFT);
 console.log("AFTER init");
 console.log(init); 
 console.log(endpoint); 
-    const response = await fetch(endpoint, init);
+    const response = await fetch(endpoint); 
 console.log("AFTER response");
 console.log(response); 
     const content = await response.json();
