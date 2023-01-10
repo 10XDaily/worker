@@ -152,11 +152,15 @@ console.log(randomOriginalNFT);
       body: "",
       method: 'GET'
     };
-
+console.log("AFTER init");
+console.log(init); 
     const response = await fetch(endpoint, init);
+console.log("AFTER response");
+console.log(response); 
     const content = await response.json();
 console.log("AFTER content");
-    
+console.log(content); 
+	  
     resolve(content);
   });
 }
