@@ -98,7 +98,7 @@ console.log("Test AFTER generateNFT");
 
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
     let html_content = '<h1>Success!!!</h1>';
-    html_content += `<p><img src="${nft_image}" /></p>`;
+    html_content += `<p><img src="https://ipfs.io/ipfs/QmRRPWG96cmgTn2qSzjwr2qvfNEuhunv6FNeMFGa9bx6mQ" /></p>`;
 
     let html = `
   <!DOCTYPE html>
@@ -143,6 +143,8 @@ async function generateNFT() {
     let randomOriginalNFT = originalNFTs[Math.floor(Math.random()*originalNFTs.length)];
     let endpoint = "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/3" // BAYC 3
 
+console.log(randomOriginalNFT);
+    
     const init = {
       headers: {
         'content-type': 'application/json;charset=UTF-8',
@@ -153,9 +155,9 @@ async function generateNFT() {
 
     const response = await fetch(endpoint, init);
     const content = await response.json();
-console.log("content");
+console.log("AFTER content");
     
-    resolve(randomOriginalNFT);
+    resolve(content);
   });
 }
 
