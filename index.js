@@ -98,7 +98,7 @@ console.log("Test AFTER generateNFT");
 
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
     let html_content = '<h1>Success!!!</h1>';
-    html_content += `<p><img src="https://ipfs.io/ipfs/QmRRPWG96cmgTn2qSzjwr2qvfNEuhunv6FNeMFGa9bx6mQ" /></p>`;
+    html_content += `<p><img src="${nft_image}" /></p>`;
 
     let html = `
   <!DOCTYPE html>
@@ -137,32 +137,25 @@ async function generateNFT() {
     let originalNFTs = [
 	    "https://ipfs.io/ipfs/QmRRPWG96cmgTn2qSzjwr2qvfNEuhunv6FNeMFGa9bx6mQ",
 	    "https://ipfs.io/ipfs/QmPbxeGcXhYQQNgsC6a36dDyYUcHgMLnGKnF8pVFmGsvqi",
-	    "https://ipfs.io/ipfs/QmcJYkCKK7QPmYWjp4FD2e3Lv5WCGFuHNUByvGKBaytif4",
+	    "https://ipfs.io/ipfs/QmcJYkCKK7QPmYWjp4FD2e3Lv5WCGFuHNUByvGKBaytif4"
 	    "https://ipfs.io/ipfs/QmYxT4LnK8sqLupjbS6eRvu1si7Ly2wFQAqFebxhWntcf6"
     ]; // BAYC 0, 1, 2, 3
-    let randomOriginalNFT = originalNFTs[Math.floor(Math.random()*originalNFTs.length)];
-    let endpoint = "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/3"; // BAYC 3
-
+    let randomOriginalNFT = originalNFTs[Math.floor(Math.random()*originalNFTs.length];
+console.log("randomOriginalNFT");	  
 console.log(randomOriginalNFT);
-    
-    const init = {
-      headers: {
-        'content-type': 'application/json;charset=UTF-8',
-      },
-      body: "",
-      method: 'GET'
-    };
-console.log("AFTER init");
-console.log(init); 
-console.log(endpoint); 
-    const response = await fetch(endpoint); 
-console.log("AFTER response");
-console.log(response); 
-    const content = await response.json();
-console.log("AFTER content");
-console.log(content); 
 	  
-    resolve(content);
+    // Getting NFT JSON metadata
+    let nftMin = 0
+    let nftMax = 9999
+    let nftRandomNumber = Math.floor(Math.random() * (nftMax - nftMin + 1) + nftMin); // Returns a random number between min (inclusive) and max (inclusive)
+    let endpoint = "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/" + nftRandomNumber;
+    const response = await fetch(endpoint); 
+    const content = await response.json();
+    let otherOriginalNFT = "https://ipfs.io/ipfs/" + content.image.slice(7);
+console.log("otherOriginalNFT");	  
+console.log(otherOriginalNFT);
+	  
+    resolve(otherOriginalNFT);
   });
 }
 
