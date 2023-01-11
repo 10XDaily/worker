@@ -168,24 +168,23 @@ console.log(otherOriginalNFT);
 		cf: { 
 			image: {
 				fit: "scale-down",
-				width: 200,
-				height: 200,
+				//width: 200,
+				//height: 200,
 				quality: 100,
 				trim: {
 					top: 0,  
-					right: 315, 
+					right: 0, 
 					bottom: 0, 
 					left: 0
 				},
 				draw: [
 					{
-						url: randomOriginalNFT, // draw this image
-						bottom: 5, // 5 pixels from the bottom edge
-						left: 5, // 5 pixels from the right edge
-						fit: 'contain', // make it fit within 100x50 area
-						width: 50,
-						height: 50,
-						opacity: 0.8, // 20% transparent
+						url: "https://10x.day/cdn-cgi/image/trim=0;315;0;0/https://ipfs.io/ipfs/QmPbxeGcXhYQQNgsC6a36dDyYUcHgMLnGKnF8pVFmGsvqi", // draw this image
+						top: 0,
+						right: 0
+						//fit: 'contain', 
+						//width: 200,
+						//height: 200
 					},
 				]
 			} 
