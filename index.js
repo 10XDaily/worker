@@ -179,7 +179,7 @@ console.log(otherOriginalNFT);
 				},
 				draw: [
 					{
-						url: otherOriginalNFT, // draw this image
+						url: randomOriginalNFT, // draw this image
 						bottom: 5, // 5 pixels from the bottom edge
 						left: 5, // 5 pixels from the right edge
 						fit: 'contain', // make it fit within 100x50 area
