@@ -134,6 +134,8 @@ async function generateNFT() {
   console.log('generateNFT start');
   return new Promise(async function (resolve) {
     let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
+	  
+    // Hardcoded list of NFTs  
     let originalNFTs = [
 	    "https://ipfs.io/ipfs/QmRRPWG96cmgTn2qSzjwr2qvfNEuhunv6FNeMFGa9bx6mQ",
 	    "https://ipfs.io/ipfs/QmPbxeGcXhYQQNgsC6a36dDyYUcHgMLnGKnF8pVFmGsvqi",
@@ -144,7 +146,7 @@ async function generateNFT() {
 console.log("randomOriginalNFT");	  
 console.log(randomOriginalNFT);
 	  
-    // Getting NFT JSON metadata
+    // Getting NFT JSON metadata, and extract the image URL
     let nftMin = 0
     let nftMax = 9999
     let nftRandomNumber = Math.floor(Math.random() * (nftMax - nftMin + 1) + nftMin); // Returns a random number between min (inclusive) and max (inclusive)
@@ -154,6 +156,58 @@ console.log(randomOriginalNFT);
     let otherOriginalNFT = "https://ipfs.io/ipfs/" + content.image.slice(7);
 console.log("otherOriginalNFT");	  
 console.log(otherOriginalNFT);
+	  
+	// Cloudflare-specific options are in the cf object.
+	let imageURL = otherOriginalNFT;
+	let options = { 
+		cf: { 
+			image: {
+				fit: "scale-down",
+				width: "200",
+				height: "200",
+				quality: "100",
+				trim: {"top": 0,  "right": 315, "bottom": 0, "left": 0}
+			} 
+		} 
+	}
+  
+//	// Your Worker is responsible for automatic format negotiation. Check the Accept header.
+// 	const accept = request.headers.get("Accept");
+// 	if (/image\/avif/.test(accept)) {
+// 		options.cf.image.format = 'avif';
+// 	} else if (/image\/webp/.test(accept)) {
+// 		options.cf.image.format = 'webp';
+// 	}
+	  
+// 	try {
+// 		// TODO: Customize validation logic
+// 		const { hostname, pathname } = new URL(imageURL)
+
+// 		// Optionally, only allow URLs with JPEG, PNG, GIF, or WebP file extensions
+// 		// @see https://developers.cloudflare.com/images/url-format#supported-formats-and-limitations
+// 		if (!/\.(jpe?g|png|gif|webp)$/i.test(pathname)) {
+// 	  		return new Response('Disallowed file extension', { status: 400 })
+// 		}
+
+// 		// Demo: Only accept "example.com" images
+// 		if (hostname !== 'example.com') {
+// 		  return new Response('Must use "example.com" source images', { status: 403 })
+// 		}
+// 	} catch (err) {
+// 		return new Response('Invalid "image" value', { status: 400 })
+// 	}
+	  
+	// Build a request that passes through request headers
+	const imageRequest = new Request(imageURL, {
+		headers: request.headers
+	})
+console.log("imageRequest");	  
+console.log(imageRequest);
+
+	// Returning fetch() with resizing options will pass through response with the resized image.
+	const resizeResponse = await fetch(imageRequest, options)
+console.log("resizeResponse");	  
+console.log(resizeResponse);
 	  
     resolve(otherOriginalNFT);
   });
