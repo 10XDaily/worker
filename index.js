@@ -163,9 +163,9 @@ console.log(otherOriginalNFT);
 		cf: { 
 			image: {
 				fit: "scale-down",
-				width: "200",
-				height: "200",
-				quality: "100",
+				width: 200,
+				height: 200,
+				quality: 100,
 				trim: {
 					top: 0,  
 					right: 315, 
