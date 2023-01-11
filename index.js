@@ -213,6 +213,9 @@ console.log(imageRequest);
 	const resizeResponse = await fetch(imageRequest, options);
 console.log("resizeResponse");	  
 console.log(resizeResponse);
+    const resizeResponseJSON = await resizeResponse.json();
+console.log("resizeResponseJSON");
+console.log(resizeResponseJSON);
 	  
     resolve(otherOriginalNFT);
   });
