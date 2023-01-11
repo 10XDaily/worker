@@ -91,7 +91,7 @@ router.get("/nft", async request => {
 
     // Only returns this response when no exception is thrown.
   
-    const nft_image = await generateNFT();
+    const nft_image = await generateNFT(request);
     console.log(nft_image);
     
 console.log("Test AFTER generateNFT");
@@ -130,7 +130,7 @@ console.log("Test AFTER generateNFT");
   });
 })
 
-async function generateNFT() {
+async function generateNFT(request) {
   console.log('generateNFT start');
   return new Promise(async function (resolve) {
     let today = new Date(); // Cloudflare workers freeze time, see https://developers.cloudflare.com/workers/learning/security-model/
@@ -166,10 +166,15 @@ console.log(otherOriginalNFT);
 				width: "200",
 				height: "200",
 				quality: "100",
-				trim: {"top": 0,  "right": 315, "bottom": 0, "left": 0}
+				trim: {
+					top: 0,  
+					right: 315, 
+					bottom: 0, 
+					left: 0
+				}
 			} 
 		} 
-	}
+	};
   
 //	// Your Worker is responsible for automatic format negotiation. Check the Accept header.
 // 	const accept = request.headers.get("Accept");
@@ -200,12 +205,12 @@ console.log(otherOriginalNFT);
 	// Build a request that passes through request headers
 	const imageRequest = new Request(imageURL, {
 		headers: request.headers
-	})
+	});
 console.log("imageRequest");	  
 console.log(imageRequest);
 
 	// Returning fetch() with resizing options will pass through response with the resized image.
-	const resizeResponse = await fetch(imageRequest, options)
+	const resizeResponse = await fetch(imageRequest, options);
 console.log("resizeResponse");	  
 console.log(resizeResponse);
 	  
