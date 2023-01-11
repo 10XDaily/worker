@@ -214,11 +214,11 @@ console.log(imageRequest);
 console.log("resizeResponse");	  
 console.log(resizeResponse);
 console.log(JSON.stringify(resizeResponse));
+console.log(JSON.stringify(resizeResponse.json()));	  
 	  
-	  
-    const resizeResponseJSON = await resizeResponse.json();
-console.log("resizeResponseJSON");
-console.log(resizeResponseJSON);
+//     const resizeResponseJSON = await resizeResponse.json();
+// console.log("resizeResponseJSON");
+// console.log(resizeResponseJSON);
 	  
     resolve(otherOriginalNFT);
   });
