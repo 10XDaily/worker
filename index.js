@@ -202,25 +202,36 @@ console.log(otherOriginalNFT);
 // 		return new Response('Invalid "image" value', { status: 400 })
 // 	}
 	  
-// 	// Build a request that passes through request headers
-// 	const imageRequest = new Request(imageURL, {
-// 		headers: request.headers
-// 	});
-// console.log("imageRequest");	  
-// console.log(imageRequest);
+// // 	// Build a request that passes through request headers
+// // 	const imageRequest = new Request(imageURL, {
+// // 		headers: request.headers
+// // 	});
+// // console.log("imageRequest");	  
+// // console.log(imageRequest);
 
-	// Returning fetch() with resizing options will pass through response with the resized image.
-	const resizeResponse = await fetch(imageURL, options);
-console.log("resizeResponse");	  
-console.log(resizeResponse);
-console.log(JSON.stringify(resizeResponse));
-console.log(JSON.stringify(resizeResponse.json()));	  
+// 	// Returning fetch() with resizing options will pass through response with the resized image.
+// 	const resizeResponse = await fetch(imageURL, options);
+// console.log("resizeResponse");	  
+// console.log(resizeResponse);
+// console.log(JSON.stringify(resizeResponse));
+// console.log(JSON.stringify(resizeResponse.json()));	  
 	  
-//     const resizeResponseJSON = await resizeResponse.json();
-// console.log("resizeResponseJSON");
-// console.log(resizeResponseJSON);
+// //     const resizeResponseJSON = await resizeResponse.json();
+// // console.log("resizeResponseJSON");
+// // console.log(resizeResponseJSON);
 	  
-    resolve(otherOriginalNFT);
+//     resolve(otherOriginalNFT);
+	  
+	  
+  // Build a request that passes through request headers
+  const imageRequest = new Request(imageURL, {
+    headers: request.headers
+  })
+
+  // Returning fetch() with resizing options will pass through response with the resized image.
+  return fetch(imageRequest, options)
+	  
+	  
   });
 }
 
