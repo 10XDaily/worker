@@ -95,8 +95,10 @@ router.get("/nft", async request => {
     console.log(nft_image);
     
 console.log("Test AFTER generateNFT");
+
+    return new Response(nft_image.body, nft_image);
 	  
-	return nft_image;
+console.log("Test AFTER Response");
 
 //     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
 //     let html_content = '<h1>Success!!!</h1>';
