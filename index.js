@@ -176,7 +176,18 @@ console.log(otherOriginalNFT);
 					right: 315, 
 					bottom: 0, 
 					left: 0
-				}
+				},
+				draw: [
+					{
+						url: otherOriginalNFT, // draw this image
+						bottom: 5, // 5 pixels from the bottom edge
+						left: 5, // 5 pixels from the right edge
+						fit: 'contain', // make it fit within 100x50 area
+						width: 50,
+						height: 50,
+						opacity: 0.8, // 20% transparent
+					},
+				]
 			} 
 		} 
 	};
