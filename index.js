@@ -96,7 +96,8 @@ router.get("/nft", async request => {
     
 console.log("Test AFTER generateNFT");
 
-    return new Response(nft_image.body.tee(), nft_image);
+    //return new Response(nft_image.body.tee(), nft_image);
+	  return nft_image.clone();
 	  
 console.log("Test AFTER Response");
 
