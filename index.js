@@ -874,13 +874,13 @@ async function sendNewsemail() {
       "editor": "custom",
       "subject": '10X NEWS ' + emoji + ' {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
       "fromField": {
-        "fromFieldId": "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+        "fromFieldId": "rgGF9" // "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
       },
       "replyTo": {
-        "fromFieldId": "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+        "fromFieldId": "rgGF9" // "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
       },
       "campaign": {
-        "campaignId": "rRTkV" // "rJYER" // "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
+        "campaignId": "O5fxO" // "rRTkV" // "rJYER" // "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
       },
   //    "sendOn": "2022-08-13T05:39:55+10:00", // omitted to send message immediately i.e. the manual trigger or 5am CRON trigger will send the message
   //     "attachments": [
@@ -896,7 +896,7 @@ async function sendNewsemail() {
         "selectedSuppressions": [],
         "excludedCampaigns": [],
         "excludedSegments": [],
-        "selectedContacts": ["VKVmI6q"], // "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], // "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
         "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
         "perfectTiming": "false",
         "externalLexpad": {
@@ -1013,13 +1013,13 @@ async function sendDealsemail() {
       "editor": "custom",
       "subject": '10X DEALS ' + emoji + ' {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
       "fromField": {
-        "fromFieldId": "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+        "fromFieldId": "rgGF9" // "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
       },
       "replyTo": {
-        "fromFieldId": "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+        "fromFieldId": "rgGF9" // "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
       },
       "campaign": {
-        "campaignId": "rRTkV" // "rJYER" // "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
+        "campaignId": "O5fxO" // "rRTkV" // "rJYER" // "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
       },
   //    "sendOn": "2022-08-13T05:39:55+10:00", // omitted to send message immediately i.e. the manual trigger or 5am CRON trigger will send the message
   //     "attachments": [
@@ -1035,7 +1035,7 @@ async function sendDealsemail() {
         "selectedSuppressions": [],
         "excludedCampaigns": [],
         "excludedSegments": [],
-        "selectedContacts": ["VKVmI6q"], // "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], // "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
         "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
         "perfectTiming": "false"
 //	,
@@ -2852,13 +2852,13 @@ async function sendStatsemail() {
       "editor": "custom",
       "subject": '10X STATS ' + emoji + ' {{DATE "DAY_ORDINATED MONTH_NAME YEAR"}}',
       "fromField": {
-        "fromFieldId": "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+        "fromFieldId": "rgGF9" // "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
       },
       "replyTo": {
-        "fromFieldId": "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
+        "fromFieldId": "rgGF9" // "KxrZX" // "K3KLa" // "oqRaG" // "KO8SL" // 10X Daily <hello@10x.day> // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/from-fields
       },
       "campaign": {
-        "campaignId": "rRTkV" // "rJYER" // "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
+        "campaignId": "O5fxO" // "rRTkV" // "rJYER" // "LCJtj" // "Q1Oz0" // "10X Daily" subscriber list // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns
       },
   //    "sendOn": "2022-08-13T05:39:55+10:00", // omitted to send message immediately i.e. the manual trigger or 5am CRON trigger will send the message
   //     "attachments": [
@@ -2874,7 +2874,7 @@ async function sendStatsemail() {
         "selectedSuppressions": [],
         "excludedCampaigns": [],
         "excludedSegments": [],
-        "selectedContacts": ["VKVmI6q"], //, "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "test+5@10x.day" // {campaignId} = Q1Oz0 // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], //, "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
         "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
         "perfectTiming": "false"
 //	,
