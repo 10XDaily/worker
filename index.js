@@ -891,7 +891,7 @@ async function sendNewsemail() {
   //       }
   //     ], // No attachements needed. 400kb max combined size if needed in the future.
       "sendSettings": {
-        "selectedCampaigns": ["rRTkV"], // ["rJYER"], // ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
+        "selectedCampaigns": ["O5fxO"], // ["rRTkV"], // ["rJYER"], // ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
         "selectedSegments": [],
         "selectedSuppressions": [],
         "excludedCampaigns": [],
@@ -1030,7 +1030,7 @@ async function sendDealsemail() {
   //       }
   //     ], // No attachements needed. 400kb max combined size if needed in the future.
       "sendSettings": {
-        "selectedCampaigns": ["rRTkV"], // ["rJYER"], // ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
+        "selectedCampaigns": ["O5fxO"], // ["rRTkV"], // ["rJYER"], // ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
         "selectedSegments": [],
         "selectedSuppressions": [],
         "excludedCampaigns": [],
@@ -2869,7 +2869,7 @@ async function sendStatsemail() {
   //       }
   //     ], // No attachements needed. 400kb max combined size if needed in the future.
       "sendSettings": {
-        "selectedCampaigns": ["rRTkV"], // ["rJYER"], // ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
+        "selectedCampaigns": ["O5fxO"], // ["rRTkV"], // ["rJYER"], // ["LCJtj"], // ["Q1Oz0"], // "10X Daily" subscriber list
         "selectedSegments": [],
         "selectedSuppressions": [],
         "excludedCampaigns": [],
