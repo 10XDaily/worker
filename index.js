@@ -896,7 +896,7 @@ async function sendNewsemail() {
         "selectedSuppressions": [],
         "excludedCampaigns": [],
         "excludedSegments": [],
-        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], // "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], // "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/O5fxO/contacts
         "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
         "perfectTiming": "false",
         "externalLexpad": {
@@ -1035,7 +1035,7 @@ async function sendDealsemail() {
         "selectedSuppressions": [],
         "excludedCampaigns": [],
         "excludedSegments": [],
-        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], // "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], // "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/O5fxO/contacts
         "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
         "perfectTiming": "false"
 //	,
@@ -2874,7 +2874,7 @@ async function sendStatsemail() {
         "selectedSuppressions": [],
         "excludedCampaigns": [],
         "excludedSegments": [],
-        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], //, "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/Q1Oz0/contacts
+        "selectedContacts": ["Vid59pF"], // ["VKVmI6q"], //, "VK7KbWJ", "VK7Ba8m"], // test, me, stuart // ["VWqT16E"], // ["V5p8EtA"], // ["VohAb0F"], // Contact ID for email subscriber "i.chris.jacob@gmail.com" // {campaignId} = O5fxO // curl -H "X-Auth-Token: api-key ____________" https://api.getresponse.com/v3/campaigns/O5fxO/contacts
         "timeTravel": "false", // requires higher paid plan. Instead we will use a Segment, and user defined Custom Field "UTC Offset Timezone".
         "perfectTiming": "false"
 //	,
